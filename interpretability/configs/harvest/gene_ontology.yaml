@@ -1,0 +1,6 @@
+subtree_roots:
+  - "http://purl.obolibrary.org/obo/GO_0008283"
+  - "http://purl.obolibrary.org/obo/GO_0001775"
+candidate_tier: H2_gene_program
+include_obsolete: false
+output_path: data/cache/harvest/gene_ontology.parquet

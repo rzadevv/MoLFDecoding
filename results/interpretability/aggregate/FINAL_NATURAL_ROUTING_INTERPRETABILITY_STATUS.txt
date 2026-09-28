@@ -1,0 +1,20 @@
+RUN-2 NATURAL-ROUTING INTERPRETABILITY
+========================================
+STATUS: PASS
+
+Coverage:
+- 23/23 held-out slides
+- 92,507 patches
+- 5 frozen seeds
+- 2 Euler evaluation states per seed
+- 6 MoLF experts
+- Top-256 affinity patches per expert/slide
+- 2,450 CONCH visual Homo_sapiens concepts
+- cross-slide semantic stability
+- Visium/Xenium routing breakdown
+- aggregate semantic profiles
+- final figures generated
+
+Important scope note:
+This status covers the natural-routing interpretability branch only.
+Forced-expert/mechanistic interpretation is a separate analysis.

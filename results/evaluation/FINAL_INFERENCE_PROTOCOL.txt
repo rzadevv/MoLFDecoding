@@ -1,0 +1,85 @@
+Run-2 final inference protocol
+================================
+
+Protocol selection used validation only.
+Held-out test set used during selection: NO
+
+MODEL
+-----
+Run-2 MoLF checkpoint:
+  best epoch: 239
+
+GeneVAE-v2:
+  frozen production model
+  best epoch: 929
+
+INFERENCE
+---------
+ODE method:
+  euler
+
+Number of steps:
+  2
+
+Step size:
+  0.5
+
+Classifier-free guidance:
+  1.5
+
+VALIDATION SELECTION
+--------------------
+Validation slides:
+  96
+
+Noise seeds used for robustness confirmation:
+  41001
+  42001
+  43001
+  44001
+  45001
+
+Five-seed validation result at CFG 1.5:
+  masked MSE:
+    0.246389 ± 0.000091
+
+  masked MAE:
+    0.297388 ± 0.000050
+
+  mean slide gene-PCC:
+    0.223595 ± 0.000585
+
+  median slide gene-PCC:
+    0.159889 ± 0.003779
+
+  mean gene slide-PCC:
+    0.193725 ± 0.000523
+
+CFG SELECTION RATIONALE
+-----------------------
+CFG 1.0 produced the lowest absolute error.
+CFG 2.0 produced the highest PCC.
+CFG 1.5 was selected as the validation Pareto/knee solution.
+
+Relative to CFG 1.0, CFG 1.5 produced a large PCC improvement
+with only a small increase in MSE.
+
+Moving from CFG 1.5 to CFG 2.0 produced only a small additional
+PCC gain while substantially increasing MSE.
+
+The direction of these effects was consistent across all five
+source-noise seeds.
+
+VALIDATION TUNING STATUS
+------------------------
+CLOSED.
+
+No additional solver, step-count, CFG, checkpoint, or other
+inference hyperparameter tuning will be performed after this point.
+
+TEST POLICY
+-----------
+The 23-slide held-out test set remains untouched.
+
+The final test evaluation must use this frozen protocol without
+changing parameters after observing test results.

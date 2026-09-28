@@ -1,0 +1,7 @@
+subtree_roots:
+  - "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7057"
+  - "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12219"
+candidate_tier: H1_morphology
+include_obsolete: false
+apply_obvious_reject_filter: true
+output_path: data/cache/harvest/ncit.parquet

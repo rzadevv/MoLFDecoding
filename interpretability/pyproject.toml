@@ -1,0 +1,180 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "molf-interp"
+version = "0.0.1"
+description = "Pathology concept bank and CONCH text embeddings for interpreting the MoLF experts"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "pydantic>=2.6",
+    "loguru>=0.7",
+    "typer>=0.12",
+    "pyyaml>=6.0",
+    "pandas>=2.2",
+    "pyarrow>=15",
+    "numpy>=1.26",
+    "httpx>=0.27",
+    "aiolimiter>=1.1",
+    "tenacity>=8.2",
+    "python-dotenv>=1.0",
+    "scispacy==0.5.4",
+    "spacy>=3.7,<3.8",
+    "en-ner-bionlp13cg-md @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bionlp13cg_md-0.5.4.tar.gz",
+    "lxml>=5.0",
+    "transformers>=4.40,<4.45",
+    "torch>=2.2,<3",
+    "hdbscan>=0.8.33",
+    "scikit-learn>=1.4",
+    "ollama>=0.3.0,<1",
+    "umap-learn>=0.5.6",
+    "matplotlib>=3.8",
+    "conch @ git+https://github.com/mahmoodlab/CONCH.git@141cc09c7d4ff33d8eda562bd75169b457f71a62",
+    "torchvision>=0.17",
+    "Pillow>=10",
+    "einops>=0.8",
+]
+
+[project.scripts]
+molf-interp = "molf_interp.cli.main:app"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.5",
+    "mypy>=1.10",
+    "pytest>=8",
+    "pytest-cov>=5",
+    "pytest-mock>=3.14",
+    "pre-commit>=3.7",
+    "types-pyyaml",
+    "pytest-asyncio>=0.23",
+    "respx>=0.21",
+    "freezegun>=1.5",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/molf_interp"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "N", "SIM", "RUF", "ANN", "D"]
+ignore = ["D100", "D104", "D107"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D", "ANN", "S101"]
+
+[tool.mypy]
+strict = true
+warn_unused_ignores = false
+python_version = "3.11"
+files = ["src"]
+plugins = ["pydantic.mypy"]
+
+[[tool.mypy.overrides]]
+module = ["yaml"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["pandas", "pandas.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+# pyarrow ships partial stubs; read_table/write_table are not fully typed
+module = ["pyarrow", "pyarrow.*"]
+ignore_missing_imports = true
+disallow_untyped_calls = false
+
+[[tool.mypy.overrides]]
+module = ["aiolimiter"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["tenacity", "tenacity.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["spacy", "spacy.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["scispacy", "scispacy.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["en_ner_bionlp13cg_md"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["lxml", "lxml.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["hdbscan", "hdbscan.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["ollama"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["transformers", "transformers.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["sklearn", "sklearn.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["torch", "torch.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+# numpy ndarray generics, no-any-return, and unused-ignore are too strict in curation pipeline
+module = ["molf_interp.curation.*"]
+disallow_untyped_calls = false
+warn_unused_ignores = false
+
+[[tool.mypy.overrides]]
+module = ["umap", "umap.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["matplotlib", "matplotlib.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["conch.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["open_clip.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["open_clip_torch.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["timm.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["torchvision.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers --cov=molf_interp --cov-report=term-missing"
+markers = ["integration: integration tests requiring real data files"]
+asyncio_mode = "auto"

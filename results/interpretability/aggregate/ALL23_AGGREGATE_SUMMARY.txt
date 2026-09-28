@@ -1,0 +1,120 @@
+RUN-2 ALL-23 AGGREGATE SUMMARY
+========================================
+
+Slides: 23
+Total patches: 92507
+Experts: 6
+Concepts per expert/slide: 2450
+Semantic metric: similarity_topk_contrastive
+
+GLOBAL ROUTING
+----------------------------------------
+E0: macro_route=0.239755, patch_weighted_route=0.258307, dominant_slides=2/23, slides_route>0.05=17/23
+E1: macro_route=0.025257, patch_weighted_route=0.019469, dominant_slides=0/23, slides_route>0.05=5/23
+E2: macro_route=0.128475, patch_weighted_route=0.182562, dominant_slides=4/23, slides_route>0.05=10/23
+E3: macro_route=0.006548, patch_weighted_route=0.006307, dominant_slides=0/23, slides_route>0.05=0/23
+E4: macro_route=0.337798, patch_weighted_route=0.319994, dominant_slides=7/23, slides_route>0.05=21/23
+E5: macro_route=0.262167, patch_weighted_route=0.213361, dominant_slides=10/23, slides_route>0.05=14/23
+
+ROUTING BY TECHNOLOGY
+----------------------------------------
+
+Visium
+E0: macro_route=0.236530, patch_weighted_route=0.226406
+E1: macro_route=0.020862, patch_weighted_route=0.017108
+E2: macro_route=0.016252, patch_weighted_route=0.012804
+E3: macro_route=0.005748, patch_weighted_route=0.005912
+E4: macro_route=0.405728, patch_weighted_route=0.443000
+E5: macro_route=0.314881, patch_weighted_route=0.294771
+
+Xenium
+E0: macro_route=0.247125, patch_weighted_route=0.305042
+E1: macro_route=0.035301, patch_weighted_route=0.022927
+E2: macro_route=0.384986, patch_weighted_route=0.431248
+E3: macro_route=0.008377, patch_weighted_route=0.006887
+E4: macro_route=0.182532, patch_weighted_route=0.139796
+E5: macro_route=0.141680, patch_weighted_route=0.094100
+
+SEMANTIC STABILITY
+----------------------------------------
+E0: mean Pearson=0.075796, mean Spearman=0.077327, median Spearman=0.134935
+E1: mean Pearson=0.158893, mean Spearman=0.147117, median Spearman=0.162072
+E2: mean Pearson=0.128787, mean Spearman=0.119801, median Spearman=0.140956
+E3: mean Pearson=0.243638, mean Spearman=0.236491, median Spearman=0.264245
+E4: mean Pearson=0.234035, mean Spearman=0.231801, median Spearman=0.253889
+E5: mean Pearson=0.157402, mean Spearman=0.154566, median Spearman=0.143902
+
+TOP 10 GLOBAL CONCEPTS PER EXPERT
+----------------------------------------
+
+Expert 0
+ 1. Folliculotropic lymphocytic infiltrate | mean=0.163289 | SD=0.175993 | top10=2/23 | top50=5/23
+ 2. Mixed medullary-follicular carcinoma | mean=0.148161 | SD=0.135621 | top10=1/23 | top50=2/23
+ 3. marginal zone B cell | mean=0.141937 | SD=0.102552 | top10=0/23 | top50=1/23
+ 4. Intraductal cellular proliferation | mean=0.140206 | SD=0.180058 | top10=2/23 | top50=4/23
+ 5. tertiary lymphoid structure niche | mean=0.139422 | SD=0.178457 | top10=1/23 | top50=4/23
+ 6. Cribriform comedo-type adenocarcinoma | mean=0.134991 | SD=0.255689 | top10=3/23 | top50=7/23
+ 7. T follicular regulatory cell | mean=0.132164 | SD=0.084399 | top10=0/23 | top50=0/23
+ 8. Memory regulatory T cell | mean=0.131120 | SD=0.087869 | top10=1/23 | top50=2/23
+ 9. Insular pattern | mean=0.129826 | SD=0.125927 | top10=0/23 | top50=4/23
+10. Activated CD4-positive, alpha-beta T cell, human | mean=0.128522 | SD=0.096471 | top10=0/23 | top50=1/23
+
+Expert 1
+ 1. acute inflammation | mean=0.274609 | SD=0.181549 | top10=4/23 | top50=12/23
+ 2. Multifocal inflammation | mean=0.259054 | SD=0.231012 | top10=7/23 | top50=10/23
+ 3. Diffuse inflammation | mean=0.252484 | SD=0.171432 | top10=3/23 | top50=8/23
+ 4. Necrotizing inflammation | mean=0.235751 | SD=0.191554 | top10=4/23 | top50=12/23
+ 5. Eosinophilic inflammation | mean=0.215987 | SD=0.180180 | top10=2/23 | top50=7/23
+ 6. Acute proliferative inflammation | mean=0.212678 | SD=0.136082 | top10=3/23 | top50=5/23
+ 7. Acute exudative inflammation | mean=0.211107 | SD=0.165260 | top10=2/23 | top50=6/23
+ 8. Persistent inflammation | mean=0.210337 | SD=0.211563 | top10=2/23 | top50=9/23
+ 9. Confluent inflammation | mean=0.209730 | SD=0.149905 | top10=0/23 | top50=3/23
+10. normal serosal surface | mean=0.204765 | SD=0.184802 | top10=0/23 | top50=4/23
+
+Expert 2
+ 1. Multifocal inflammation | mean=0.221889 | SD=0.224774 | top10=4/23 | top50=10/23
+ 2. Diffuse inflammation | mean=0.214525 | SD=0.201153 | top10=4/23 | top50=8/23
+ 3. normal venous wall | mean=0.214391 | SD=0.214416 | top10=1/23 | top50=9/23
+ 4. Persistent inflammation | mean=0.207672 | SD=0.241135 | top10=1/23 | top50=9/23
+ 5. normal serosal surface | mean=0.207213 | SD=0.193712 | top10=3/23 | top50=4/23
+ 6. Periarteriolar lymphoid sheath | mean=0.203494 | SD=0.252624 | top10=2/23 | top50=8/23
+ 7. acute inflammation | mean=0.202870 | SD=0.187676 | top10=1/23 | top50=3/23
+ 8. Eosinophilic inflammation | mean=0.199685 | SD=0.168196 | top10=1/23 | top50=6/23
+ 9. Desmoplastic fibroblastoma | mean=0.191671 | SD=0.290411 | top10=5/23 | top50=11/23
+10. eosinophilic infiltrate | mean=0.188052 | SD=0.200952 | top10=1/23 | top50=4/23
+
+Expert 3
+ 1. Clue cell | mean=0.252516 | SD=0.163322 | top10=2/23 | top50=7/23
+ 2. acute inflammation | mean=0.249491 | SD=0.128516 | top10=4/23 | top50=10/23
+ 3. perivascular lymphocytic cuff | mean=0.238076 | SD=0.156627 | top10=2/23 | top50=10/23
+ 4. Fibrinous material present | mean=0.229108 | SD=0.223643 | top10=7/23 | top50=10/23
+ 5. Necrotizing inflammation | mean=0.227162 | SD=0.115317 | top10=1/23 | top50=8/23
+ 6. Fibrinous inflammation | mean=0.216609 | SD=0.173276 | top10=2/23 | top50=7/23
+ 7. Organizing inflammation | mean=0.214538 | SD=0.162678 | top10=4/23 | top50=7/23
+ 8. Inflammation with stasis | mean=0.208517 | SD=0.141201 | top10=2/23 | top50=6/23
+ 9. Angiectasia | mean=0.207762 | SD=0.202269 | top10=2/23 | top50=9/23
+10. fibrinoid necrosis | mean=0.199033 | SD=0.149632 | top10=0/23 | top50=5/23
+
+Expert 4
+ 1. Cystic, mucinous and/or serous neoplasm | mean=0.193117 | SD=0.238695 | top10=8/23 | top50=10/23
+ 2. Eggshell secreting cell | mean=0.181903 | SD=0.102100 | top10=0/23 | top50=6/23
+ 3. Ileal goblet cell | mean=0.177425 | SD=0.123687 | top10=0/23 | top50=6/23
+ 4. villous adenoma architecture | mean=0.177142 | SD=0.135797 | top10=2/23 | top50=2/23
+ 5. Diffuse hyperplastic oncocytosis | mean=0.174699 | SD=0.184368 | top10=6/23 | top50=10/23
+ 6. Senescent cells | mean=0.174189 | SD=0.120062 | top10=3/23 | top50=5/23
+ 7. Mucinous cystic neoplasm with high-grade intraepithelial neoplasia | mean=0.172840 | SD=0.173324 | top10=2/23 | top50=10/23
+ 8. Larval midgut cell | mean=0.167574 | SD=0.111778 | top10=2/23 | top50=4/23
+ 9. serrated morphology | mean=0.162948 | SD=0.161681 | top10=2/23 | top50=4/23
+10. Gut absorptive cell | mean=0.162820 | SD=0.128229 | top10=0/23 | top50=4/23
+
+Expert 5
+ 1. Inflammatory leiomyosarcoma | mean=0.210918 | SD=0.156141 | top10=3/23 | top50=6/23
+ 2. Slow muscle cell | mean=0.196774 | SD=0.166499 | top10=3/23 | top50=7/23
+ 3. chronic inflammation | mean=0.194637 | SD=0.223095 | top10=4/23 | top50=8/23
+ 4. Clue cell | mean=0.191505 | SD=0.184554 | top10=1/23 | top50=6/23
+ 5. Organizing inflammation | mean=0.189562 | SD=0.217847 | top10=5/23 | top50=9/23
+ 6. Perivascular lymphocytic infiltrate | mean=0.188486 | SD=0.194577 | top10=4/23 | top50=7/23
+ 7. Pleomorphic fibroma | mean=0.178870 | SD=0.180208 | top10=0/23 | top50=7/23
+ 8. Small, stellate, or spindled cells present | mean=0.173947 | SD=0.187306 | top10=0/23 | top50=5/23
+ 9. anthracotic pigment deposition | mean=0.172012 | SD=0.134428 | top10=1/23 | top50=4/23
+10. Desmoplastic fibroma | mean=0.171724 | SD=0.175097 | top10=0/23 | top50=5/23

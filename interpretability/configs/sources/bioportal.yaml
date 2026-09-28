@@ -1,0 +1,9 @@
+base_url: https://data.bioontology.org
+api_key_env: BIOPORTAL_API_KEY
+rate_limit_per_second: 10
+rate_limit_burst: 5
+timeout_seconds: 30.0
+max_retries: 5
+page_size: 200
+cache_dir: data/cache/bioportal
+user_agent: "molf-interp/0.1"

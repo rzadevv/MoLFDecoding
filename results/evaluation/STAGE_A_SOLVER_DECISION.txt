@@ -1,0 +1,26 @@
+Run-2 validation inference — Stage A solver decision
+
+Evaluation split: validation only
+Test set used: NO
+
+Frozen choice:
+  method: euler
+  num_steps: 2
+  step_size: 0.5
+
+Selection seed:
+  41001
+
+Validation result:
+  masked MSE: 0.240360
+  masked MAE: 0.294279
+  mean slide gene-PCC: 0.206376
+  median slide gene-PCC: 0.137966
+  mean gene slide-PCC: 0.176904
+
+Reason:
+Euler-2 was better than Euler-5, Euler-10, Euler-25,
+Euler-50, RK4-10, and RK4-25 on all reported predictive metrics.
+
+Next:
+Keep Euler-2 fixed while selecting CFG using validation only.

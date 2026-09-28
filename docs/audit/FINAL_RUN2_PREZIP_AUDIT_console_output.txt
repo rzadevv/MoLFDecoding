@@ -1,0 +1,139 @@
+
+========================================================================
+1. FROZEN ARTIFACT PROVENANCE
+========================================================================
+FROZEN HASH AUDIT: PASS
+
+========================================================================
+2. SPLIT / VOCAB / TARGET-GENE INTEGRITY
+========================================================================
+SPLIT / VOCAB / GENE AUDIT: PASS
+
+========================================================================
+3. SPLIT RELATEDNESS CHECK
+========================================================================
+WARNING: found 16 test↔train/val same-study+patient metadata relationships.
+This does NOT create sample-ID leakage, but the test set must be described as 'held-out slides', not patient-independent.
+
+========================================================================
+4. FULL 504-SLIDE CONCH / PATCH INPUT AUDIT
+========================================================================
+[001/504] MEND63     patches=  1422 PASS
+[050/504] NCBI867    patches=  2509 PASS
+[100/504] NCBI695    patches=   671 PASS
+[150/504] ZEN46      patches=  1803 PASS
+[200/504] NCBI628    patches=  1249 PASS
+[250/504] MEND147    patches=  2320 PASS
+[300/504] TENX115    patches=  1628 PASS
+[350/504] MISC4      patches=  3630 PASS
+[400/504] SPA150     patches=   332 PASS
+[450/504] MISC37     patches=  3552 PASS
+[500/504] TENX147    patches=  3417 PASS
+[504/504] ZEN48      patches=  2385 PASS
+FULL INPUT AUDIT: PASS (504 slides, 1,076,882 patches)
+
+========================================================================
+5. GENEVAE-v2 / MOLF CHECKPOINT AUDIT
+========================================================================
+GENEVAE-v2 / CHECKPOINT AUDIT: PASS
+Embedded GeneVAE max abs diff: 0
+
+========================================================================
+6. TRAINING HISTORY AUDIT
+========================================================================
+TRAINING HISTORY AUDIT: PASS
+
+========================================================================
+7. FINAL TEST RESULT RECONSTRUCTION
+========================================================================
+FINAL TEST RECONSTRUCTION: PASS
+masked_mse_micro                 0.369907283 ± 0.000197512
+masked_rmse_micro                0.608200018 ± 0.000162363
+masked_mae_micro                 0.367716582 ± 0.000088076
+mean_slide_mean_gene_pcc         0.246431064 ± 0.000409378
+median_slide_mean_gene_pcc       0.184601000 ± 0.001584148
+mean_gene_mean_slide_pcc         0.166238990 ± 0.000525587
+
+========================================================================
+8. POST-HOC FULL-DATA AUDIT
+========================================================================
+FULL-DATA POST-HOC AUDIT: PASS
+
+========================================================================
+9. ALL-23 NATURAL-ROUTING INTERPRETABILITY
+========================================================================
+ALL-23 INTERPRETABILITY AUDIT: PASS
+
+========================================================================
+10. CODE-SCOPE / DEAD-CODE NOTES
+========================================================================
+STATIC EXECUTION-PATH REVIEW: PASS WITH DOCUMENTED CAVEATS
+
+========================================================================
+FINAL VERDICT
+========================================================================
+DECODINGMOLF CONCH-MOLF RUN-2 PRE-ZIP FORENSIC AUDIT
+==========================================================
+
+STATUS: PASS WITH DOCUMENTED SCIENTIFIC / LEGACY-CODE CAVEATS
+
+No invalidating implementation defect was found in the executed Run-2 training, frozen inference, evaluation, or all-23 natural-routing interpretation path.
+
+PASS CHECKS
+------------------------------
+- Run2 best checkpoint: exact SHA
+- Run2 frozen config: exact SHA
+- GeneVAE-v2 checkpoint: exact SHA
+- GeneVAE-v2 config: exact SHA
+- Final inference protocol: exact SHA
+- Final test result: exact SHA
+- Posthoc diagnostic summary: exact SHA
+- Live source flow_matching.py: exact SHA
+- Live source genevae_v2.py: exact SHA
+- Live source train.py: exact SHA
+- Live source training_utils.py: exact SHA
+- Live source custom_dataset.py: exact SHA
+- Live source hest_utils.py: exact SHA
+- Final test evaluator: exact SHA
+- Validation evaluator: exact SHA
+- Split IDs: 385/96/23, all sample-ID disjoint
+- OncoTree vocabulary reconstructed exactly from train+val only
+- Target gene list: 1386 unique genes
+- All 504 CONCH+patch inputs independently re-opened and validated
+- GeneVAE-v2 exactly embedded in final MoLF (28/28 tensors exact)
+- Final MoLF checkpoint finite and contains all 6 experts
+- Training epochs 1..319 contiguous; epoch239 selection independently reproduced
+- Final 5-seed test result independently reconstructed from raw seed summaries
+- Target-distribution audit: all 504 slides
+- GeneVAE reconstruction audit: all 504 slides
+- All23 runner: exact SHA
+- All23 per-slide auditor: exact SHA
+- All23 aggregator: exact SHA
+- All23 final auditor: exact SHA
+- Natural-routing interpretation complete: 23/23 slides, 92,507 held-out patches
+
+CAVEATS / WORDING REQUIREMENTS
+------------------------------
+- The official split is sample-ID disjoint but not fully patient/study/specimen independent.
+- Interpretability router = conditional/image branch evaluated on states traversed by the frozen CFG trajectory; it is not a unique 'full-CFG router'.
+- Top-256 semantic affinity is not the same as actual Top-2 utilization for under-routed experts; both were recorded separately.
+- Visium/Xenium comparisons are descriptive and confounded with tissue/study/specimen composition; do not claim causality.
+- Unused legacy HESTGraphDataset has a stale tuple-unpacking interface; it is never referenced by the Run2 training/evaluation path.
+- Unused legacy save_hdf5 append branch contains a stale typo; it is never called by Run2.
+- Run2 'use_spatial_encoding' enables permutation-equivariant patch-context attention; real x/y coordinates are not model inputs.
+- CFG unconditional branch is image-unconditional but remains OncoTree-conditioned.
+- normalize_adata() docstring mentions total-count normalization, but executed implementation performs log1p only; Run2/GeneVAE configuration is consistent with log1p-only preprocessing.
+
+FINAL CLAIM SCOPE
+------------------------------
+- Legitimate claim: final performance on 23 held-out slide IDs.
+- Do NOT claim patient-independent or specimen-independent generalization.
+- Semantic concept alignment is descriptive/correlative, not causal proof of expert function.
+- Test-set interpretation is post-hoc analysis of the frozen Run2 model; it must not be used to retune Run2.
+- If these held-out-test observations guide a future model, that future model needs a fresh external/new held-out evaluation.
+
+REPORT: /data/cat/ws/rzmi154h-molf-pathology/conch_molf_production/prezip_final_audit/FINAL_RUN2_PREZIP_FORENSIC_AUDIT.txt
+JSON: /data/cat/ws/rzmi154h-molf-pathology/conch_molf_production/prezip_final_audit/FINAL_RUN2_PREZIP_FORENSIC_AUDIT.json
+HASHES: /data/cat/ws/rzmi154h-molf-pathology/conch_molf_production/prezip_final_audit/FINAL_RUN2_PREZIP_AUDIT_SHA256SUMS.txt
+
+FINAL RUN2 PRE-ZIP FORENSIC AUDIT: PASS WITH DOCUMENTED CAVEATS

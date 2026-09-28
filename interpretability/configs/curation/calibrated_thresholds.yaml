@@ -1,0 +1,20 @@
+h1_morphology:
+  drop_threshold: 0.35
+  keep_threshold: 0.55
+  knn_tier_agreement_threshold: 0.5
+h2_cell_type:
+  drop_threshold: 0.35
+  keep_threshold: 0.55
+  knn_tier_agreement_threshold: 0.5
+h2_gene_program:
+  drop_threshold: 0.35
+  keep_threshold: 0.55
+  knn_tier_agreement_threshold: 0.5
+h2_niche:
+  drop_threshold: 0.35
+  keep_threshold: 0.55
+  knn_tier_agreement_threshold: 0.5
+h2_pathway:
+  drop_threshold: 0.35
+  keep_threshold: 0.55
+  knn_tier_agreement_threshold: 0.5

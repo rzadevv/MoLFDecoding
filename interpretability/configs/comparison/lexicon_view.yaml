@@ -1,0 +1,11 @@
+reference_neighbor_similarity_threshold: 0.70
+require_definition_or_synonyms: true
+exclude_labels_shorter_than: 4
+exclude_label_token_count_above: 8
+exclude_source_substrings:
+  - "transmembrane transport"
+  - "downstream events"
+  - "stage I"
+  - "stage II"
+  - "stage III"
+  - "stage IV"

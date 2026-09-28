@@ -1,0 +1,25 @@
+reference_bank_dir: data/cache/concept_bank/reference
+harvested_bank_dir: data/cache/concept_bank/harvested
+
+match_threshold: 0.85
+cross_tier_match_threshold: 0.92
+enable_cross_tier_search: true
+
+sapbert_config:
+  model_name: cambridgeltl/SapBERT-from-PubMedBERT-fulltext
+  max_length: 25
+  batch_size: 128
+  device: auto
+  cache_dir: data/cache/sapbert
+
+output_dir: data/outputs/comparison
+
+umap_n_neighbors: 15
+umap_min_dist: 0.1
+umap_random_state: 42
+umap_max_points: 6000
+plot_dpi: 150
+plot_figsize: [14.0, 10.0]
+
+examples_per_tier: 5
+top_k_unmatched: 20

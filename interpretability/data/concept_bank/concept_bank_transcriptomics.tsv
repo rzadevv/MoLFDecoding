@@ -1,0 +1,589 @@
+concept_id	concept_name	category	subcategory	concept_type	source
+CTY-0001	luminal epithelial cell	epithelial	normal_epithelial	cell_type	HCA
+CTY-0002	basal epithelial cell	epithelial	normal_epithelial	cell_type	HCA
+CTY-0003	secretory epithelial cell	epithelial	normal_epithelial	cell_type	HCA
+CTY-0004	ciliated epithelial cell	epithelial	normal_epithelial	cell_type	HCA
+CTY-0005	goblet cell	epithelial	normal_epithelial	cell_type	HCA
+CTY-0006	type I pneumocyte	epithelial	normal_epithelial	cell_type	HCA
+CTY-0007	type II pneumocyte	epithelial	normal_epithelial	cell_type	HCA
+CTY-0008	hepatocyte	epithelial	normal_epithelial	cell_type	HCA
+CTY-0009	cholangiocyte	epithelial	normal_epithelial	cell_type	HCA
+CTY-0010	enterocyte	epithelial	normal_epithelial	cell_type	HCA
+CTY-0011	Paneth cell	epithelial	normal_epithelial	cell_type	HCA
+CTY-0012	chief cell	epithelial	normal_epithelial	cell_type	HCA
+CTY-0013	parietal cell	epithelial	normal_epithelial	cell_type	HCA
+CTY-0014	urothelial cell	epithelial	normal_epithelial	cell_type	HCA
+CTY-0015	keratinocyte	epithelial	normal_epithelial	cell_type	HCA
+CTY-0016	cycling cancer cell	epithelial	cancer_epithelial	cell_type	Gavish2023
+CTY-0017	EMT-like cancer cell	epithelial	cancer_epithelial	cell_type	Gavish2023
+CTY-0018	hypoxic cancer cell	epithelial	cancer_epithelial	cell_type	Gavish2023
+CTY-0019	stem-like cancer cell	epithelial	cancer_epithelial	cell_type	Gavish2023
+CTY-0020	differentiated cancer cell	epithelial	cancer_epithelial	cell_type	Gavish2023
+CTY-0021	senescent cancer cell	epithelial	cancer_epithelial	cell_type	Gavish2023
+CTY-0022	inflammatory cancer cell	epithelial	cancer_epithelial	cell_type	Gavish2023
+CTY-0023	metabolic cancer cell	epithelial	cancer_epithelial	cell_type	Gavish2023
+CTY-0024	interferon-responsive cancer cell	epithelial	cancer_epithelial	cell_type	Gavish2023
+CTY-0025	stress-response cancer cell	epithelial	cancer_epithelial	cell_type	Gavish2023
+CTY-0026	MHC-I high cancer cell	epithelial	cancer_epithelial	cell_type	Gavish2023
+CTY-0027	MHC-I low cancer cell	epithelial	cancer_epithelial	cell_type	Gavish2023
+CTY-0028	CD8+ cytotoxic T cell	lymphoid	T_cell	cell_type	HCA
+CTY-0029	CD8+ exhausted T cell	lymphoid	T_cell	cell_type	HCA
+CTY-0030	CD8+ tissue-resident memory T cell	lymphoid	T_cell	cell_type	HCA
+CTY-0031	CD8+ effector memory T cell	lymphoid	T_cell	cell_type	HCA
+CTY-0032	CD4+ naive T cell	lymphoid	T_cell	cell_type	HCA
+CTY-0033	CD4+ Th1 cell	lymphoid	T_cell	cell_type	HCA
+CTY-0034	CD4+ Th2 cell	lymphoid	T_cell	cell_type	HCA
+CTY-0035	CD4+ Th17 cell	lymphoid	T_cell	cell_type	HCA
+CTY-0036	CD4+ follicular helper T cell	lymphoid	T_cell	cell_type	HCA
+CTY-0037	CD4+ central memory T cell	lymphoid	T_cell	cell_type	HCA
+CTY-0038	regulatory T cell	lymphoid	T_cell	cell_type	HCA
+CTY-0039	gamma-delta T cell	lymphoid	T_cell	cell_type	HCA
+CTY-0040	NKT cell	lymphoid	T_cell	cell_type	HCA
+CTY-0041	MAIT cell	lymphoid	T_cell	cell_type	HCA
+CTY-0042	T cell proliferating state	lymphoid	T_cell	cell_type	HCA
+CTY-0043	T cell interferon-stimulated state	lymphoid	T_cell	cell_type	HCA
+CTY-0044	CD8+ progenitor exhausted T cell	lymphoid	T_cell	cell_type	literature
+CTY-0045	CD8+ terminally exhausted T cell	lymphoid	T_cell	cell_type	literature
+CTY-0046	CD4+ Treg effector	lymphoid	T_cell	cell_type	literature
+CTY-0047	CD4+ cytotoxic T cell	lymphoid	T_cell	cell_type	literature
+CTY-0048	naive B cell	lymphoid	B_cell	cell_type	HCA
+CTY-0049	memory B cell	lymphoid	B_cell	cell_type	HCA
+CTY-0050	germinal center B cell	lymphoid	B_cell	cell_type	HCA
+CTY-0051	plasmablast	lymphoid	B_cell	cell_type	HCA
+CTY-0052	plasma cell	lymphoid	B_cell	cell_type	HCA
+CTY-0053	regulatory B cell	lymphoid	B_cell	cell_type	literature
+CTY-0054	B cell interferon-stimulated state	lymphoid	B_cell	cell_type	HCA
+CTY-0055	marginal zone B cell	lymphoid	B_cell	cell_type	HCA
+CTY-0056	B-1 B cell	lymphoid	B_cell	cell_type	HCA
+CTY-0057	class-switched memory B cell	lymphoid	B_cell	cell_type	HCA
+CTY-0058	NK cell CD56bright	lymphoid	NK_ILC	cell_type	HCA
+CTY-0059	NK cell CD56dim	lymphoid	NK_ILC	cell_type	HCA
+CTY-0060	adaptive NK cell	lymphoid	NK_ILC	cell_type	literature
+CTY-0061	tissue-resident NK cell	lymphoid	NK_ILC	cell_type	HCA
+CTY-0062	exhausted NK cell	lymphoid	NK_ILC	cell_type	literature
+CTY-0063	ILC1	lymphoid	NK_ILC	cell_type	HCA
+CTY-0064	ILC2	lymphoid	NK_ILC	cell_type	HCA
+CTY-0065	ILC3	lymphoid	NK_ILC	cell_type	HCA
+CTY-0066	lymphoid tissue inducer cell	lymphoid	NK_ILC	cell_type	HCA
+CTY-0067	classical monocyte	myeloid	monocyte_macrophage	cell_type	HCA
+CTY-0068	non-classical monocyte	myeloid	monocyte_macrophage	cell_type	HCA
+CTY-0069	M1-like pro-inflammatory macrophage	myeloid	monocyte_macrophage	cell_type	CellMarker2
+CTY-0070	M2-like anti-inflammatory macrophage	myeloid	monocyte_macrophage	cell_type	CellMarker2
+CTY-0071	tumor-associated macrophage	myeloid	monocyte_macrophage	cell_type	literature
+CTY-0072	lipid-associated macrophage	myeloid	monocyte_macrophage	cell_type	literature
+CTY-0073	TREM2-positive macrophage	myeloid	monocyte_macrophage	cell_type	literature
+CTY-0074	SPP1-positive macrophage	myeloid	monocyte_macrophage	cell_type	literature
+CTY-0075	Kupffer cell	myeloid	monocyte_macrophage	cell_type	HCA
+CTY-0076	alveolar macrophage	myeloid	monocyte_macrophage	cell_type	HCA
+CTY-0077	homeostatic microglia	myeloid	monocyte_macrophage	cell_type	HCA
+CTY-0078	disease-associated microglia	myeloid	monocyte_macrophage	cell_type	literature
+CTY-0079	osteoclast	myeloid	monocyte_macrophage	cell_type	PanglaoDB
+CTY-0080	tissue-resident macrophage	myeloid	monocyte_macrophage	cell_type	HCA
+CTY-0081	peritoneal macrophage	myeloid	monocyte_macrophage	cell_type	HCA
+CTY-0082	red pulp macrophage	myeloid	monocyte_macrophage	cell_type	HCA
+CTY-0083	interstitial macrophage	myeloid	monocyte_macrophage	cell_type	HCA
+CTY-0084	erythrophagocytic macrophage	myeloid	monocyte_macrophage	cell_type	literature
+CTY-0085	cDC1	myeloid	dendritic_cell	cell_type	HCA
+CTY-0086	cDC2	myeloid	dendritic_cell	cell_type	HCA
+CTY-0087	plasmacytoid dendritic cell	myeloid	dendritic_cell	cell_type	HCA
+CTY-0088	mature LAMP3-positive dendritic cell	myeloid	dendritic_cell	cell_type	literature
+CTY-0089	monocyte-derived dendritic cell	myeloid	dendritic_cell	cell_type	HCA
+CTY-0090	Langerhans cell	myeloid	dendritic_cell	cell_type	HCA
+CTY-0091	inflammatory dendritic cell	myeloid	dendritic_cell	cell_type	literature
+CTY-0092	tolerogenic dendritic cell	myeloid	dendritic_cell	cell_type	literature
+CTY-0093	migratory dendritic cell	myeloid	dendritic_cell	cell_type	HCA
+CTY-0094	follicular dendritic cell	myeloid	dendritic_cell	cell_type	HCA
+CTY-0095	neutrophil	myeloid	granulocyte	cell_type	HCA
+CTY-0096	N1 anti-tumor neutrophil	myeloid	granulocyte	cell_type	literature
+CTY-0097	N2 pro-tumor neutrophil	myeloid	granulocyte	cell_type	literature
+CTY-0098	eosinophil	myeloid	granulocyte	cell_type	HCA
+CTY-0099	basophil	myeloid	granulocyte	cell_type	HCA
+CTY-0100	connective tissue mast cell	myeloid	granulocyte	cell_type	PanglaoDB
+CTY-0101	mucosal mast cell	myeloid	granulocyte	cell_type	PanglaoDB
+CTY-0102	myeloid-derived suppressor cell	myeloid	granulocyte	cell_type	literature
+CTY-0103	normal quiescent fibroblast	stromal	fibroblast	cell_type	HCA
+CTY-0104	myofibroblast	stromal	fibroblast	cell_type	HCA
+CTY-0105	myofibroblastic CAF	stromal	fibroblast	cell_type	literature
+CTY-0106	inflammatory CAF	stromal	fibroblast	cell_type	literature
+CTY-0107	antigen-presenting CAF	stromal	fibroblast	cell_type	literature
+CTY-0108	pericyte	stromal	fibroblast	cell_type	HCA
+CTY-0109	adventitial fibroblast	stromal	fibroblast	cell_type	HCA
+CTY-0110	reticular fibroblast	stromal	fibroblast	cell_type	HCA
+CTY-0111	perivascular fibroblast	stromal	fibroblast	cell_type	HCA
+CTY-0112	matrix-producing fibroblast	stromal	fibroblast	cell_type	literature
+CTY-0113	wound-healing fibroblast	stromal	fibroblast	cell_type	literature
+CTY-0114	senescent fibroblast	stromal	fibroblast	cell_type	literature
+CTY-0115	arterial endothelial cell	stromal	endothelial	cell_type	HCA
+CTY-0116	venous endothelial cell	stromal	endothelial	cell_type	HCA
+CTY-0117	capillary endothelial cell	stromal	endothelial	cell_type	HCA
+CTY-0118	lymphatic endothelial cell	stromal	endothelial	cell_type	HCA
+CTY-0119	angiogenic tip cell	stromal	endothelial	cell_type	HCA
+CTY-0120	angiogenic stalk cell	stromal	endothelial	cell_type	HCA
+CTY-0121	high endothelial venule cell	stromal	endothelial	cell_type	HCA
+CTY-0122	tumor endothelial cell	stromal	endothelial	cell_type	literature
+CTY-0123	mesenchymal stem cell	stromal	mesenchymal	cell_type	PanglaoDB
+CTY-0124	adipocyte	stromal	mesenchymal	cell_type	HCA
+CTY-0125	osteoblast	stromal	mesenchymal	cell_type	PanglaoDB
+CTY-0126	chondrocyte	stromal	mesenchymal	cell_type	PanglaoDB
+CTY-0127	smooth muscle cell	stromal	mesenchymal	cell_type	HCA
+CTY-0128	hepatic stellate cell	stromal	mesenchymal	cell_type	HCA
+CTY-0129	pancreatic stellate cell	stromal	mesenchymal	cell_type	PanglaoDB
+CTY-0130	mesothelial cell	stromal	mesenchymal	cell_type	HCA
+CTY-0131	neuron	neural	neural	cell_type	HCA
+CTY-0132	Schwann cell	neural	neural	cell_type	HCA
+CTY-0133	oligodendrocyte	neural	neural	cell_type	HCA
+CTY-0134	astrocyte	neural	neural	cell_type	HCA
+CTY-0135	enteric glial cell	neural	neural	cell_type	HCA
+CTY-0136	satellite glial cell	neural	neural	cell_type	PanglaoDB
+CTY-0137	erythrocyte	hematopoietic	blood	cell_type	HCA
+CTY-0138	megakaryocyte	hematopoietic	blood	cell_type	HCA
+CTY-0139	platelet	hematopoietic	blood	cell_type	HCA
+CTY-0140	hematopoietic stem cell	hematopoietic	blood	cell_type	HCA
+CTY-0141	podocyte	organ_specific	specialized	cell_type	HCA
+CTY-0142	melanocyte	organ_specific	specialized	cell_type	HCA
+CTY-0143	thyroid follicular cell	organ_specific	specialized	cell_type	HCA
+CTY-0144	alveolar epithelial progenitor	organ_specific	specialized	cell_type	HCA
+CTY-0145	intestinal stem cell	organ_specific	specialized	cell_type	HCA
+CTY-0146	pancreatic acinar cell	organ_specific	specialized	cell_type	HCA
+CTY-0147	pancreatic beta cell	organ_specific	specialized	cell_type	HCA
+CTY-0148	pancreatic alpha cell	organ_specific	specialized	cell_type	HCA
+CTY-0149	Sertoli cell	organ_specific	specialized	cell_type	HCA
+CTY-0150	Leydig cell	organ_specific	specialized	cell_type	HCA
+CTY-0151	trophoblast	organ_specific	specialized	cell_type	HCA
+CTY-0152	decidual cell	organ_specific	specialized	cell_type	HCA
+CTY-0153	club cell	organ_specific	specialized	cell_type	HCA
+CTY-0154	pulmonary neuroendocrine cell	organ_specific	specialized	cell_type	HCA
+CTY-0155	tuft cell	organ_specific	specialized	cell_type	HCA
+CTY-0156	cancer stem cell	cancer_phenotype	tumor_state	cell_type	literature
+CTY-0157	circulating tumor cell	cancer_phenotype	tumor_state	cell_type	literature
+CTY-0158	disseminated tumor cell	cancer_phenotype	tumor_state	cell_type	literature
+CTY-0159	drug-resistant cancer cell	cancer_phenotype	tumor_state	cell_type	literature
+CTY-0160	anoikis-resistant cancer cell	cancer_phenotype	tumor_state	cell_type	literature
+CTY-0161	dormant cancer cell	cancer_phenotype	tumor_state	cell_type	literature
+CTY-0162	therapy-induced senescent cancer cell	cancer_phenotype	tumor_state	cell_type	literature
+CTY-0163	tumor-initiating cell	cancer_phenotype	tumor_state	cell_type	literature
+CTY-0164	metastatic-competent cancer cell	cancer_phenotype	tumor_state	cell_type	literature
+CTY-0165	immune-evasive cancer cell	cancer_phenotype	tumor_state	cell_type	literature
+CTY-0166	common lymphoid progenitor	hematopoietic	progenitor	cell_type	HCA
+CTY-0167	common myeloid progenitor	hematopoietic	progenitor	cell_type	HCA
+CTY-0168	granulocyte-monocyte progenitor	hematopoietic	progenitor	cell_type	HCA
+CTY-0169	megakaryocyte-erythrocyte progenitor	hematopoietic	progenitor	cell_type	HCA
+CTY-0170	tissue-resident progenitor	hematopoietic	progenitor	cell_type	HCA
+NIC-0001	immune hot inflamed niche	immune_niche	immune_microenvironment	niche	literature
+NIC-0002	immune cold desert niche	immune_niche	immune_microenvironment	niche	literature
+NIC-0003	immune excluded niche	immune_niche	immune_microenvironment	niche	literature
+NIC-0004	tertiary lymphoid structure niche	immune_niche	immune_microenvironment	niche	literature
+NIC-0005	myeloid-enriched niche	immune_niche	immune_microenvironment	niche	literature
+NIC-0006	T cell-enriched niche	immune_niche	immune_microenvironment	niche	literature
+NIC-0007	B cell-enriched niche	immune_niche	immune_microenvironment	niche	literature
+NIC-0008	immunosuppressive niche	immune_niche	immune_microenvironment	niche	literature
+NIC-0009	immune checkpoint-rich niche	immune_niche	immune_microenvironment	niche	literature
+NIC-0010	antigen-presenting niche	immune_niche	immune_microenvironment	niche	literature
+NIC-0011	mast cell-enriched niche	immune_niche	immune_microenvironment	niche	literature
+NIC-0012	neutrophil-enriched niche	immune_niche	immune_microenvironment	niche	literature
+NIC-0013	eosinophil-enriched niche	immune_niche	immune_microenvironment	niche	literature
+NIC-0014	NK cell-enriched niche	immune_niche	immune_microenvironment	niche	literature
+NIC-0015	mixed immune niche	immune_niche	immune_microenvironment	niche	literature
+NIC-0016	proliferative tumor core	tumor_niche	tumor_microenvironment	niche	literature
+NIC-0017	hypoxic tumor core	tumor_niche	tumor_microenvironment	niche	literature
+NIC-0018	necrotic tumor core	tumor_niche	tumor_microenvironment	niche	literature
+NIC-0019	invasive tumor front niche	tumor_niche	tumor_microenvironment	niche	literature
+NIC-0020	tumor-stroma boundary niche	tumor_niche	tumor_microenvironment	niche	literature
+NIC-0021	tumor budding niche	tumor_niche	tumor_microenvironment	niche	literature
+NIC-0022	perivascular tumor niche	tumor_niche	tumor_microenvironment	niche	literature
+NIC-0023	subclonal mixing zone	tumor_niche	tumor_microenvironment	niche	literature
+NIC-0024	EMT transition zone	tumor_niche	tumor_microenvironment	niche	literature
+NIC-0025	cancer stem cell niche	tumor_niche	tumor_microenvironment	niche	literature
+NIC-0026	dormancy niche	tumor_niche	tumor_microenvironment	niche	literature
+NIC-0027	pre-metastatic niche	tumor_niche	tumor_microenvironment	niche	literature
+NIC-0028	desmoplastic stroma niche	stromal_niche	stromal_microenvironment	niche	literature
+NIC-0029	inflammatory stroma niche	stromal_niche	stromal_microenvironment	niche	literature
+NIC-0030	normal resting stroma	stromal_niche	stromal_microenvironment	niche	literature
+NIC-0031	fibrotic stroma niche	stromal_niche	stromal_microenvironment	niche	literature
+NIC-0032	myxoid stroma niche	stromal_niche	stromal_microenvironment	niche	literature
+NIC-0033	reactive stroma niche	stromal_niche	stromal_microenvironment	niche	literature
+NIC-0034	wound-healing stroma niche	stromal_niche	stromal_microenvironment	niche	literature
+NIC-0035	immunomodulatory stroma niche	stromal_niche	stromal_microenvironment	niche	literature
+NIC-0036	ECM-remodeling front	stromal_niche	stromal_microenvironment	niche	literature
+NIC-0037	adipose-adjacent niche	stromal_niche	stromal_microenvironment	niche	literature
+NIC-0038	nerve-adjacent niche	stromal_niche	stromal_microenvironment	niche	literature
+NIC-0039	bone marrow niche	stromal_niche	stromal_microenvironment	niche	literature
+NIC-0040	perivascular niche	vascular_niche	vascular_microenvironment	niche	literature
+NIC-0041	angiogenic front niche	vascular_niche	vascular_microenvironment	niche	literature
+NIC-0042	lymphangiogenic niche	vascular_niche	vascular_microenvironment	niche	literature
+NIC-0043	high endothelial venule niche	vascular_niche	vascular_microenvironment	niche	literature
+NIC-0044	vessel co-option zone	vascular_niche	vascular_microenvironment	niche	literature
+NIC-0045	hemorrhagic niche	vascular_niche	vascular_microenvironment	niche	literature
+NIC-0046	hypoperfused zone	vascular_niche	vascular_microenvironment	niche	literature
+NIC-0047	mature vasculature niche	vascular_niche	vascular_microenvironment	niche	literature
+NIC-0048	colonic crypt-villus axis niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0049	hepatic portal-central axis niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0050	alveolar niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0051	glomerular niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0052	breast ductal niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0053	pancreatic acinar niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0054	cerebral white matter niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0055	cerebral gray matter niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0056	epidermal-dermal junction niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0057	germinal center niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0058	splenic marginal zone niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0059	thymic cortex niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0060	thymic medulla niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0061	submucosal niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0062	serosal niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0063	periosteal niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0064	perineural niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0065	lymph node subcapsular sinus niche	organ_niche	organ_specific_niche	niche	HCA
+NIC-0066	metabolically active zone	functional_niche	functional_state	niche	literature
+NIC-0067	quiescent zone	functional_niche	functional_state	niche	literature
+NIC-0068	senescence niche	functional_niche	functional_state	niche	literature
+NIC-0069	tissue regeneration niche	functional_niche	functional_state	niche	literature
+NIC-0070	stem cell niche	functional_niche	functional_state	niche	literature
+NIC-0071	differentiation zone	functional_niche	functional_state	niche	literature
+NIC-0072	stress-response niche	functional_niche	functional_state	niche	literature
+NIC-0073	autophagy-active zone	functional_niche	functional_state	niche	literature
+NIC-0074	apoptotic zone	functional_niche	functional_state	niche	literature
+NIC-0075	proliferative zone	functional_niche	functional_state	niche	literature
+NIC-0076	treatment-responsive zone	treatment_niche	treatment_response	niche	literature
+NIC-0077	treatment-resistant niche	treatment_niche	treatment_response	niche	literature
+NIC-0078	residual disease niche	treatment_niche	treatment_response	niche	literature
+NIC-0079	immune-mediated regression zone	treatment_niche	treatment_response	niche	literature
+NIC-0080	radiation damage zone	treatment_niche	treatment_response	niche	literature
+GPR-0001	epithelial-mesenchymal transition program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0002	hypoxia response program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0003	inflammatory response program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0004	TNF-alpha signaling via NF-kB program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0005	interferon gamma response program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0006	interferon alpha response program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0007	p53 pathway program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0008	MYC targets V1 program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0009	MYC targets V2 program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0010	E2F targets program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0011	G2M checkpoint program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0012	oxidative phosphorylation program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0013	glycolysis program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0014	angiogenesis program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0015	apoptosis program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0016	complement program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0017	coagulation program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0018	IL2-STAT5 signaling program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0019	IL6-JAK-STAT3 signaling program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0020	TGF-beta signaling program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0021	Wnt-beta-catenin signaling program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0022	Notch signaling program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0023	Hedgehog signaling program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0024	KRAS signaling up program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0025	KRAS signaling down program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0026	UV response up program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0027	UV response down program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0028	mTORC1 signaling program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0029	PI3K-AKT-mTOR signaling program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0030	unfolded protein response program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0031	reactive oxygen species pathway program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0032	fatty acid metabolism program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0033	cholesterol homeostasis program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0034	bile acid metabolism program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0035	xenobiotic metabolism program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0036	adipogenesis program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0037	myogenesis program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0038	mitotic spindle program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0039	DNA repair program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0040	protein secretion program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0041	heme metabolism program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0042	peroxisome program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0043	pancreas beta cell program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0044	spermatogenesis program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0045	estrogen response early program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0046	estrogen response late program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0047	androgen response program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0048	allograft rejection program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0049	apical junction program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0050	apical surface program	hallmark	msigdb_hallmark	gene_program	MSigDB-Hallmark
+GPR-0051	cell cycle G1/S meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0052	cell cycle G2/M meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0053	EMT-I partial EMT meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0054	EMT-II full mesenchymal meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0055	EMT-III amoeboid meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0056	hypoxia meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0057	stress and p53 meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0058	MYC targets meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0059	interferon response meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0060	MHC class I antigen presentation meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0061	MHC class II antigen presentation meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0062	cilia meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0063	protein secretion meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0064	proteasomal degradation meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0065	oxidative phosphorylation meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0066	glycolysis meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0067	fatty acid oxidation meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0068	cholesterol biosynthesis meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0069	metal ion response meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0070	senescence meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0071	epithelial differentiation meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0072	glandular differentiation meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0073	squamous differentiation meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0074	neural-like meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0075	alveolar meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0076	hepatocyte-like meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0077	melanocyte-like meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0078	chromatin remodeling meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0079	DNA damage response meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0080	RNA splicing meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0081	unfolded protein response meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0082	ribosome biogenesis meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0083	translation meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0084	cytoskeleton remodeling meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0085	gap junction communication meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0086	extracellular matrix meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0087	receptor tyrosine kinase meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0088	WNT signaling meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0089	stem-like meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0090	immune evasion meta-program	cancer_metaprogram	gavish2023	gene_program	Gavish2023
+GPR-0091	T cell activation program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0092	T cell exhaustion program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0093	T cell cytotoxicity program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0094	Treg suppressive program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0095	Th1 polarization program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0096	Th2 polarization program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0097	Th17 polarization program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0098	B cell activation program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0099	germinal center reaction program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0100	plasma cell differentiation program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0101	antibody secretion program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0102	M1 macrophage activation program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0103	M2 macrophage activation program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0104	phagocytosis program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0105	antigen processing program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0106	cross-presentation program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0107	NK cell activation program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0108	NK cell exhaustion program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0109	MDSC suppressive program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0110	neutrophil degranulation program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0111	neutrophil extracellular trap formation program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0112	complement activation program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0113	cytokine storm program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0114	chemokine signaling program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0115	PD-1 PD-L1 checkpoint program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0116	CTLA-4 checkpoint program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0117	TIM-3 LAG-3 checkpoint program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0118	type I interferon response program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0119	type II interferon response program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0120	toll-like receptor signaling program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0121	inflammasome activation program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0122	T cell trafficking program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0123	immune evasion program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0124	myeloid recruitment program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0125	tertiary lymphoid structure formation program	immune_program	immune_transcriptional	gene_program	literature
+GPR-0126	Warburg effect aerobic glycolysis program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0127	oxidative phosphorylation metabolic program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0128	fatty acid synthesis program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0129	beta-oxidation program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0130	glutamine metabolism program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0131	one-carbon metabolism program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0132	nucleotide biosynthesis program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0133	amino acid catabolism program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0134	tryptophan-kynurenine metabolism program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0135	arginine metabolism program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0136	lipid peroxidation ferroptosis program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0137	mitochondrial biogenesis program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0138	autophagy program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0139	pentose phosphate pathway program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0140	TCA cycle program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0141	ketogenesis program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0142	gluconeogenesis program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0143	cholesterol efflux program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0144	bile acid synthesis and transport program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0145	sphingolipid metabolism program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0146	glycan biosynthesis program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0147	polyamine metabolism program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0148	heme biosynthesis and degradation program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0149	purine salvage program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0150	pyrimidine synthesis program	metabolic_program	metabolic_transcriptional	gene_program	literature
+GPR-0151	ECM production program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0152	ECM degradation MMP program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0153	collagen deposition program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0154	fibronectin assembly program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0155	laminin program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0156	integrin signaling program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0157	TGF-beta response program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0158	wound healing program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0159	fibrosis program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0160	angiogenic program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0161	lymphangiogenic program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0162	osteogenic differentiation program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0163	chondrogenic differentiation program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0164	adipogenic differentiation program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0165	smooth muscle differentiation program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0166	epithelial barrier program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0167	tight junction assembly program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0168	cell-cell adhesion program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0169	focal adhesion program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0170	basement membrane assembly program	remodeling_program	tissue_remodeling	gene_program	literature
+GPR-0171	sustained proliferative signaling program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0172	growth factor independence program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0173	replicative immortality telomerase program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0174	invasion and motility program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0175	metastasis colonization program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0176	immune evasion cancer hallmark program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0177	genome instability program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0178	tumor-promoting inflammation program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0179	deregulated cellular energetics program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0180	angiogenesis induction program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0181	apoptosis resistance program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0182	anoikis resistance program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0183	drug efflux ABC transporter program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0184	homologous recombination repair program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0185	mismatch repair deficiency program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0186	chromatin instability program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0187	epigenetic reprogramming program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0188	phenotypic plasticity program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0189	dedifferentiation program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0190	transdifferentiation program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0191	cancer-neuron interaction program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0192	cancer-adipocyte crosstalk program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0193	tumor dormancy program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0194	metastatic seeding program	cancer_hallmark	cancer_program	gene_program	literature
+GPR-0195	collective invasion program	cancer_hallmark	cancer_program	gene_program	literature
+PWY-0001	EGFR-ErbB signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0002	VEGF signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0003	PDGF signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0004	FGF signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0005	IGF signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0006	HGF-MET signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0007	SCF-KIT signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0008	Angiopoietin-Tie signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0009	EphB-ephrin signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0010	GDNF signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0011	NGF-Trk signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0012	BMP signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0013	Activin signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0014	GDF signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0015	CSF1-CSF1R signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0016	RANKL-RANK signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0017	Erythropoietin signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0018	Thrombopoietin signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0019	EGF signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0020	TGF-alpha signaling pathway	growth_signaling	receptor_tyrosine_kinase	pathway	KEGG
+PWY-0021	PI3K-AKT-mTOR pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0022	RAS-RAF-MEK-ERK MAPK pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0023	JAK-STAT pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0024	NF-kB pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0025	Wnt-beta-catenin pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0026	Hedgehog signaling pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0027	Notch signaling pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0028	Hippo-YAP-TAZ pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0029	TGF-beta-SMAD pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0030	AMPK pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0031	p53 tumor suppressor pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0032	Rb cell cycle pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0033	cAMP-PKA pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0034	calcium signaling pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0035	JNK signaling pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0036	p38 MAPK pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0037	PKC signaling pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0038	Rho-ROCK pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0039	cGAS-STING pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0040	mTORC1 and mTORC2 pathway	intracellular_signaling	signal_transduction	pathway	KEGG
+PWY-0041	G1-S cell cycle checkpoint	cell_cycle	cell_cycle_ddr	pathway	KEGG
+PWY-0042	G2-M cell cycle checkpoint	cell_cycle	cell_cycle_ddr	pathway	KEGG
+PWY-0043	mitotic spindle checkpoint	cell_cycle	cell_cycle_ddr	pathway	KEGG
+PWY-0044	ATM-ATR DNA damage response	cell_cycle	cell_cycle_ddr	pathway	KEGG
+PWY-0045	homologous recombination repair pathway	cell_cycle	cell_cycle_ddr	pathway	KEGG
+PWY-0046	non-homologous end joining pathway	cell_cycle	cell_cycle_ddr	pathway	KEGG
+PWY-0047	mismatch repair pathway	cell_cycle	cell_cycle_ddr	pathway	KEGG
+PWY-0048	base excision repair pathway	cell_cycle	cell_cycle_ddr	pathway	KEGG
+PWY-0049	nucleotide excision repair pathway	cell_cycle	cell_cycle_ddr	pathway	KEGG
+PWY-0050	replication stress response	cell_cycle	cell_cycle_ddr	pathway	KEGG
+PWY-0051	telomere maintenance pathway	cell_cycle	cell_cycle_ddr	pathway	KEGG
+PWY-0052	chromatin remodeling pathway	cell_cycle	cell_cycle_ddr	pathway	KEGG
+PWY-0053	intrinsic apoptosis pathway	cell_death	cell_death_pathway	pathway	KEGG
+PWY-0054	extrinsic apoptosis pathway	cell_death	cell_death_pathway	pathway	KEGG
+PWY-0055	necroptosis pathway	cell_death	cell_death_pathway	pathway	KEGG
+PWY-0056	pyroptosis pathway	cell_death	cell_death_pathway	pathway	KEGG
+PWY-0057	ferroptosis pathway	cell_death	cell_death_pathway	pathway	KEGG
+PWY-0058	autophagy-dependent cell death pathway	cell_death	cell_death_pathway	pathway	KEGG
+PWY-0059	parthanatos pathway	cell_death	cell_death_pathway	pathway	KEGG
+PWY-0060	anoikis pathway	cell_death	cell_death_pathway	pathway	KEGG
+PWY-0061	TCR signaling pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0062	BCR signaling pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0063	Fc receptor signaling pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0064	classical complement pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0065	alternative complement pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0066	lectin complement pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0067	TLR4 signaling pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0068	TLR7-TLR8 signaling pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0069	TLR9 signaling pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0070	cGAS-STING innate immune pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0071	NLRP3 inflammasome pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0072	type I interferon signaling pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0073	type II interferon signaling pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0074	CXCL12-CXCR4 chemokine pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0075	CCL2-CCR2 chemokine pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0076	PD-1-PD-L1 immune checkpoint pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0077	CTLA-4 immune checkpoint pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0078	CD28 co-stimulation pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0079	4-1BB co-stimulation pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0080	IL-6-JAK-STAT3 signaling pathway	immune_signaling	immune_pathway	pathway	KEGG
+PWY-0081	glycolysis pathway	metabolic_pathway	metabolism	pathway	KEGG
+PWY-0082	gluconeogenesis pathway	metabolic_pathway	metabolism	pathway	KEGG
+PWY-0083	TCA cycle pathway	metabolic_pathway	metabolism	pathway	KEGG
+PWY-0084	electron transport chain pathway	metabolic_pathway	metabolism	pathway	KEGG
+PWY-0085	fatty acid synthesis pathway	metabolic_pathway	metabolism	pathway	KEGG
+PWY-0086	fatty acid beta-oxidation pathway	metabolic_pathway	metabolism	pathway	KEGG
+PWY-0087	amino acid catabolism pathway	metabolic_pathway	metabolism	pathway	KEGG
+PWY-0088	urea cycle pathway	metabolic_pathway	metabolism	pathway	KEGG
+PWY-0089	pentose phosphate pathway	metabolic_pathway	metabolism	pathway	KEGG
+PWY-0090	one-carbon folate metabolism pathway	metabolic_pathway	metabolism	pathway	KEGG
+PWY-0091	mevalonate cholesterol pathway	metabolic_pathway	metabolism	pathway	KEGG
+PWY-0092	sphingolipid metabolism pathway	metabolic_pathway	metabolism	pathway	KEGG
+PWY-0093	tryptophan IDO-TDO catabolism pathway	metabolic_pathway	metabolism	pathway	KEGG
+PWY-0094	purine metabolism pathway	metabolic_pathway	metabolism	pathway	KEGG
+PWY-0095	pyrimidine metabolism pathway	metabolic_pathway	metabolism	pathway	KEGG
+PWY-0096	integrin signaling pathway	ecm_adhesion	cell_matrix	pathway	KEGG
+PWY-0097	focal adhesion kinase pathway	ecm_adhesion	cell_matrix	pathway	KEGG
+PWY-0098	E-cadherin-catenin adhesion pathway	ecm_adhesion	cell_matrix	pathway	KEGG
+PWY-0099	MMP-TIMP proteolysis pathway	ecm_adhesion	cell_matrix	pathway	KEGG
+PWY-0100	collagen biosynthesis pathway	ecm_adhesion	cell_matrix	pathway	KEGG
+PWY-0101	fibronectin-integrin signaling pathway	ecm_adhesion	cell_matrix	pathway	KEGG
+PWY-0102	Wnt-PCP planar cell polarity pathway	ecm_adhesion	cell_matrix	pathway	KEGG
+PWY-0103	Rho-GTPase cytoskeletal pathway	ecm_adhesion	cell_matrix	pathway	KEGG
+PWY-0104	ADAM-ADAMTS proteolysis pathway	ecm_adhesion	cell_matrix	pathway	KEGG
+PWY-0105	syndecan-glypican signaling pathway	ecm_adhesion	cell_matrix	pathway	KEGG
+PWY-0106	canonical Wnt developmental pathway	developmental	developmental_pathway	pathway	Reactome
+PWY-0107	non-canonical Wnt pathway	developmental	developmental_pathway	pathway	Reactome
+PWY-0108	BMP-SMAD developmental pathway	developmental	developmental_pathway	pathway	Reactome
+PWY-0109	FGF-FGFR developmental pathway	developmental	developmental_pathway	pathway	Reactome
+PWY-0110	Hedgehog-Gli developmental pathway	developmental	developmental_pathway	pathway	Reactome
+PWY-0111	Notch-Delta developmental pathway	developmental	developmental_pathway	pathway	Reactome
+PWY-0112	retinoic acid signaling pathway	developmental	developmental_pathway	pathway	Reactome
+PWY-0113	Hippo organ size control pathway	developmental	developmental_pathway	pathway	Reactome
+PWY-0114	Eph-ephrin tissue patterning pathway	developmental	developmental_pathway	pathway	Reactome
+PWY-0115	VEGF vascular development pathway	developmental	developmental_pathway	pathway	Reactome
+PWY-0116	DNA methylation pathway	epigenetic	chromatin_regulation	pathway	Reactome
+PWY-0117	histone acetylation HAT-HDAC pathway	epigenetic	chromatin_regulation	pathway	Reactome
+PWY-0118	histone methylation KMT-KDM pathway	epigenetic	chromatin_regulation	pathway	Reactome
+PWY-0119	Polycomb repressive complex pathway	epigenetic	chromatin_regulation	pathway	Reactome
+PWY-0120	SWI-SNF chromatin remodeling pathway	epigenetic	chromatin_regulation	pathway	Reactome
+PWY-0121	RNA polymerase II elongation pathway	epigenetic	chromatin_regulation	pathway	Reactome
+PWY-0122	miRNA processing pathway	epigenetic	chromatin_regulation	pathway	Reactome
+PWY-0123	nonsense-mediated decay pathway	epigenetic	chromatin_regulation	pathway	Reactome
+PWY-0124	R-loop resolution pathway	epigenetic	chromatin_regulation	pathway	Reactome
+PWY-0125	transcriptional condensate formation pathway	epigenetic	chromatin_regulation	pathway	Reactome
+PWY-0126	unfolded protein response IRE1 pathway	stress_response	proteostasis	pathway	KEGG
+PWY-0127	ER stress PERK-ATF4 pathway	stress_response	proteostasis	pathway	KEGG
+PWY-0128	heat shock response pathway	stress_response	proteostasis	pathway	KEGG
+PWY-0129	NRF2-KEAP1 oxidative stress pathway	stress_response	proteostasis	pathway	KEGG
+PWY-0130	HIF-1alpha hypoxia response pathway	stress_response	proteostasis	pathway	KEGG
+PWY-0131	AMPK-mTOR nutrient sensing pathway	stress_response	proteostasis	pathway	KEGG
+PWY-0132	proteasome degradation pathway	stress_response	proteostasis	pathway	KEGG
+PWY-0133	lysosomal autophagy pathway	stress_response	proteostasis	pathway	KEGG
+PWY-0134	mitophagy pathway	stress_response	proteostasis	pathway	KEGG
+PWY-0135	p16-p21 senescence pathway	stress_response	proteostasis	pathway	KEGG
+PWY-0136	circadian rhythm pathway	hormone_signaling	specialized	pathway	KEGG
+PWY-0137	androgen receptor signaling pathway	hormone_signaling	specialized	pathway	KEGG
+PWY-0138	estrogen receptor signaling pathway	hormone_signaling	specialized	pathway	KEGG
+PWY-0139	vitamin D signaling pathway	hormone_signaling	specialized	pathway	KEGG
+PWY-0140	thyroid hormone signaling pathway	hormone_signaling	specialized	pathway	KEGG
+PWY-0141	PPAR signaling pathway	hormone_signaling	specialized	pathway	KEGG
+PWY-0142	glucocorticoid receptor signaling pathway	hormone_signaling	specialized	pathway	KEGG
+PWY-0143	Hedgehog in cancer pathway	hormone_signaling	specialized	pathway	KEGG

@@ -1,0 +1,26 @@
+# Python 3.11. PyTorch comes from its CUDA 12.1 index:
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu121
+#
+# torch, flow_matching and the Python version match those recorded by the Run-2
+# evaluation runs; the other pins are from the upstream MoLF environment.
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+torch-geometric==2.6.1
+flow_matching==1.0.10
+conch @ git+https://github.com/mahmoodlab/CONCH.git@141cc09c7d4ff33d8eda562bd75169b457f71a62
+timm==1.0.19
+transformers==4.55.0
+huggingface-hub==0.34.4
+numpy==2.1.2
+scipy==1.15.3
+pandas==2.3.1
+pyarrow==24.0.0
+scanpy==1.11.4
+anndata==0.11.4
+h5py==3.14.0
+pillow==11.0.0
+matplotlib==3.10.5
+PyYAML==6.0.2
+ruamel.yaml==0.18.14
+tqdm==4.67.1
+wandb==0.21.1

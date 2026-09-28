@@ -1,0 +1,5 @@
+subtree_roots:
+  - "http://purl.obolibrary.org/obo/CL_0000000"
+candidate_tier: H2_cell_type
+include_obsolete: false
+output_path: data/cache/harvest/cell_ontology.parquet

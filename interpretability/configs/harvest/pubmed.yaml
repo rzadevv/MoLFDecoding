@@ -1,0 +1,27 @@
+queries:
+  - name: pathology_morphology_journals
+    query: >
+      ("Am J Surg Pathol"[Journal] OR "Mod Pathol"[Journal] OR
+       "Histopathology"[Journal] OR "Am J Clin Pathol"[Journal] OR
+       "Arch Pathol Lab Med"[Journal])
+      AND ("morphology"[tiab] OR "histology"[tiab] OR "histopathology"[tiab])
+    date_range: ["2020/01/01", "2025/12/31"]
+    max_results: 4000
+  - name: he_staining_methods
+    query: >
+      ("hematoxylin and eosin"[tiab] OR "haematoxylin and eosin"[tiab]
+       OR "H&E staining"[tiab] OR "H&E stained"[tiab])
+    date_range: ["2020/01/01", "2025/12/31"]
+    max_results: 2500
+  - name: tumor_microenvironment_reviews
+    query: >
+      ("tumor microenvironment"[tiab] OR "tumour microenvironment"[tiab])
+      AND review[pt]
+    date_range: ["2022/01/01", "2025/12/31"]
+    max_results: 1500
+min_entity_occurrences: 3
+max_synonyms_per_entity: 10
+max_pmids_recorded_per_entity: 20
+scispacy_model: en_ner_bionlp13cg_md
+scispacy_batch_size: 32
+output_path: data/cache/harvest/pubmed.parquet

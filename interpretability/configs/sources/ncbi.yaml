@@ -1,0 +1,12 @@
+base_url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+api_key_env: NCBI_API_KEY
+email_env: NCBI_EMAIL
+tool_name: molf-interp
+rate_limit_per_second: 8
+rate_limit_burst: 3
+rate_limit_no_key: 2
+timeout_seconds: 60.0
+max_retries: 5
+efetch_batch_size: 200
+cache_dir: data/cache/pubmed
+user_agent: "molf-interp/0.1"

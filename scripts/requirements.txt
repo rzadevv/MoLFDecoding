@@ -1,0 +1,6 @@
+# Versions that produced the shipped tables and figures. With these, the scripts
+# reproduce results/summary/, data/concept_exclusions.csv and the README figures
+# in figures/ byte for byte.
+numpy==2.1.2
+pandas==2.3.1
+matplotlib==3.10.5

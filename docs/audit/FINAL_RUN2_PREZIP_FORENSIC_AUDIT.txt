@@ -1,0 +1,59 @@
+DECODINGMOLF CONCH-MOLF RUN-2 PRE-ZIP FORENSIC AUDIT
+==========================================================
+
+STATUS: PASS WITH DOCUMENTED SCIENTIFIC / LEGACY-CODE CAVEATS
+
+No invalidating implementation defect was found in the executed Run-2 training, frozen inference, evaluation, or all-23 natural-routing interpretation path.
+
+PASS CHECKS
+------------------------------
+- Run2 best checkpoint: exact SHA
+- Run2 frozen config: exact SHA
+- GeneVAE-v2 checkpoint: exact SHA
+- GeneVAE-v2 config: exact SHA
+- Final inference protocol: exact SHA
+- Final test result: exact SHA
+- Posthoc diagnostic summary: exact SHA
+- Live source flow_matching.py: exact SHA
+- Live source genevae_v2.py: exact SHA
+- Live source train.py: exact SHA
+- Live source training_utils.py: exact SHA
+- Live source custom_dataset.py: exact SHA
+- Live source hest_utils.py: exact SHA
+- Final test evaluator: exact SHA
+- Validation evaluator: exact SHA
+- Split IDs: 385/96/23, all sample-ID disjoint
+- OncoTree vocabulary reconstructed exactly from train+val only
+- Target gene list: 1386 unique genes
+- All 504 CONCH+patch inputs independently re-opened and validated
+- GeneVAE-v2 exactly embedded in final MoLF (28/28 tensors exact)
+- Final MoLF checkpoint finite and contains all 6 experts
+- Training epochs 1..319 contiguous; epoch239 selection independently reproduced
+- Final 5-seed test result independently reconstructed from raw seed summaries
+- Target-distribution audit: all 504 slides
+- GeneVAE reconstruction audit: all 504 slides
+- All23 runner: exact SHA
+- All23 per-slide auditor: exact SHA
+- All23 aggregator: exact SHA
+- All23 final auditor: exact SHA
+- Natural-routing interpretation complete: 23/23 slides, 92,507 held-out patches
+
+CAVEATS / WORDING REQUIREMENTS
+------------------------------
+- The official split is sample-ID disjoint but not fully patient/study/specimen independent.
+- Interpretability router = conditional/image branch evaluated on states traversed by the frozen CFG trajectory; it is not a unique 'full-CFG router'.
+- Top-256 semantic affinity is not the same as actual Top-2 utilization for under-routed experts; both were recorded separately.
+- Visium/Xenium comparisons are descriptive and confounded with tissue/study/specimen composition; do not claim causality.
+- Unused legacy HESTGraphDataset has a stale tuple-unpacking interface; it is never referenced by the Run2 training/evaluation path.
+- Unused legacy save_hdf5 append branch contains a stale typo; it is never called by Run2.
+- Run2 'use_spatial_encoding' enables permutation-equivariant patch-context attention; real x/y coordinates are not model inputs.
+- CFG unconditional branch is image-unconditional but remains OncoTree-conditioned.
+- normalize_adata() docstring mentions total-count normalization, but executed implementation performs log1p only; Run2/GeneVAE configuration is consistent with log1p-only preprocessing.
+
+FINAL CLAIM SCOPE
+------------------------------
+- Legitimate claim: final performance on 23 held-out slide IDs.
+- Do NOT claim patient-independent or specimen-independent generalization.
+- Semantic concept alignment is descriptive/correlative, not causal proof of expert function.
+- Test-set interpretation is post-hoc analysis of the frozen Run2 model; it must not be used to retune Run2.
+- If these held-out-test observations guide a future model, that future model needs a fresh external/new held-out evaluation.

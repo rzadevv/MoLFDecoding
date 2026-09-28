@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Credentials
+.env
+.env.*
+.NCBI_API_KEY
+.NCBI_EMAIL*
+.hf_token
+*.pem
+
+# Downloaded data and weights, embeddings, checkpoints and training logs
+conch_molf/data/
+conch_molf/Pathology_FM/
+conch_molf/training_log/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

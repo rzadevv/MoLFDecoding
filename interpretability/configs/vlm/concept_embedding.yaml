@@ -1,0 +1,25 @@
+# Concept text embedding precomputation for cleaned View A prompts.
+# Run `uv run molf-interp vlm prepare-view-a` before embedding.
+# HF_TOKEN must be set in the environment before running.
+
+model_config: configs/vlm/conch_v1.yaml
+vlm_name: conch_v1
+
+# Cleaned prompt manifest produced by prepare-view-a.
+ready_prompts_path: data/cache/concept_embeddings/view_a_ready.parquet
+embedding_set_filter: null
+
+# Legacy inputs used only when ready_prompts_path is unset.
+bank_dir: data/outputs/comparison
+concepts_file: data/outputs/comparison/merged_concepts.parquet
+prompts_file: data/outputs/comparison/merged_prompts.parquet
+
+# Embedding output
+output_dir: data/outputs/vlm/conch_text_embeddings
+output_name: view_a_concept_embeddings.parquet
+
+# Text encoding batch size
+text_batch_size: 32
+
+# Filter: exclude human_only prompts for mouse (default True)
+exclude_human_only_for_mouse: true

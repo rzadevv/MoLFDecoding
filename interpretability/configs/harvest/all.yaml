@@ -1,0 +1,22 @@
+ncit:
+  enabled: true
+  config_path: configs/harvest/ncit.yaml
+cell_ontology:
+  enabled: true
+  config_path: configs/harvest/cell_ontology.yaml
+gene_ontology:
+  enabled: true
+  config_path: configs/harvest/gene_ontology.yaml
+uberon:
+  enabled: true
+  config_path: configs/harvest/uberon.yaml
+snomed:
+  enabled: true
+  config_path: configs/harvest/snomed.yaml
+msigdb:
+  enabled: true
+  config_path: configs/harvest/msigdb.yaml
+pubmed:
+  enabled: true
+  config_path: configs/harvest/pubmed.yaml
+output_merged_path: data/cache/harvest/all_raw_concepts.parquet

@@ -1,0 +1,37 @@
+FINAL RUN-2 HELD-OUT TEST MANIFEST
+
+validation evaluator:
+7805c568c6b826aff839c0686f21d55a2169a6dfa389f6b48c1886bb9b59e085
+
+final test evaluator:
+6ea99e689b1088ea5b38a35937752558d8f938e95fab1a808bc92b0c88ab3af0
+
+final inference protocol:
+e3939b92785ed85c1c15d54fa37204a16a030a301badca1b4cc8189862118dfc
+
+final test evaluation plan:
+3ed9adb0554d7a1bfbe4a0fe3fcec8fcdaa0e81c7e965437c1997870fb2378ea
+
+Run-2 epoch-239 checkpoint:
+dbe23d4e2f670749ee746272337a21d3d14e49fc6dab34dd43bea05fb727965d
+
+Run-2 config:
+ba6e43d95a6acaa9a4a4fe0b2ca3f0e4a5d5d0fa8a35c0f233a5d7f3417cfd0c
+
+FINAL PROTOCOL
+method=euler
+num_steps=2
+step_size=0.5
+CFG=1.5
+
+PRE-SPECIFIED TEST SEEDS
+41001
+42001
+43001
+44001
+45001
+
+Expected held-out slides: 23
+
+No parameters may be changed after test results are observed.
+All five seeds must be retained and reported.

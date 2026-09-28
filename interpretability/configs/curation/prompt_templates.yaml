@@ -1,0 +1,19 @@
+species_word:
+  Homo_sapiens: "human"
+  Mus_musculus: "murine"
+
+h1_by_category:
+  organ_specific: "Histopathological feature: {name} in {sw} {organ} tissue on H&E stain"
+  microenvironment: "Tissue microenvironment: {name} in {sw} tissue on H&E stain"
+  artifact: "Histological artifact: {name} in H&E stained {sw} tissue"
+  default: "Histopathological feature: {name} observed in H&E stained {sw} tissue"
+
+h2_cell_type_with_markers: "Cell type present in {sw} tissue: {name}, typically expressing {markers}"
+h2_cell_type_without_markers: "Cell type present in {sw} tissue: {name}"
+
+h2_gene_program_with_genes: "Transcriptional program active in {sw} cells: {name}, involving genes such as {genes}"
+h2_gene_program_without_genes: "Transcriptional program active in {sw} cells: {name}"
+
+h2_niche: "Spatial tissue niche in {sw} tissue: {name}"
+
+h2_pathway: "Signaling pathway in {sw} cells: {name}"

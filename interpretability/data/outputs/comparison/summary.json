@@ -1,0 +1,84 @@
+{
+  "reference_total": 1006,
+  "harvested_total": 4372,
+  "merged_total": 5378,
+  "matches_total": 258,
+  "matches_within_tier": 255,
+  "matches_cross_tier": 3,
+  "overall_reference_recall": 0.25646123260437376,
+  "by_tier": {
+    "H1_morphology": {
+      "reference_total": 418,
+      "harvested_total": 2383,
+      "matched": 112,
+      "reference_only": 306,
+      "harvested_only": 2270,
+      "match_similarity_mean": 0.9277935459145478,
+      "match_similarity_median": 0.9183562695980072,
+      "reference_recall": 0.2679425837320574
+    },
+    "H2_cell_type": {
+      "reference_total": 170,
+      "harvested_total": 1623,
+      "matched": 101,
+      "reference_only": 69,
+      "harvested_only": 1522,
+      "match_similarity_mean": 0.9613531130552292,
+      "match_similarity_median": 0.9999997913837433,
+      "reference_recall": 0.5941176470588235
+    },
+    "H2_gene_program": {
+      "reference_total": 195,
+      "harvested_total": 96,
+      "matched": 12,
+      "reference_only": 183,
+      "harvested_only": 83,
+      "match_similarity_mean": 0.9197517308321866,
+      "match_similarity_median": 0.9120340347290039,
+      "reference_recall": 0.06153846153846154
+    },
+    "H2_niche": {
+      "reference_total": 80,
+      "harvested_total": 28,
+      "matched": 0,
+      "reference_only": 80,
+      "harvested_only": 28,
+      "match_similarity_mean": 0.0,
+      "match_similarity_median": 0.0,
+      "reference_recall": 0.0
+    },
+    "H2_pathway": {
+      "reference_total": 143,
+      "harvested_total": 242,
+      "matched": 33,
+      "reference_only": 110,
+      "harvested_only": 208,
+      "match_similarity_mean": 0.9193507954478264,
+      "match_similarity_median": 0.9190701842308044,
+      "reference_recall": 0.23076923076923078
+    }
+  },
+  "cross_tier_matches": 3,
+  "view_a": {
+    "total": 3023,
+    "by_tier": {
+      "H1_morphology": 1303,
+      "H2_cell_type": 1177,
+      "H2_niche": 84,
+      "H2_gene_program": 245,
+      "H2_pathway": 214
+    },
+    "by_inclusion_reason": {
+      "reference": 1006,
+      "harvested_matched": 255,
+      "harvested_ref_adjacent": 1762
+    },
+    "by_exclusion_reason": {
+      "label_too_short": 20,
+      "label_too_long": 42,
+      "excluded_substring": 1,
+      "no_definition_no_synonyms": 0,
+      "low_reference_neighbor_similarity": 2292
+    }
+  }
+}

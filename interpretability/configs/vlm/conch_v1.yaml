@@ -1,0 +1,13 @@
+# CONCH v1 model configuration
+# Architecture: ViT-B/16 vision encoder (90M) + 12-layer text transformer (110M)
+# Projection space: 512-dim joint embedding
+# License: CC-BY-NC-ND-4.0 — not for commercial use
+# Reference: https://github.com/mahmoodlab/CONCH
+
+model_name: conch_v1
+hf_token_env_var: HF_TOKEN
+device: auto
+cache_dir: null  # null means default HF cache location (~/.cache/huggingface/)
+arch: conch_ViT-B-16
+checkpoint: "hf_hub:MahmoodLab/conch"
+embedding_dim: 512

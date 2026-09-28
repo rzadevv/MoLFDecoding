@@ -1,0 +1,5 @@
+model_name: cambridgeltl/SapBERT-from-PubMedBERT-fulltext
+max_length: 25
+batch_size: 128
+device: auto
+cache_dir: data/cache/sapbert

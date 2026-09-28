@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Credentials
+.env
+.env.*
+.NCBI_API_KEY
+.NCBI_EMAIL*
+.hf_token
+
+# Caches and per-run logs. data/outputs/ itself is tracked: it holds the concept
+# bank and the CONCH text embeddings used for the reported results.
+data/cache/*
+!data/cache/.gitkeep
+data/outputs/**/run_metadata*.json
+
+# Editors
+.vscode/
+.idea/

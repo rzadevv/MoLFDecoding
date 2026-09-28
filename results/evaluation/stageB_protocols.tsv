@@ -1,0 +1,4 @@
+method	steps	guidance	seed
+euler	2	1.25	41001
+euler	2	1.50	41001
+euler	2	2.00	41001

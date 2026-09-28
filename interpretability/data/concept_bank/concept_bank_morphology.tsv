@@ -1,0 +1,419 @@
+concept_id	concept_name	category	subcategory	level	organ	source
+MOR-0001	coagulative necrosis	necrosis	tumor_necrosis	tissue	universal	Robbins
+MOR-0002	geographic necrosis	necrosis	tumor_necrosis	tissue	universal	Robbins
+MOR-0003	comedo necrosis	necrosis	tumor_necrosis	tissue	universal	WHO-Blue-Books
+MOR-0004	dirty necrosis	necrosis	tumor_necrosis	tissue	universal	WHO-Blue-Books
+MOR-0005	caseous necrosis	necrosis	tumor_necrosis	tissue	universal	Robbins
+MOR-0006	fibrinoid necrosis	necrosis	tumor_necrosis	tissue	universal	Robbins
+MOR-0007	palisading necrosis	necrosis	tumor_necrosis	tissue	universal	WHO-Blue-Books
+MOR-0008	pseudopalisading necrosis	necrosis	tumor_necrosis	tissue	universal	WHO-Blue-Books
+MOR-0009	liquefactive necrosis	necrosis	tumor_necrosis	tissue	universal	Robbins
+MOR-0010	radiation necrosis	necrosis	treatment_necrosis	tissue	universal	literature
+MOR-0011	chemotherapy-induced necrosis	necrosis	treatment_necrosis	tissue	universal	literature
+MOR-0012	microvascular proliferation	vascular	vascular_proliferation	tissue	universal	WHO-Blue-Books
+MOR-0013	glomeruloid vascular proliferation	vascular	vascular_proliferation	tissue	universal	WHO-Blue-Books
+MOR-0014	thrombosed vessel	vascular	vascular_pathology	tissue	universal	Robbins
+MOR-0015	hemorrhage	vascular	vascular_pathology	tissue	universal	Robbins
+MOR-0016	lymphovascular space invasion	vascular	vascular_invasion	tissue	universal	WHO-Blue-Books
+MOR-0017	chicken-wire vasculature	vascular	vascular_pattern	tissue	universal	WHO-Blue-Books
+MOR-0018	staghorn vasculature	vascular	vascular_pattern	tissue	universal	WHO-Blue-Books
+MOR-0019	arborizing vasculature	vascular	vascular_pattern	tissue	universal	WHO-Blue-Books
+MOR-0020	sinusoidal vasculature	vascular	vascular_pattern	tissue	universal	Robbins
+MOR-0021	vascular mimicry	vascular	vascular_pathology	tissue	universal	literature
+MOR-0022	capillary sprouting	vascular	vascular_proliferation	tissue	universal	literature
+MOR-0023	perivascular hyalinization	vascular	vascular_pathology	tissue	universal	Robbins
+MOR-0024	vascular ectasia	vascular	vascular_pathology	tissue	universal	Robbins
+MOR-0025	tumor neovasculature	vascular	vascular_proliferation	tissue	universal	literature
+MOR-0026	tumor-infiltrating lymphocytes	inflammation	lymphocytic	cellular	universal	literature
+MOR-0027	perivascular lymphocytic cuff	inflammation	lymphocytic	cellular	universal	Robbins
+MOR-0028	band-like lymphocytic infiltrate	inflammation	lymphocytic	cellular	universal	WHO-Blue-Books
+MOR-0029	intraepithelial lymphocytes	inflammation	lymphocytic	cellular	universal	WHO-Blue-Books
+MOR-0030	brisk lymphocytic infiltrate	inflammation	lymphocytic	cellular	universal	WHO-Blue-Books
+MOR-0031	macrophage aggregation	inflammation	myeloid	cellular	universal	Robbins
+MOR-0032	foamy macrophages	inflammation	myeloid	cellular	universal	Robbins
+MOR-0033	multinucleated giant cells	inflammation	myeloid	cellular	universal	Robbins
+MOR-0034	granulomatous inflammation	inflammation	mixed	cellular	universal	Robbins
+MOR-0035	neutrophilic infiltrate	inflammation	myeloid	cellular	universal	Robbins
+MOR-0036	eosinophilic infiltrate	inflammation	myeloid	cellular	universal	Robbins
+MOR-0037	mixed inflammatory infiltrate	inflammation	mixed	cellular	universal	Robbins
+MOR-0038	chronic inflammation	inflammation	mixed	cellular	universal	Robbins
+MOR-0039	acute inflammation	inflammation	mixed	cellular	universal	Robbins
+MOR-0040	nuclear atypia	cytology	nuclear_features	cellular	universal	WHO-Blue-Books
+MOR-0041	nuclear pleomorphism	cytology	nuclear_features	cellular	universal	WHO-Blue-Books
+MOR-0042	high nuclear-to-cytoplasmic ratio	cytology	nuclear_features	cellular	universal	WHO-Blue-Books
+MOR-0043	nuclear hyperchromasia	cytology	nuclear_features	cellular	universal	WHO-Blue-Books
+MOR-0044	vesicular nuclei	cytology	nuclear_features	cellular	universal	WHO-Blue-Books
+MOR-0045	prominent nucleoli	cytology	nuclear_features	cellular	universal	WHO-Blue-Books
+MOR-0046	nuclear molding	cytology	nuclear_features	cellular	universal	WHO-Blue-Books
+MOR-0047	nuclear grooves	cytology	nuclear_features	cellular	universal	WHO-Blue-Books
+MOR-0048	spindle cell morphology	cytology	cell_morphology	cellular	universal	WHO-Blue-Books
+MOR-0049	epithelioid morphology	cytology	cell_morphology	cellular	universal	WHO-Blue-Books
+MOR-0050	rhabdoid morphology	cytology	cell_morphology	cellular	universal	WHO-Blue-Books
+MOR-0051	clear cell morphology	cytology	cell_morphology	cellular	universal	WHO-Blue-Books
+MOR-0052	signet ring cell morphology	cytology	cell_morphology	cellular	universal	WHO-Blue-Books
+MOR-0053	plasmacytoid morphology	cytology	cell_morphology	cellular	universal	WHO-Blue-Books
+MOR-0054	small round blue cell morphology	cytology	cell_morphology	cellular	universal	WHO-Blue-Books
+MOR-0055	oncocytic morphology	cytology	cell_morphology	cellular	universal	WHO-Blue-Books
+MOR-0056	mitotic figures	proliferation	mitotic_activity	cellular	universal	WHO-Blue-Books
+MOR-0057	atypical mitotic figures	proliferation	mitotic_activity	cellular	universal	WHO-Blue-Books
+MOR-0058	high mitotic index	proliferation	mitotic_activity	cellular	universal	WHO-Blue-Books
+MOR-0059	apoptotic bodies	proliferation	mitotic_activity	cellular	universal	Robbins
+MOR-0060	desmoplastic stroma	stroma	stromal_reaction	stromal	universal	WHO-Blue-Books
+MOR-0061	myxoid stroma	stroma	stromal_composition	stromal	universal	WHO-Blue-Books
+MOR-0062	hyalinized stroma	stroma	stromal_composition	stromal	universal	Robbins
+MOR-0063	fibrosis	stroma	stromal_reaction	stromal	universal	Robbins
+MOR-0064	keloid-like collagen	stroma	stromal_composition	stromal	universal	WHO-Blue-Books
+MOR-0065	sclerotic stroma	stroma	stromal_composition	stromal	universal	Robbins
+MOR-0066	dystrophic calcification	stroma	stromal_mineralization	stromal	universal	Robbins
+MOR-0067	psammoma bodies	stroma	stromal_mineralization	stromal	universal	WHO-Blue-Books
+MOR-0068	osseous metaplasia	stroma	stromal_metaplasia	stromal	universal	Robbins
+MOR-0069	stromal edema	stroma	stromal_composition	stromal	universal	Robbins
+MOR-0070	mucinous degeneration	stroma	stromal_composition	stromal	universal	Robbins
+MOR-0071	solid growth pattern	growth_pattern	architectural_pattern	tissue	universal	WHO-Blue-Books
+MOR-0072	trabecular growth pattern	growth_pattern	architectural_pattern	tissue	universal	WHO-Blue-Books
+MOR-0073	cribriform pattern	growth_pattern	architectural_pattern	tissue	universal	WHO-Blue-Books
+MOR-0074	papillary architecture	growth_pattern	architectural_pattern	tissue	universal	WHO-Blue-Books
+MOR-0075	micropapillary pattern	growth_pattern	architectural_pattern	tissue	universal	WHO-Blue-Books
+MOR-0076	acinar pattern	growth_pattern	architectural_pattern	tissue	universal	WHO-Blue-Books
+MOR-0077	glandular pattern	growth_pattern	architectural_pattern	tissue	universal	WHO-Blue-Books
+MOR-0078	tubular pattern	growth_pattern	architectural_pattern	tissue	universal	WHO-Blue-Books
+MOR-0079	single-file infiltration	growth_pattern	architectural_pattern	tissue	universal	WHO-Blue-Books
+MOR-0080	nested growth pattern	growth_pattern	architectural_pattern	tissue	universal	WHO-Blue-Books
+MOR-0081	sheet-like growth	growth_pattern	architectural_pattern	tissue	universal	WHO-Blue-Books
+MOR-0082	alveolar growth pattern	growth_pattern	architectural_pattern	tissue	universal	WHO-Blue-Books
+MOR-0083	organoid pattern	growth_pattern	architectural_pattern	tissue	universal	WHO-Blue-Books
+MOR-0084	pushing tumor border	growth_pattern	architectural_pattern	tissue	universal	WHO-Blue-Books
+MOR-0085	infiltrative tumor border	growth_pattern	architectural_pattern	tissue	universal	WHO-Blue-Books
+MOR-0086	encapsulated tumor	growth_pattern	architectural_pattern	tissue	universal	WHO-Blue-Books
+MOR-0087	hypercellularity	tissue_architecture	cellularity	tissue	universal	WHO-Blue-Books
+MOR-0088	hypocellular area	tissue_architecture	cellularity	tissue	universal	WHO-Blue-Books
+MOR-0089	cellularity gradient	tissue_architecture	cellularity	tissue	universal	literature
+MOR-0090	cystic change	tissue_architecture	spatial	tissue	universal	WHO-Blue-Books
+MOR-0091	intratumoral heterogeneity	tissue_architecture	spatial	tissue	universal	literature
+MOR-0092	viable tumor tissue	tissue_architecture	spatial	tissue	universal	WHO-Blue-Books
+MOR-0093	tumor-necrosis interface	tissue_architecture	spatial	tissue	universal	literature
+MOR-0094	stromal cellularity	tissue_architecture	cellularity	tissue	universal	WHO-Blue-Books
+MOR-0095	perineural invasion	invasion	invasion_pattern	tissue	universal	WHO-Blue-Books
+MOR-0096	lymphovascular invasion	invasion	invasion_pattern	tissue	universal	WHO-Blue-Books
+MOR-0097	extracapsular extension	invasion	invasion_pattern	tissue	universal	WHO-Blue-Books
+MOR-0098	serosal invasion	invasion	invasion_pattern	tissue	universal	WHO-Blue-Books
+MOR-0099	margin involvement	invasion	invasion_pattern	tissue	universal	WHO-Blue-Books
+MOR-0100	tissue folding artifact	artifact	technical_artifact	tissue	universal	literature
+MOR-0101	cautery artifact	artifact	technical_artifact	tissue	universal	literature
+MOR-0102	poor fixation artifact	artifact	technical_artifact	tissue	universal	literature
+MOR-0103	crush artifact	artifact	technical_artifact	tissue	universal	literature
+MOR-0104	invasive ductal carcinoma NOS morphology	organ_specific	breast	tissue	breast	WHO-Blue-Books
+MOR-0105	invasive lobular carcinoma discohesive pattern	organ_specific	breast	tissue	breast	WHO-Blue-Books
+MOR-0106	DCIS comedo pattern	organ_specific	breast	tissue	breast	WHO-Blue-Books
+MOR-0107	DCIS cribriform pattern	organ_specific	breast	tissue	breast	WHO-Blue-Books
+MOR-0108	DCIS micropapillary pattern	organ_specific	breast	tissue	breast	WHO-Blue-Books
+MOR-0109	DCIS solid pattern	organ_specific	breast	tissue	breast	WHO-Blue-Books
+MOR-0110	mucinous breast carcinoma	organ_specific	breast	tissue	breast	WHO-Blue-Books
+MOR-0111	tubular breast carcinoma	organ_specific	breast	tissue	breast	WHO-Blue-Books
+MOR-0112	medullary pattern breast carcinoma	organ_specific	breast	tissue	breast	WHO-Blue-Books
+MOR-0113	apocrine differentiation	organ_specific	breast	cellular	breast	WHO-Blue-Books
+MOR-0114	Paget cells in epidermis	organ_specific	breast	cellular	breast	WHO-Blue-Books
+MOR-0115	microcalcifications in breast tissue	organ_specific	breast	tissue	breast	WHO-Blue-Books
+MOR-0116	tumor-associated collagenous stroma in breast	organ_specific	breast	stromal	breast	WHO-Blue-Books
+MOR-0117	lobular carcinoma in situ	organ_specific	breast	tissue	breast	WHO-Blue-Books
+MOR-0118	phyllodes tumor stromal overgrowth	organ_specific	breast	stromal	breast	WHO-Blue-Books
+MOR-0119	flat epithelial atypia	organ_specific	breast	cellular	breast	WHO-Blue-Books
+MOR-0120	columnar cell change	organ_specific	breast	cellular	breast	WHO-Blue-Books
+MOR-0121	radial scar architecture	organ_specific	breast	tissue	breast	WHO-Blue-Books
+MOR-0122	fat necrosis in breast	organ_specific	breast	tissue	breast	Robbins
+MOR-0123	normal terminal duct lobular unit	organ_specific	breast	tissue	breast	Robbins
+MOR-0124	normal breast adipose tissue	organ_specific	breast	tissue	breast	Robbins
+MOR-0125	fibrocystic change	organ_specific	breast	tissue	breast	Robbins
+MOR-0126	sclerosing adenosis	organ_specific	breast	tissue	breast	WHO-Blue-Books
+MOR-0127	fibroadenoma biphasic pattern	organ_specific	breast	tissue	breast	WHO-Blue-Books
+MOR-0128	ductal hyperplasia	organ_specific	breast	tissue	breast	WHO-Blue-Books
+MOR-0129	lepidic growth pattern	organ_specific	lung_adeno	tissue	lung	WHO-Blue-Books
+MOR-0130	acinar adenocarcinoma pattern	organ_specific	lung_adeno	tissue	lung	WHO-Blue-Books
+MOR-0131	papillary lung adenocarcinoma	organ_specific	lung_adeno	tissue	lung	WHO-Blue-Books
+MOR-0132	micropapillary lung adenocarcinoma	organ_specific	lung_adeno	tissue	lung	WHO-Blue-Books
+MOR-0133	solid lung adenocarcinoma	organ_specific	lung_adeno	tissue	lung	WHO-Blue-Books
+MOR-0134	mucinous lung adenocarcinoma	organ_specific	lung_adeno	tissue	lung	WHO-Blue-Books
+MOR-0135	spread through air spaces	organ_specific	lung_adeno	tissue	lung	WHO-Blue-Books
+MOR-0136	type II pneumocyte hyperplasia	organ_specific	lung_adeno	cellular	lung	Robbins
+MOR-0137	organizing pneumonia pattern	organ_specific	lung_adeno	tissue	lung	Robbins
+MOR-0138	atypical adenomatous hyperplasia	organ_specific	lung_adeno	tissue	lung	WHO-Blue-Books
+MOR-0139	adenocarcinoma in situ lepidic	organ_specific	lung_adeno	tissue	lung	WHO-Blue-Books
+MOR-0140	minimally invasive adenocarcinoma	organ_specific	lung_adeno	tissue	lung	WHO-Blue-Books
+MOR-0141	normal alveolar parenchyma	organ_specific	lung_adeno	tissue	lung	Robbins
+MOR-0142	normal bronchial epithelium	organ_specific	lung_adeno	tissue	lung	Robbins
+MOR-0143	anthracotic pigment deposition	organ_specific	lung_adeno	tissue	lung	Robbins
+MOR-0144	emphysematous change	organ_specific	lung_adeno	tissue	lung	Robbins
+MOR-0145	pulmonary fibrosis pattern	organ_specific	lung_adeno	tissue	lung	Robbins
+MOR-0146	alveolar hemorrhage	organ_specific	lung_adeno	tissue	lung	Robbins
+MOR-0147	bronchioloalveolar pattern	organ_specific	lung_adeno	tissue	lung	WHO-Blue-Books
+MOR-0148	pneumocyte atypia	organ_specific	lung_adeno	cellular	lung	Robbins
+MOR-0149	keratinization	organ_specific	lung_squamous	cellular	lung	WHO-Blue-Books
+MOR-0150	keratin pearl formation	organ_specific	lung_squamous	tissue	lung	WHO-Blue-Books
+MOR-0151	intercellular bridges	organ_specific	lung_squamous	cellular	lung	WHO-Blue-Books
+MOR-0152	basaloid squamous pattern	organ_specific	lung_squamous	tissue	lung	WHO-Blue-Books
+MOR-0153	squamous dysplasia	organ_specific	lung_squamous	tissue	lung	WHO-Blue-Books
+MOR-0154	squamous carcinoma in situ	organ_specific	lung_squamous	tissue	lung	WHO-Blue-Books
+MOR-0155	squamous metaplasia	organ_specific	lung_squamous	tissue	lung	Robbins
+MOR-0156	non-keratinizing squamous carcinoma	organ_specific	lung_squamous	tissue	lung	WHO-Blue-Books
+MOR-0157	large cell keratinizing pattern	organ_specific	lung_squamous	tissue	lung	WHO-Blue-Books
+MOR-0158	squamous cell nests with central necrosis	organ_specific	lung_squamous	tissue	lung	WHO-Blue-Books
+MOR-0159	koilocytic change	organ_specific	lung_squamous	cellular	lung	Robbins
+MOR-0160	normal bronchial squamous mucosa	organ_specific	lung_squamous	tissue	lung	Robbins
+MOR-0161	well-differentiated colorectal adenocarcinoma	organ_specific	colorectal	tissue	colorectal	WHO-Blue-Books
+MOR-0162	moderately differentiated colorectal adenocarcinoma	organ_specific	colorectal	tissue	colorectal	WHO-Blue-Books
+MOR-0163	poorly differentiated colorectal adenocarcinoma	organ_specific	colorectal	tissue	colorectal	WHO-Blue-Books
+MOR-0164	mucinous colorectal carcinoma	organ_specific	colorectal	tissue	colorectal	WHO-Blue-Books
+MOR-0165	signet ring cell colorectal carcinoma	organ_specific	colorectal	cellular	colorectal	WHO-Blue-Books
+MOR-0166	serrated morphology	organ_specific	colorectal	tissue	colorectal	WHO-Blue-Books
+MOR-0167	cribriform glandular pattern in colon	organ_specific	colorectal	tissue	colorectal	WHO-Blue-Books
+MOR-0168	dirty necrosis in colorectal carcinoma	organ_specific	colorectal	tissue	colorectal	WHO-Blue-Books
+MOR-0169	tumor budding low grade	organ_specific	colorectal	cellular	colorectal	WHO-Blue-Books
+MOR-0170	tumor budding high grade	organ_specific	colorectal	cellular	colorectal	WHO-Blue-Books
+MOR-0171	desmoplastic reaction in colon	organ_specific	colorectal	stromal	colorectal	WHO-Blue-Books
+MOR-0172	Crohn-like lymphoid reaction	organ_specific	colorectal	tissue	colorectal	literature
+MOR-0173	normal colonic mucosa	organ_specific	colorectal	tissue	colorectal	Robbins
+MOR-0174	normal colonic goblet cells	organ_specific	colorectal	cellular	colorectal	Robbins
+MOR-0175	Paneth cell metaplasia	organ_specific	colorectal	cellular	colorectal	Robbins
+MOR-0176	muscularis propria in colon	organ_specific	colorectal	tissue	colorectal	Robbins
+MOR-0177	submucosal invasion in colon	organ_specific	colorectal	tissue	colorectal	WHO-Blue-Books
+MOR-0178	villous adenoma architecture	organ_specific	colorectal	tissue	colorectal	WHO-Blue-Books
+MOR-0179	tubular adenoma architecture	organ_specific	colorectal	tissue	colorectal	WHO-Blue-Books
+MOR-0180	sessile serrated lesion	organ_specific	colorectal	tissue	colorectal	WHO-Blue-Books
+MOR-0181	traditional serrated adenoma	organ_specific	colorectal	tissue	colorectal	WHO-Blue-Books
+MOR-0182	inflammatory bowel disease dysplasia	organ_specific	colorectal	tissue	colorectal	WHO-Blue-Books
+MOR-0183	Gleason pattern 3 discrete glands	organ_specific	prostate	tissue	prostate	WHO-Blue-Books
+MOR-0184	Gleason pattern 4 fused glands	organ_specific	prostate	tissue	prostate	WHO-Blue-Books
+MOR-0185	Gleason pattern 4 cribriform glands	organ_specific	prostate	tissue	prostate	WHO-Blue-Books
+MOR-0186	Gleason pattern 4 glomeruloid glands	organ_specific	prostate	tissue	prostate	WHO-Blue-Books
+MOR-0187	Gleason pattern 5 sheets and cords	organ_specific	prostate	tissue	prostate	WHO-Blue-Books
+MOR-0188	Gleason pattern 5 single cells	organ_specific	prostate	cellular	prostate	WHO-Blue-Books
+MOR-0189	perineural invasion in prostate	organ_specific	prostate	tissue	prostate	WHO-Blue-Books
+MOR-0190	intraductal carcinoma of prostate	organ_specific	prostate	tissue	prostate	WHO-Blue-Books
+MOR-0191	benign prostatic hyperplasia	organ_specific	prostate	tissue	prostate	Robbins
+MOR-0192	high-grade prostatic intraepithelial neoplasia	organ_specific	prostate	tissue	prostate	WHO-Blue-Books
+MOR-0193	prostatic corpora amylacea	organ_specific	prostate	tissue	prostate	Robbins
+MOR-0194	seminal vesicle epithelium	organ_specific	prostate	tissue	prostate	Robbins
+MOR-0195	atrophic prostatic glands	organ_specific	prostate	tissue	prostate	Robbins
+MOR-0196	basal cell layer in prostate	organ_specific	prostate	cellular	prostate	WHO-Blue-Books
+MOR-0197	prostatic stromal hyperplasia	organ_specific	prostate	stromal	prostate	Robbins
+MOR-0198	normal prostatic glandular epithelium	organ_specific	prostate	tissue	prostate	Robbins
+MOR-0199	foamy gland carcinoma	organ_specific	prostate	cellular	prostate	WHO-Blue-Books
+MOR-0200	mucinous prostatic carcinoma	organ_specific	prostate	tissue	prostate	WHO-Blue-Books
+MOR-0201	hepatocellular carcinoma trabecular pattern	organ_specific	liver	tissue	liver	WHO-Blue-Books
+MOR-0202	hepatocellular carcinoma pseudoglandular pattern	organ_specific	liver	tissue	liver	WHO-Blue-Books
+MOR-0203	hepatocellular carcinoma solid pattern	organ_specific	liver	tissue	liver	WHO-Blue-Books
+MOR-0204	hepatocellular carcinoma scirrhous variant	organ_specific	liver	tissue	liver	WHO-Blue-Books
+MOR-0205	steatohepatitic hepatocellular carcinoma	organ_specific	liver	tissue	liver	WHO-Blue-Books
+MOR-0206	Mallory-Denk bodies	organ_specific	liver	cellular	liver	Robbins
+MOR-0207	bile production in tumor	organ_specific	liver	cellular	liver	WHO-Blue-Books
+MOR-0208	intrahepatic cholangiocarcinoma	organ_specific	liver	tissue	liver	WHO-Blue-Books
+MOR-0209	normal hepatic lobule architecture	organ_specific	liver	tissue	liver	Robbins
+MOR-0210	portal tract with triad	organ_specific	liver	tissue	liver	Robbins
+MOR-0211	central vein region	organ_specific	liver	tissue	liver	Robbins
+MOR-0212	sinusoidal dilatation	organ_specific	liver	tissue	liver	Robbins
+MOR-0213	cirrhotic nodule	organ_specific	liver	tissue	liver	Robbins
+MOR-0214	macrovesicular steatosis	organ_specific	liver	tissue	liver	Robbins
+MOR-0215	hepatocyte ballooning degeneration	organ_specific	liver	cellular	liver	Robbins
+MOR-0216	ductular reaction	organ_specific	liver	tissue	liver	Robbins
+MOR-0217	bridging fibrosis	organ_specific	liver	tissue	liver	Robbins
+MOR-0218	cholestasis	organ_specific	liver	tissue	liver	Robbins
+MOR-0219	clear cell renal cell carcinoma alveolar pattern	organ_specific	kidney	tissue	kidney	WHO-Blue-Books
+MOR-0220	clear cell renal cell carcinoma solid pattern	organ_specific	kidney	tissue	kidney	WHO-Blue-Books
+MOR-0221	papillary renal cell carcinoma type 1	organ_specific	kidney	tissue	kidney	WHO-Blue-Books
+MOR-0222	papillary renal cell carcinoma type 2	organ_specific	kidney	tissue	kidney	WHO-Blue-Books
+MOR-0223	chromophobe renal cell carcinoma	organ_specific	kidney	tissue	kidney	WHO-Blue-Books
+MOR-0224	sarcomatoid renal differentiation	organ_specific	kidney	tissue	kidney	WHO-Blue-Books
+MOR-0225	rhabdoid renal features	organ_specific	kidney	cellular	kidney	WHO-Blue-Books
+MOR-0226	collecting duct carcinoma	organ_specific	kidney	tissue	kidney	WHO-Blue-Books
+MOR-0227	oncocytoma morphology	organ_specific	kidney	tissue	kidney	WHO-Blue-Books
+MOR-0228	normal glomerulus	organ_specific	kidney	tissue	kidney	Robbins
+MOR-0229	normal proximal tubule epithelium	organ_specific	kidney	tissue	kidney	Robbins
+MOR-0230	normal distal tubule epithelium	organ_specific	kidney	tissue	kidney	Robbins
+MOR-0231	renal interstitial fibrosis	organ_specific	kidney	stromal	kidney	Robbins
+MOR-0232	renal medulla	organ_specific	kidney	tissue	kidney	Robbins
+MOR-0233	glomerulosclerosis	organ_specific	kidney	tissue	kidney	Robbins
+MOR-0234	intestinal-type gastric adenocarcinoma	organ_specific	stomach	tissue	stomach	WHO-Blue-Books
+MOR-0235	diffuse-type gastric adenocarcinoma	organ_specific	stomach	tissue	stomach	WHO-Blue-Books
+MOR-0236	signet ring cell gastric carcinoma	organ_specific	stomach	cellular	stomach	WHO-Blue-Books
+MOR-0237	mucinous gastric carcinoma	organ_specific	stomach	tissue	stomach	WHO-Blue-Books
+MOR-0238	EBV-associated lymphoepithelioma-like gastric carcinoma	organ_specific	stomach	tissue	stomach	WHO-Blue-Books
+MOR-0239	MSI-high gastric carcinoma with dense TILs	organ_specific	stomach	tissue	stomach	literature
+MOR-0240	normal gastric foveolar epithelium	organ_specific	stomach	tissue	stomach	Robbins
+MOR-0241	normal fundic gland mucosa	organ_specific	stomach	tissue	stomach	Robbins
+MOR-0242	normal pyloric gland mucosa	organ_specific	stomach	tissue	stomach	Robbins
+MOR-0243	intestinal metaplasia in stomach	organ_specific	stomach	tissue	stomach	Robbins
+MOR-0244	chronic active gastritis	organ_specific	stomach	tissue	stomach	Robbins
+MOR-0245	Helicobacter-associated gastritis	organ_specific	stomach	tissue	stomach	Robbins
+MOR-0246	gastric dysplasia	organ_specific	stomach	tissue	stomach	WHO-Blue-Books
+MOR-0247	gastric GIST spindle cell	organ_specific	stomach	cellular	stomach	WHO-Blue-Books
+MOR-0248	gastric neuroendocrine tumor	organ_specific	stomach	tissue	stomach	WHO-Blue-Books
+MOR-0249	gastric lymphoma MALT pattern	organ_specific	stomach	tissue	stomach	WHO-Blue-Books
+MOR-0250	high-grade serous ovarian carcinoma papillary pattern	organ_specific	ovary	tissue	ovary	WHO-Blue-Books
+MOR-0251	high-grade serous ovarian carcinoma solid pattern	organ_specific	ovary	tissue	ovary	WHO-Blue-Books
+MOR-0252	high-grade serous ovarian carcinoma SET pattern	organ_specific	ovary	tissue	ovary	WHO-Blue-Books
+MOR-0253	clear cell ovarian carcinoma hobnail pattern	organ_specific	ovary	cellular	ovary	WHO-Blue-Books
+MOR-0254	endometrioid ovarian carcinoma	organ_specific	ovary	tissue	ovary	WHO-Blue-Books
+MOR-0255	mucinous ovarian carcinoma	organ_specific	ovary	tissue	ovary	WHO-Blue-Books
+MOR-0256	serous tubal intraepithelial carcinoma	organ_specific	ovary	tissue	ovary	WHO-Blue-Books
+MOR-0257	ovarian granulosa cell tumor	organ_specific	ovary	tissue	ovary	WHO-Blue-Books
+MOR-0258	normal ovarian cortical stroma	organ_specific	ovary	stromal	ovary	Robbins
+MOR-0259	normal fallopian tube epithelium	organ_specific	ovary	tissue	ovary	Robbins
+MOR-0260	ovarian serous borderline tumor	organ_specific	ovary	tissue	ovary	WHO-Blue-Books
+MOR-0261	Brenner tumor morphology	organ_specific	ovary	tissue	ovary	WHO-Blue-Books
+MOR-0262	ovarian fibroma	organ_specific	ovary	stromal	ovary	WHO-Blue-Books
+MOR-0263	mature cystic teratoma	organ_specific	ovary	tissue	ovary	WHO-Blue-Books
+MOR-0264	endometriotic cyst lining	organ_specific	ovary	tissue	ovary	Robbins
+MOR-0265	endometrioid adenocarcinoma glandular pattern	organ_specific	uterus	tissue	uterus	WHO-Blue-Books
+MOR-0266	endometrioid adenocarcinoma villoglandular pattern	organ_specific	uterus	tissue	uterus	WHO-Blue-Books
+MOR-0267	serous endometrial carcinoma	organ_specific	uterus	tissue	uterus	WHO-Blue-Books
+MOR-0268	clear cell endometrial carcinoma	organ_specific	uterus	tissue	uterus	WHO-Blue-Books
+MOR-0269	squamous differentiation in endometrial carcinoma	organ_specific	uterus	tissue	uterus	WHO-Blue-Books
+MOR-0270	endometrial stromal sarcoma	organ_specific	uterus	tissue	uterus	WHO-Blue-Books
+MOR-0271	normal proliferative endometrium	organ_specific	uterus	tissue	uterus	Robbins
+MOR-0272	normal secretory endometrium	organ_specific	uterus	tissue	uterus	Robbins
+MOR-0273	endometrial polyp	organ_specific	uterus	tissue	uterus	Robbins
+MOR-0274	myometrial invasion by carcinoma	organ_specific	uterus	tissue	uterus	WHO-Blue-Books
+MOR-0275	atypical endometrial hyperplasia	organ_specific	uterus	tissue	uterus	WHO-Blue-Books
+MOR-0276	leiomyoma smooth muscle morphology	organ_specific	uterus	tissue	uterus	Robbins
+MOR-0277	papillary urothelial carcinoma	organ_specific	bladder	tissue	bladder	WHO-Blue-Books
+MOR-0278	solid urothelial carcinoma	organ_specific	bladder	tissue	bladder	WHO-Blue-Books
+MOR-0279	micropapillary urothelial carcinoma	organ_specific	bladder	tissue	bladder	WHO-Blue-Books
+MOR-0280	nested variant urothelial carcinoma	organ_specific	bladder	tissue	bladder	WHO-Blue-Books
+MOR-0281	plasmacytoid urothelial carcinoma	organ_specific	bladder	cellular	bladder	WHO-Blue-Books
+MOR-0282	squamous differentiation in urothelial carcinoma	organ_specific	bladder	tissue	bladder	WHO-Blue-Books
+MOR-0283	glandular differentiation in urothelial carcinoma	organ_specific	bladder	tissue	bladder	WHO-Blue-Books
+MOR-0284	urothelial carcinoma in situ	organ_specific	bladder	tissue	bladder	WHO-Blue-Books
+MOR-0285	normal urothelium	organ_specific	bladder	tissue	bladder	Robbins
+MOR-0286	lamina propria invasion	organ_specific	bladder	tissue	bladder	WHO-Blue-Books
+MOR-0287	muscularis propria invasion in bladder	organ_specific	bladder	tissue	bladder	WHO-Blue-Books
+MOR-0288	inverted papilloma morphology	organ_specific	bladder	tissue	bladder	WHO-Blue-Books
+MOR-0289	keratinizing squamous cell carcinoma of head and neck	organ_specific	head_neck	tissue	head_neck	WHO-Blue-Books
+MOR-0290	non-keratinizing squamous cell carcinoma of head and neck	organ_specific	head_neck	tissue	head_neck	WHO-Blue-Books
+MOR-0291	basaloid squamous cell carcinoma of head and neck	organ_specific	head_neck	tissue	head_neck	WHO-Blue-Books
+MOR-0292	papillary squamous cell carcinoma	organ_specific	head_neck	tissue	head_neck	WHO-Blue-Books
+MOR-0293	lymphoepithelial carcinoma	organ_specific	head_neck	tissue	head_neck	WHO-Blue-Books
+MOR-0294	normal oropharyngeal squamous mucosa	organ_specific	head_neck	tissue	head_neck	Robbins
+MOR-0295	salivary gland serous acini	organ_specific	head_neck	tissue	head_neck	Robbins
+MOR-0296	salivary gland mucinous acini	organ_specific	head_neck	tissue	head_neck	Robbins
+MOR-0297	adenoid cystic carcinoma cribriform pattern	organ_specific	head_neck	tissue	head_neck	WHO-Blue-Books
+MOR-0298	mucoepidermoid carcinoma	organ_specific	head_neck	tissue	head_neck	WHO-Blue-Books
+MOR-0299	pleomorphic adenoma	organ_specific	head_neck	tissue	head_neck	WHO-Blue-Books
+MOR-0300	extranodal extension in lymph node	organ_specific	head_neck	tissue	head_neck	WHO-Blue-Books
+MOR-0301	epithelioid melanoma cells	organ_specific	skin	cellular	skin	WHO-Blue-Books
+MOR-0302	spindle cell melanoma	organ_specific	skin	cellular	skin	WHO-Blue-Books
+MOR-0303	melanin pigment in tumor	organ_specific	skin	cellular	skin	WHO-Blue-Books
+MOR-0304	melanoma ulceration	organ_specific	skin	tissue	skin	WHO-Blue-Books
+MOR-0305	melanoma regression	organ_specific	skin	tissue	skin	WHO-Blue-Books
+MOR-0306	brisk TIL response in melanoma	organ_specific	skin	tissue	skin	WHO-Blue-Books
+MOR-0307	melanoma neurotropism	organ_specific	skin	tissue	skin	WHO-Blue-Books
+MOR-0308	desmoplastic melanoma	organ_specific	skin	stromal	skin	WHO-Blue-Books
+MOR-0309	melanoma in situ	organ_specific	skin	tissue	skin	WHO-Blue-Books
+MOR-0310	normal epidermis	organ_specific	skin	tissue	skin	Robbins
+MOR-0311	dermal melanocytes	organ_specific	skin	cellular	skin	Robbins
+MOR-0312	solar elastosis	organ_specific	skin	stromal	skin	Robbins
+MOR-0313	melanophages	organ_specific	skin	cellular	skin	Robbins
+MOR-0314	Spitz nevus morphology	organ_specific	skin	tissue	skin	WHO-Blue-Books
+MOR-0315	junctional melanocytic proliferation	organ_specific	skin	tissue	skin	WHO-Blue-Books
+MOR-0316	well-differentiated pancreatic ductal adenocarcinoma	organ_specific	pancreas	tissue	pancreas	WHO-Blue-Books
+MOR-0317	moderately differentiated pancreatic ductal adenocarcinoma	organ_specific	pancreas	tissue	pancreas	WHO-Blue-Books
+MOR-0318	poorly differentiated pancreatic ductal adenocarcinoma	organ_specific	pancreas	tissue	pancreas	WHO-Blue-Books
+MOR-0319	prominent desmoplastic stroma in pancreas	organ_specific	pancreas	stromal	pancreas	WHO-Blue-Books
+MOR-0320	pancreatic neuroendocrine tumor salt-and-pepper chromatin	organ_specific	pancreas	cellular	pancreas	WHO-Blue-Books
+MOR-0321	acinar cell carcinoma of pancreas	organ_specific	pancreas	tissue	pancreas	WHO-Blue-Books
+MOR-0322	intraductal papillary mucinous neoplasm	organ_specific	pancreas	tissue	pancreas	WHO-Blue-Books
+MOR-0323	pancreatic intraepithelial neoplasia	organ_specific	pancreas	tissue	pancreas	WHO-Blue-Books
+MOR-0324	normal pancreatic acini	organ_specific	pancreas	tissue	pancreas	Robbins
+MOR-0325	normal islets of Langerhans	organ_specific	pancreas	tissue	pancreas	Robbins
+MOR-0326	chronic pancreatitis	organ_specific	pancreas	tissue	pancreas	Robbins
+MOR-0327	autoimmune pancreatitis storiform fibrosis	organ_specific	pancreas	stromal	pancreas	literature
+MOR-0328	solid pseudopapillary neoplasm	organ_specific	pancreas	tissue	pancreas	WHO-Blue-Books
+MOR-0329	serous cystadenoma	organ_specific	pancreas	tissue	pancreas	WHO-Blue-Books
+MOR-0330	pancreatic mucinous cystic neoplasm	organ_specific	pancreas	tissue	pancreas	WHO-Blue-Books
+MOR-0331	palisading necrosis in glioblastoma	organ_specific	brain	tissue	brain	WHO-Blue-Books
+MOR-0332	pseudopalisading necrosis in glioblastoma	organ_specific	brain	tissue	brain	WHO-Blue-Books
+MOR-0333	microvascular proliferation in brain tumor	organ_specific	brain	tissue	brain	WHO-Blue-Books
+MOR-0334	oligodendroglial honeycomb pattern	organ_specific	brain	tissue	brain	WHO-Blue-Books
+MOR-0335	gemistocytic astrocytes	organ_specific	brain	cellular	brain	WHO-Blue-Books
+MOR-0336	fibrillary astrocytic morphology	organ_specific	brain	cellular	brain	WHO-Blue-Books
+MOR-0337	piloid morphology	organ_specific	brain	cellular	brain	WHO-Blue-Books
+MOR-0338	Rosenthal fibers	organ_specific	brain	cellular	brain	WHO-Blue-Books
+MOR-0339	eosinophilic granular bodies	organ_specific	brain	cellular	brain	WHO-Blue-Books
+MOR-0340	perivascular pseudorosettes	organ_specific	brain	tissue	brain	WHO-Blue-Books
+MOR-0341	Homer Wright rosettes	organ_specific	brain	tissue	brain	WHO-Blue-Books
+MOR-0342	secondary structures of Scherer	organ_specific	brain	tissue	brain	WHO-Blue-Books
+MOR-0343	meningioma whorling pattern	organ_specific	brain	tissue	brain	WHO-Blue-Books
+MOR-0344	schwannoma Antoni A pattern	organ_specific	brain	tissue	brain	WHO-Blue-Books
+MOR-0345	schwannoma Antoni B pattern	organ_specific	brain	tissue	brain	WHO-Blue-Books
+MOR-0346	normal cerebral gray matter	organ_specific	brain	tissue	brain	Robbins
+MOR-0347	normal cerebral white matter	organ_specific	brain	tissue	brain	Robbins
+MOR-0348	reactive astrocytosis	organ_specific	brain	cellular	brain	Robbins
+MOR-0349	ependymal rosettes	organ_specific	brain	tissue	brain	WHO-Blue-Books
+MOR-0350	choroid plexus papilloma	organ_specific	brain	tissue	brain	WHO-Blue-Books
+MOR-0351	papillary thyroid carcinoma classic architecture	organ_specific	thyroid	tissue	thyroid	WHO-Blue-Books
+MOR-0352	papillary thyroid carcinoma follicular variant	organ_specific	thyroid	tissue	thyroid	WHO-Blue-Books
+MOR-0353	Orphan Annie eye nuclei	organ_specific	thyroid	cellular	thyroid	WHO-Blue-Books
+MOR-0354	nuclear grooves in thyroid	organ_specific	thyroid	cellular	thyroid	WHO-Blue-Books
+MOR-0355	intranuclear pseudoinclusions	organ_specific	thyroid	cellular	thyroid	WHO-Blue-Books
+MOR-0356	follicular thyroid neoplasm	organ_specific	thyroid	tissue	thyroid	WHO-Blue-Books
+MOR-0357	colloid-filled follicles	organ_specific	thyroid	tissue	thyroid	Robbins
+MOR-0358	normal thyroid follicular epithelium	organ_specific	thyroid	tissue	thyroid	Robbins
+MOR-0359	Hurthle cell change	organ_specific	thyroid	cellular	thyroid	WHO-Blue-Books
+MOR-0360	psammoma bodies in thyroid	organ_specific	thyroid	tissue	thyroid	WHO-Blue-Books
+MOR-0361	lymphocytic thyroiditis	organ_specific	thyroid	tissue	thyroid	Robbins
+MOR-0362	medullary thyroid carcinoma	organ_specific	thyroid	tissue	thyroid	WHO-Blue-Books
+MOR-0363	normal adipose tissue	normal_tissue	shared_normal	tissue	universal	Robbins
+MOR-0364	normal skeletal muscle	normal_tissue	shared_normal	tissue	universal	Robbins
+MOR-0365	normal smooth muscle	normal_tissue	shared_normal	tissue	universal	Robbins
+MOR-0366	normal peripheral nerve	normal_tissue	shared_normal	tissue	universal	Robbins
+MOR-0367	lymph node cortex	normal_tissue	shared_normal	tissue	universal	Robbins
+MOR-0368	lymph node germinal center	normal_tissue	shared_normal	tissue	universal	Robbins
+MOR-0369	lymph node paracortex	normal_tissue	shared_normal	tissue	universal	Robbins
+MOR-0370	lymph node sinus histiocytosis	normal_tissue	shared_normal	tissue	universal	Robbins
+MOR-0371	normal arterial wall	normal_tissue	shared_normal	tissue	universal	Robbins
+MOR-0372	normal venous wall	normal_tissue	shared_normal	tissue	universal	Robbins
+MOR-0373	normal cartilage	normal_tissue	shared_normal	tissue	universal	Robbins
+MOR-0374	normal bone trabeculae	normal_tissue	shared_normal	tissue	universal	Robbins
+MOR-0375	normal bone marrow	normal_tissue	shared_normal	tissue	universal	Robbins
+MOR-0376	normal mesothelial lining	normal_tissue	shared_normal	tissue	universal	Robbins
+MOR-0377	normal serosal surface	normal_tissue	shared_normal	tissue	universal	Robbins
+MOR-0378	tertiary lymphoid structure	microenvironment	immune_morphology	tissue	universal	literature
+MOR-0379	germinal center within tertiary lymphoid structure	microenvironment	immune_morphology	tissue	universal	literature
+MOR-0380	plasma cell-rich infiltrate	microenvironment	immune_morphology	tissue	universal	Robbins
+MOR-0381	eosinophil-rich infiltrate	microenvironment	immune_morphology	tissue	universal	Robbins
+MOR-0382	mast cell-rich infiltrate	microenvironment	immune_morphology	tissue	universal	literature
+MOR-0383	immune desert morphology	microenvironment	immune_morphology	tissue	universal	literature
+MOR-0384	immune-excluded peritumoral band	microenvironment	immune_morphology	tissue	universal	literature
+MOR-0385	immune-inflamed intratumoral pattern	microenvironment	immune_morphology	tissue	universal	literature
+MOR-0386	granulomatous reaction to tumor	microenvironment	immune_morphology	tissue	universal	Robbins
+MOR-0387	xanthogranulomatous inflammation	microenvironment	immune_morphology	tissue	universal	Robbins
+MOR-0388	cancer-associated fibroblast-rich stroma	microenvironment	stromal_morphology	stromal	universal	literature
+MOR-0389	normal quiescent fibroblastic stroma	microenvironment	stromal_morphology	stromal	universal	Robbins
+MOR-0390	myofibroblastic stroma	microenvironment	stromal_morphology	stromal	universal	literature
+MOR-0391	inflammatory reactive stroma	microenvironment	stromal_morphology	stromal	universal	literature
+MOR-0392	immature loose stroma	microenvironment	stromal_morphology	stromal	universal	Robbins
+MOR-0393	mature dense collagenous stroma	microenvironment	stromal_morphology	stromal	universal	Robbins
+MOR-0394	dense collagen bundles	microenvironment	ecm_features	stromal	universal	Robbins
+MOR-0395	reticular fiber network	microenvironment	ecm_features	stromal	universal	Robbins
+MOR-0396	basement membrane thickening	microenvironment	ecm_features	stromal	universal	Robbins
+MOR-0397	extracellular matrix remodeling	microenvironment	ecm_features	stromal	universal	literature
+MOR-0398	fibrin deposition	microenvironment	ecm_features	stromal	universal	Robbins
+MOR-0399	elastosis	microenvironment	ecm_features	stromal	universal	Robbins
+MOR-0400	mucin pools	microenvironment	ecm_features	stromal	universal	WHO-Blue-Books
+MOR-0401	amyloid deposition	microenvironment	ecm_features	stromal	universal	Robbins
+MOR-0402	lipid-laden cells	microenvironment	metabolic_features	cellular	universal	Robbins
+MOR-0403	glycogen-rich cells	microenvironment	metabolic_features	cellular	universal	Robbins
+MOR-0404	hemosiderin-laden macrophages	microenvironment	metabolic_features	cellular	universal	Robbins
+MOR-0405	ceroid pigment	microenvironment	metabolic_features	cellular	universal	Robbins
+MOR-0406	melanin-laden macrophages	microenvironment	metabolic_features	cellular	universal	Robbins
+MOR-0407	treatment effect general	microenvironment	treatment_morphology	tissue	universal	literature
+MOR-0408	radiation-induced atypia	microenvironment	treatment_morphology	tissue	universal	literature
+MOR-0409	chemotherapy-induced cytoplasmic vacuolization	microenvironment	treatment_morphology	tissue	universal	literature
+MOR-0410	fibrotic regression bed	microenvironment	treatment_morphology	tissue	universal	literature
+MOR-0411	pathologic complete response	microenvironment	treatment_morphology	tissue	universal	literature
+MOR-0412	residual viable tumor after treatment	microenvironment	treatment_morphology	tissue	universal	literature
+MOR-0413	immune-mediated tumor rejection pattern	microenvironment	treatment_morphology	tissue	universal	literature
+MOR-0414	tumor-stroma interface	microenvironment	spatial_context	tissue	universal	literature
+MOR-0415	invasive tumor front	microenvironment	spatial_context	tissue	universal	literature
+MOR-0416	intratumoral stroma	microenvironment	spatial_context	tissue	universal	literature
+MOR-0417	peritumoral stroma	microenvironment	spatial_context	tissue	universal	literature
+MOR-0418	tumor center versus periphery	microenvironment	spatial_context	tissue	universal	literature

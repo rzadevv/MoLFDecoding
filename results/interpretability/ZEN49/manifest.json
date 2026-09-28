@@ -1,0 +1,34 @@
+{
+  "sample_id": "ZEN49",
+  "status": "PASS",
+  "n_patches": 2203,
+  "n_contexts": 10,
+  "base_seeds": [
+    41001,
+    42001,
+    43001,
+    44001,
+    45001
+  ],
+  "solver": "euler",
+  "num_steps": 2,
+  "step_size": 0.5,
+  "step_times": [
+    0.0,
+    0.5
+  ],
+  "guidance_scale": 1.5,
+  "router_branch": "conditional",
+  "num_experts": 6,
+  "router_top_k": 2,
+  "semantic_top_k_patches": 256,
+  "semantic_concepts": 2450,
+  "semantic_embedding_set": "visual",
+  "semantic_species": "Homo_sapiens",
+  "semantic_rank_metric": "similarity_topk_contrastive",
+  "checkpoint_sha256": "dbe23d4e2f670749ee746272337a21d3d14e49fc6dab34dd43bea05fb727965d",
+  "config_sha256": "ba6e43d95a6acaa9a4a4fe0b2ca3f0e4a5d5d0fa8a35c0f233a5d7f3417cfd0c",
+  "flow_matching_sha256": "4e2191cc581466ee5b97d687abfc1c7b8a8f7802f89718e49a088d11396d8d58",
+  "concept_bank_sha256": "7025a95ad665ea7b8f120b66e6e7cbd54879666fd9029f24e618d532454df352",
+  "ready_bank_sha256": "3839a446984d3c70ed44b393b5df52e030c6ea713ac29930c796131ddcc588f6"
+}

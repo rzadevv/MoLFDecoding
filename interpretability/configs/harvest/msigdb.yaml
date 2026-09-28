@@ -1,0 +1,13 @@
+msigdb_version: "2024.1.Hs"
+collections:
+  - h.all
+  - c2.cp.reactome
+  - c2.cp.kegg_legacy
+base_url: "https://data.broadinstitute.org/gsea-msigdb/msigdb/release"
+cache_dir: data/cache/msigdb
+output_path: data/cache/harvest/msigdb.parquet
+timeout_seconds: 60.0
+candidate_tier_by_collection:
+  h.all: H2_gene_program
+  c2.cp.reactome: H2_pathway
+  c2.cp.kegg_legacy: H2_pathway

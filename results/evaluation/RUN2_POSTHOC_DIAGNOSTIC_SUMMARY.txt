@@ -1,0 +1,153 @@
+Run-2 Post-hoc Generalization Diagnostics
+=========================================
+
+STATUS
+------
+Descriptive post-hoc analysis only.
+No model, checkpoint, solver, CFG value, seed, or other parameter
+was selected or changed using the held-out test set.
+
+FINAL TEST
+----------
+MSE:
+  0.369907 ± 0.000198
+
+MAE:
+  0.367717 ± 0.000088
+
+mean slide mean-gene PCC:
+  0.246431 ± 0.000409
+
+mean gene mean-slide PCC:
+  0.166239 ± 0.000526
+
+
+TECHNOLOGY EFFECT
+-----------------
+Final test Visium:
+  N = 16
+  weighted MSE = 0.243827
+  mean slide PCC = 0.151749
+
+Final test Xenium:
+  N = 7
+  weighted MSE = 2.193060
+  mean slide PCC = 0.462847
+
+Xenium comprises only 6.47% of valid test entries but contributes
+38.35% of total squared error.
+
+
+TARGET DISTRIBUTIONS
+--------------------
+Exact Run-2 preprocessing applies log1p but no explicit
+normalize_total operation.
+
+Test Visium:
+  mean target = 0.3052
+  target RMS = 0.6261
+  zero fraction = 0.7227
+  mean measured target genes = 1376.1
+
+Test Xenium:
+  mean target = 1.9254
+  target RMS = 2.5098
+  zero fraction = 0.2185
+  mean measured target genes = 154.9
+
+The Xenium-vs-Visium target-regime difference is already present
+in train, validation, and test, so this is not a test-only
+distribution shift.
+
+Xenium representation:
+  train = 42 slides
+  validation = 9 slides
+  test = 7 slides
+
+
+MASK AUDIT
+----------
+The Run-2 gene reconstruction loss uses measured entries only:
+
+  masked_error.sum() / mask.sum()
+
+Therefore unmeasured Xenium genes are not treated as ground-truth
+zeros in the gene-space reconstruction loss.
+
+
+GENEVAE-v2 ORACLE RECONSTRUCTION
+--------------------------------
+Deterministic reconstruction uses posterior mean z = mu.
+
+Test Visium:
+  MSE = 0.116242
+  energy-normalized MSE = 0.294344
+  mean gene PCC = 0.457085
+
+Test Xenium:
+  MSE = 0.439721
+  energy-normalized MSE = 0.095884
+  mean gene PCC = 0.847717
+
+Thus GeneVAE-v2 represents Xenium relatively well despite its
+larger raw expression scale.
+
+
+GENEVAE-v2 VS FINAL MOLF
+------------------------
+Final MoLF / GeneVAE MSE ratio:
+
+  Visium:
+    approximately 2.10x
+
+  Xenium:
+    approximately 4.99x
+
+All seven Xenium test slides have substantially greater MoLF error
+than deterministic GeneVAE reconstruction error.
+
+This indicates that the principal additional error arises in the
+image-conditioned MoLF prediction / generated latent stage rather
+than solely from the GeneVAE representation.
+
+
+INTERPRETATION
+--------------
+Run-2 generalizes meaningful spatial structure but absolute
+calibration is strongly technology-dependent.
+
+Xenium has a substantially larger and denser gene-expression
+target regime than Visium while MoLF is not explicitly conditioned
+on spatial-transcriptomics technology.
+
+The frozen GeneVAE is capable of reconstructing Xenium with high
+relative fidelity. The largest degradation occurs when the latent
+state must be predicted from the CONCH image representation.
+
+Some Visium slides also show substantial MoLF-specific loss of
+spatial structure, so the image-to-latent prediction limitation is
+not exclusive to Xenium.
+
+
+FUTURE HYPOTHESES
+-----------------
+For future model development, two distinct directions should be
+considered:
+
+1. Predict assay-specific measurements:
+   explicitly condition the model on ST technology.
+
+2. Predict technology-independent biology:
+   construct a carefully harmonized cross-technology target space.
+
+These are hypotheses for future work and were not used to alter
+Run-2 after held-out test evaluation.
+
+
+POLICY
+------
+Run-2 results remain final.
+
+The current held-out test set has now informed post-hoc scientific
+analysis and must not be treated as an untouched development set
+for future architecture or hyperparameter selection.

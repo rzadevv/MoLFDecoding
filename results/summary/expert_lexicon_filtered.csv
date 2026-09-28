@@ -1,0 +1,61 @@
+expert_id,rank,concept_name,tier,mean_contrastive_similarity,sd_contrastive_similarity,slides_in_top10,n_slides,slide_macro_mean_route_weight
+0,1,Folliculotropic lymphocytic infiltrate,H1_morphology,0.163288873,0.175992645,2,23,0.239754522
+0,2,Mixed medullary-follicular carcinoma,H1_morphology,0.148161097,0.135621227,1,23,0.239754522
+0,3,marginal zone B cell,H2_cell_type,0.141936523,0.102552151,0,23,0.239754522
+0,4,Intraductal cellular proliferation,H1_morphology,0.140205891,0.180057847,2,23,0.239754522
+0,5,tertiary lymphoid structure niche,H2_niche,0.139422318,0.178457141,1,23,0.239754522
+0,6,Cribriform comedo-type adenocarcinoma,H1_morphology,0.134990734,0.255689389,3,23,0.239754522
+0,7,T follicular regulatory cell,H2_cell_type,0.13216359,0.0843990228,0,23,0.239754522
+0,8,Insular pattern,H1_morphology,0.129825777,0.125927395,0,23,0.239754522
+0,9,medullary thyroid carcinoma,H1_morphology,0.12339737,0.147015342,1,23,0.239754522
+0,10,Mixed medullary-papillary carcinoma,H1_morphology,0.121487649,0.141849879,0,23,0.239754522
+1,1,acute inflammation,H1_morphology,0.274608706,0.18154922,4,23,0.0252567784
+1,2,Multifocal inflammation,H1_morphology,0.259054093,0.23101206,7,23,0.0252567784
+1,3,Diffuse inflammation,H1_morphology,0.252484346,0.171431925,3,23,0.0252567784
+1,4,Necrotizing inflammation,H1_morphology,0.235751354,0.191553643,4,23,0.0252567784
+1,5,Eosinophilic inflammation,H1_morphology,0.215987274,0.180180484,2,23,0.0252567784
+1,6,Acute proliferative inflammation,H1_morphology,0.212678026,0.136082016,3,23,0.0252567784
+1,7,Acute exudative inflammation,H1_morphology,0.211106896,0.165259735,2,23,0.0252567784
+1,8,Persistent inflammation,H1_morphology,0.210337357,0.211563001,2,23,0.0252567784
+1,9,Confluent inflammation,H1_morphology,0.209729804,0.149904753,0,23,0.0252567784
+1,10,normal serosal surface,H1_morphology,0.204765098,0.184801892,0,23,0.0252567784
+2,1,Multifocal inflammation,H1_morphology,0.221889473,0.224774464,4,23,0.128475273
+2,2,Diffuse inflammation,H1_morphology,0.214524808,0.201153345,4,23,0.128475273
+2,3,normal venous wall,H1_morphology,0.214391024,0.214415935,1,23,0.128475273
+2,4,Persistent inflammation,H1_morphology,0.207672471,0.241134678,1,23,0.128475273
+2,5,normal serosal surface,H1_morphology,0.207213301,0.19371203,3,23,0.128475273
+2,6,Periarteriolar lymphoid sheath,H1_morphology,0.20349443,0.252623771,2,23,0.128475273
+2,7,acute inflammation,H1_morphology,0.202869955,0.187675977,1,23,0.128475273
+2,8,Eosinophilic inflammation,H1_morphology,0.199685073,0.168195667,1,23,0.128475273
+2,9,Desmoplastic fibroblastoma,H1_morphology,0.191670922,0.29041114,5,23,0.128475273
+2,10,eosinophilic infiltrate,H1_morphology,0.188052207,0.200952189,1,23,0.128475273
+3,1,acute inflammation,H1_morphology,0.249490977,0.128515549,4,23,0.00654786281
+3,2,perivascular lymphocytic cuff,H1_morphology,0.238076182,0.15662742,2,23,0.00654786281
+3,3,Fibrinous material present,H1_morphology,0.229107973,0.223643246,7,23,0.00654786281
+3,4,Necrotizing inflammation,H1_morphology,0.22716154,0.115317094,1,23,0.00654786281
+3,5,Fibrinous inflammation,H1_morphology,0.216609441,0.173276396,2,23,0.00654786281
+3,6,Organizing inflammation,H1_morphology,0.214538349,0.162677643,4,23,0.00654786281
+3,7,Inflammation with stasis,H1_morphology,0.208517254,0.141200992,2,23,0.00654786281
+3,8,Angiectasia,H1_morphology,0.207761779,0.202269397,2,23,0.00654786281
+3,9,fibrinoid necrosis,H1_morphology,0.199033464,0.149632118,0,23,0.00654786281
+3,10,Myxoma,H1_morphology,0.197246741,0.201019725,2,23,0.00654786281
+4,1,"Cystic, mucinous and/or serous neoplasm",H1_morphology,0.193117486,0.238694673,8,23,0.337798358
+4,2,Ileal goblet cell,H2_cell_type,0.177424635,0.123686772,0,23,0.337798358
+4,3,villous adenoma architecture,H1_morphology,0.177142074,0.135797278,2,23,0.337798358
+4,4,Diffuse hyperplastic oncocytosis,H1_morphology,0.174698694,0.184367926,6,23,0.337798358
+4,5,Senescent cells,H2_cell_type,0.174188851,0.120062142,3,23,0.337798358
+4,6,Mucinous cystic neoplasm with high-grade intraepithelial neoplasia,H1_morphology,0.17284005,0.173323865,2,23,0.337798358
+4,7,serrated morphology,H1_morphology,0.16294783,0.161681308,2,23,0.337798358
+4,8,Gut absorptive cell,H2_cell_type,0.162819943,0.128228798,0,23,0.337798358
+4,9,Carbohydrate secreting cell,H2_cell_type,0.162330535,0.217951626,5,23,0.337798358
+4,10,Serrated glandular architecture,H1_morphology,0.158287011,0.143788995,2,23,0.337798358
+5,1,Inflammatory leiomyosarcoma,H1_morphology,0.210918269,0.156141045,4,23,0.262167207
+5,2,Slow muscle cell,H1_morphology,0.196773569,0.166498642,3,23,0.262167207
+5,3,chronic inflammation,H1_morphology,0.194636682,0.223094935,4,23,0.262167207
+5,4,Organizing inflammation,H1_morphology,0.189561775,0.2178473,5,23,0.262167207
+5,5,Perivascular lymphocytic infiltrate,H1_morphology,0.188485746,0.194576608,4,23,0.262167207
+5,6,Pleomorphic fibroma,H1_morphology,0.178869867,0.180208253,0,23,0.262167207
+5,7,"Small, stellate, or spindled cells present",H1_morphology,0.173946909,0.187306393,0,23,0.262167207
+5,8,anthracotic pigment deposition,H1_morphology,0.172011566,0.134428121,1,23,0.262167207
+5,9,Desmoplastic fibroma,H1_morphology,0.171723942,0.175096934,0,23,0.262167207
+5,10,Multifocal inflammation,H1_morphology,0.171437895,0.249495084,3,23,0.262167207

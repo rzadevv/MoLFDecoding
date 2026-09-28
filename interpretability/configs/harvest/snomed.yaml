@@ -1,0 +1,6 @@
+subtree_roots:
+  - "http://purl.bioontology.org/ontology/SNOMEDCT/49755003"
+candidate_tier: H1_morphology
+include_obsolete: false
+output_path: data/cache/harvest/snomed.parquet
+ontology_acronym: SNOMEDCT

@@ -1,0 +1,189 @@
+concept_id,concept_name,tier,category,reason
+MOR-10389,Clue cell,H1_morphology,cytology only,"cervicovaginal smear finding, not a tissue feature"
+CTY-10331,"Activated CD4-positive, alpha-beta T cell, human",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10332,"Activated CD8-positive, alpha-beta T cell, human",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10352,Alpha-beta T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10063,"CD34-negative, CD41-positive, CD42-positive megakaryocyte cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10065,"CD34-positive, CD38-negative hematopoietic stem cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10066,"CD34-positive, CD38-positive common myeloid progenitor",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10068,"CD34-positive, glya-negative erythroid progenitor cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0033,CD4+ Th1 cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0035,CD4+ Th17 cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0034,CD4+ Th2 cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0046,CD4+ Treg effector,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0037,CD4+ central memory T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0047,CD4+ cytotoxic T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0036,CD4+ follicular helper T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0032,CD4+ naive T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10071,CD4-negative CD8-negative gamma-delta intraepithelial T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10072,"CD4-negative, CD8-alpha-negative, cd11b-positive dendritic cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10073,"CD4-negative, CD8-negative, alpha-beta intraepithelial T cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10074,CD4-positive cd11b-positive dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10075,CD4-positive helper T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10079,"CD4-positive, alpha-beta T cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10080,"CD4-positive, alpha-beta cytotoxic T cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10081,"CD4-positive, alpha-beta intraepithelial T cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10082,"CD4-positive, alpha-beta memory T cell, cd45ro-positive",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10077,"CD4-positive, cd25-positive, alpha-beta regulatory T cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10076,"CD4-positive, cd25-positive, ccr4-positive, alpha-beta regulatory T cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0028,CD8+ cytotoxic T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0031,CD8+ effector memory T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0029,CD8+ exhausted T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0044,CD8+ progenitor exhausted T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0045,CD8+ terminally exhausted T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0030,CD8+ tissue-resident memory T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10088,"CD8-alpha alpha positive, gamma-delta intraepithelial T cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10089,"CD8-alpha-alpha-positive, alpha-beta intraepithelial T cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10090,"CD8-alpha-beta-positive, alpha-beta intraepithelial T cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10091,CD8-alpha-low langerhans cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10092,CD8-alpha-negative cd11b-negative dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10093,CD8-alpha-negative plasmacytoid dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10094,CD8-alpha-negative thymic conventional dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10095,CD8-alpha-positive plasmacytoid dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10096,CD8-alpha-positive thymic conventional dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10097,"CD8-positive, alpha-beta T cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10098,"CD8-positive, alpha-beta cytotoxic T cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10099,"CD8-positive, alpha-beta memory T cell, cd45ro-positive",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10100,"CD8-positive, alpha-beta regulatory T cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10101,"CD8-positive, alpha-beta thymocyte",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10045,Ccl3-positive alveolar macrophage,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10046,Cd103-positive dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10047,"Cd103-positive, langerin-positive lymph node dendritic cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10049,Cd11b-positive dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10050,Cd11c-low plasmacytoid dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10051,Cd14-positive dermal dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10052,Cd14-positive monocyte,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10053,"Cd14-positive, cd16-low monocyte",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10054,Cd141-positive myeloid dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10055,Cd16-positive myeloid dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10056,Cd1a-positive langerhans cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10057,Cd1c-positive myeloid dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10062,Cd27-positive gamma-delta T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10083,Cd57-positive enterocyte,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10085,Cd7-negative lymphoid progenitor cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10084,Cd7-negative lymphoid progenitor or granulocyte monocyte progenitor,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10086,Cd7-positive lymphoid progenitor cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10103,Cd8⁺ T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10104,"Cd9-positive, CD41-positive megakaryocyte cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10525,"Common myeloid progenitor, CD34-positive",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10543,"Cycling CD4-positive, alpha-beta T cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10544,"Cycling CD8-positive, alpha-beta T cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10559,Cytotoxic T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10587,Double negative T regulatory cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10603,Effector T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10699,Exhausted T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10134,Fc-epsilon rialpha-low mast cell progenitor,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10763,Gamma-delta intraepithelial T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10764,Gamma-delta thymocyte,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10148,Gr1-high myeloid suppressor cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10149,"Gr1-positive, CD43-positive monocyte",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10802,Granzyme k-associated CD8 T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10805,Group 3 innate lymphoid cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10806,"Group 3 innate lymphoid cell, human",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10824,Helper T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0063,ILC1,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10168,Ige memory B cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10169,Ige plasma cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10166,"Ilc1, human",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10867,Immature CD8-alpha-negative cd11b-positive dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10872,Immature gamma-delta T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10873,Immature innate lymphoid cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10883,Innate lymphoid cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10181,Kit-positive erythroid progenitor cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10182,Kit-positive macrophage dendritic cell progenitor,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10183,"Kit-positive, sca1-positive common lymphoid progenitor",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10971,Langerin-negative dermal dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10972,"Langerin-negative, cd103-negative lymph node dendritic cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10973,Langerin-positive dermal dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10994,Liver cd103-negative dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11009,"Lung resident memory CD4-positive, alpha-beta T cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11011,"Lung resident memory CD8-positive, alpha-beta T cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11010,"Lung resident memory CD8-positive, cd103-positive, alpha-beta T cell",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11049,Mature CD4 single-positive thymocyte,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11050,Mature CD8 single-positive thymocyte,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11051,Mature NK T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11052,"Mature NK T cell, human",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11067,Memory T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11066,Memory ccr4-positive regulatory T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11068,Memory regulatory T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11089,Metallothionein-positive alveolar macrophage,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10213,Mhc-ii-low non-classical monocyte,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10214,Mhc-ii-positive classical monocyte,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11124,Mucosal-associated invariant T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11125,"Mucosal-associated invariant T cell, human",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0058,NK cell CD56bright,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0059,NK cell CD56dim,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11169,Naive T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11168,Naive ccr4-positive regulatory T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11170,Naive regulatory T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11175,Natural helper lymphocyte,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10237,"Nkp46-positive innate lymphoid cell, human",H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0074,SPP1-positive macrophage,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10280,Slamf1-negative multipotent progenitor cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10281,Slamf1-positive multipotent progenitor cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10291,T-helper 1 cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10292,T-helper 17 cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0073,TREM2-positive macrophage,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10307,Tc1 cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10301,Tcr-positive macrophage,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10308,Teff/treg,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10311,Th17 cells,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10313,Tr1 cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10314,Tr1 cells,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10316,Treg,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11575,Type i NK T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-11591,Unswitched memory B cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10320,V1delta gamma-delta T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0057,class-switched memory B cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0039,gamma-delta T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0088,mature LAMP3-positive dendritic cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0049,memory B cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-0038,regulatory T cell,H2_cell_type,marker-defined,not distinguishable on H&E
+CTY-10334,Adaxial cell,H2_cell_type,non-human,zebrafish embryonic somite
+CTY-10362,Amnioserosal cell,H2_cell_type,non-human,Drosophila embryo
+CTY-10385,Arachnoid barrier cell (mmus),H2_cell_type,non-human,species-restricted label
+CTY-10387,Arcade cell,H2_cell_type,non-human,C. elegans pharynx
+CTY-10037,Bergmann glial cell (mmus),H2_cell_type,non-human,species-restricted label
+CTY-10412,Beta1-tancyte (mmus),H2_cell_type,non-human,species-restricted label
+CTY-10426,Border associated macrophage (mmus),H2_cell_type,non-human,species-restricted label
+CTY-10429,Bottle cell,H2_cell_type,non-human,amphibian gastrula
+CTY-10454,Cardiac muscle cell (sensu arthopoda),H2_cell_type,non-human,species-restricted label
+CTY-10469,Cerebellar astrocyte (mmus),H2_cell_type,non-human,species-restricted label
+CTY-10484,Chorionic girdle cell,H2_cell_type,non-human,horse placenta
+CTY-10489,Choroid plexus epithelial cell (mmus),H2_cell_type,non-human,species-restricted label
+CTY-10510,Coelomocyte,H2_cell_type,non-human,invertebrate body cavity
+CTY-10511,Collar cell,H2_cell_type,non-human,sponge
+CTY-10558,Cystoblast,H2_cell_type,non-human,Drosophila germline
+CTY-10600,Ecdysteroid secreting cell,H2_cell_type,non-human,insect
+CTY-10607,Eggshell secreting cell,H2_cell_type,non-human,insect
+CTY-10613,Embryonic plasmatocyte,H2_cell_type,non-human,Drosophila blood cell
+CTY-10698,Excretory cell,H2_cell_type,non-human,C. elegans
+MOR-12310,Fat body cell,H1_morphology,non-human,insect
+CTY-10743,Follicle stem cell (sensu arthropoda),H2_cell_type,non-human,species-restricted label
+CTY-10765,Ganglion mother cell,H2_cell_type,non-human,Drosophila neurogenesis
+CTY-10766,Garland cell,H2_cell_type,non-human,Drosophila
+CTY-10831,Hemocyte (sensu arthropoda),H2_cell_type,non-human,species-restricted label
+CTY-10900,Interneuromast cell,H2_cell_type,non-human,fish lateral line
+CTY-10179,Kenyon cell,H2_cell_type,non-human,insect brain
+CTY-10975,Larval midgut cell,H2_cell_type,non-human,insect larva
+CTY-11014,Lymph gland plasmatocyte,H2_cell_type,non-human,Drosophila blood cell
+CTY-11040,Malpighian tubule tip cell,H2_cell_type,non-human,insect
+CTY-11119,Morula cell,H2_cell_type,non-human,ascidian
+CTY-11178,Nephrocyte,H2_cell_type,non-human,Drosophila
+CTY-11192,Neuromast supporting cell,H2_cell_type,non-human,fish lateral line
+CTY-11195,Neuron associated cell (sensu nematoda and protostomia),H2_cell_type,non-human,species-restricted label
+CTY-11218,Nucleate erythrocyte,H2_cell_type,non-human,non-mammalian; mammalian erythrocytes are anucleate
+CTY-11219,Nucleated thrombocyte,H2_cell_type,non-human,non-mammalian; mammals have platelets
+CTY-11225,Oenocyte,H2_cell_type,non-human,insect
+CTY-11226,Olfactory areas astrocyte (mmus),H2_cell_type,non-human,species-restricted label
+CTY-11281,Pericardial nephrocyte,H2_cell_type,non-human,Drosophila
+CTY-11337,Primary interneuron (sensu teleostei),H2_cell_type,non-human,species-restricted label
+CTY-11340,Primary neuron (sensu teleostei),H2_cell_type,non-human,species-restricted label
+CTY-11348,Procrystal cell,H2_cell_type,non-human,Drosophila blood cell
+CTY-11353,Prohemocyte (sensu nematoda and protostomia),H2_cell_type,non-human,species-restricted label
+CTY-11357,Pronephric nephron tubule epithelial cell,H2_cell_type,non-human,embryonic kidney of fish and amphibians
+CTY-11358,Pronephric podocyte,H2_cell_type,non-human,embryonic kidney of fish and amphibians
+CTY-11413,Scolopale cell,H2_cell_type,non-human,insect sensory organ
+CTY-11477,Spongiotrophoblast cell,H2_cell_type,non-human,rodent placenta
+CTY-11500,Subcortical astrocyte (mmus),H2_cell_type,non-human,species-restricted label
+CTY-11620,Xanthophore cell,H2_cell_type,non-human,fish and amphibian pigment cell

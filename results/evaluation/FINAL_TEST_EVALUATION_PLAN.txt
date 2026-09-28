@@ -1,0 +1,94 @@
+Run-2 final held-out test evaluation plan
+=========================================
+
+Validation tuning is CLOSED.
+
+MODEL
+-----
+MoLF checkpoint:
+  epoch 239
+  SHA256:
+  dbe23d4e2f670749ee746272337a21d3d14e49fc6dab34dd43bea05fb727965d
+
+Configuration SHA256:
+  ba6e43d95a6acaa9a4a4fe0b2ca3f0e4a5d5d0fa8a35c0f233a5d7f3417cfd0c
+
+FINAL INFERENCE PROTOCOL
+------------------------
+method:
+  euler
+
+num_steps:
+  2
+
+step_size:
+  0.5
+
+classifier-free guidance:
+  1.5
+
+FINAL TEST SEEDS
+----------------
+All five pre-specified source-noise seeds will be run:
+
+  41001
+  42001
+  43001
+  44001
+  45001
+
+All five runs will be retained and aggregated.
+No seed will be selected or discarded based on test performance.
+
+HELD-OUT TEST SET
+-----------------
+Expected exactly 23 slides:
+
+  INT13
+  INT14
+  INT15
+  INT24
+  MEND154
+  MEND156
+  MEND157
+  MEND158
+  MEND159
+  MEND160
+  MEND161
+  MEND162
+  NCBI643
+  NCBI684
+  TENX116
+  TENX117
+  TENX141
+  TENX147
+  TENX148
+  TENX149
+  TENX99
+  ZEN48
+  ZEN49
+
+REPORTING
+---------
+Report the fixed test protocol without further tuning.
+
+Report:
+  masked MSE
+  masked RMSE
+  masked MAE
+  mean slide gene-PCC
+  median slide gene-PCC
+  mean gene slide-PCC
+
+Aggregate the five pre-specified stochastic runs using mean and SD.
+
+POLICY
+------
+After observing held-out test results:
+
+  no solver changes
+  no step-count changes
+  no CFG changes
+  no checkpoint changes
+  no seed selection
+  no model retraining based on test results

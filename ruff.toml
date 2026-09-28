@@ -1,0 +1,28 @@
+# Lint and format settings for the code outside interpretability/ (which has
+# its own configuration in interpretability/pyproject.toml, using the same rules).
+line-length = 100
+target-version = "py311"
+
+# Byte-identical copies of the code that produced the Run-2 results; their
+# SHA-256 hashes are recorded in docs/audit/, so they are not reformatted.
+extend-exclude = [
+    "experiments/",
+    "conch_molf/train.py",
+    "conch_molf/models/flow_matching.py",
+    "conch_molf/models/genevae_v2.py",
+    "conch_molf/utils/custom_dataset.py",
+    "conch_molf/utils/hest_utils.py",
+    "conch_molf/utils/training_utils.py",
+    "MoLF/",
+]
+
+[lint]
+select = ["E", "F", "W", "I", "B", "UP", "N", "SIM", "RUF", "ANN", "D"]
+ignore = ["D100", "D104", "D107"]
+
+[lint.pydocstyle]
+convention = "google"
+
+[lint.per-file-ignores]
+# Figure labels use typographic dashes and Greek letters on purpose.
+"scripts/make_figures.py" = ["RUF001"]

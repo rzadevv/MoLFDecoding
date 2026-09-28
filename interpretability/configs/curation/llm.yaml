@@ -1,0 +1,7 @@
+enabled: false
+base_url: http://localhost:11434
+model: gemma2:2b
+timeout_seconds: 30.0
+max_concurrent: 1
+prompt_template_path: configs/curation/llm_prompt_template.txt
+fail_on_unreachable: false

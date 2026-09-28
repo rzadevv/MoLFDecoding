@@ -1,0 +1,97 @@
+Run-2 FINAL HELD-OUT TEST RESULT
+================================
+
+STATUS
+------
+Final held-out test evaluation completed successfully.
+No further hyperparameter tuning is permitted from these results.
+
+FROZEN PROTOCOL
+---------------
+MoLF checkpoint:
+  epoch 239
+
+ODE solver:
+  Euler
+
+steps:
+  2
+
+step size:
+  0.5
+
+classifier-free guidance:
+  1.5
+
+held-out slides:
+  23
+
+pre-specified inference seeds:
+  41001
+  42001
+  43001
+  44001
+  45001
+
+FINAL TEST PERFORMANCE
+----------------------
+masked MSE:
+  0.369907 ± 0.000198
+
+masked RMSE:
+  0.608200 ± 0.000162
+
+masked MAE:
+  0.367717 ± 0.000088
+
+mean slide mean-gene PCC:
+  0.246431 ± 0.000409
+
+median slide mean-gene PCC:
+  0.184601 ± 0.001584
+
+mean gene mean-slide PCC:
+  0.166239 ± 0.000526
+
+INFERENCE ROBUSTNESS
+--------------------
+Results were extremely stable across all five pre-specified
+source-noise seeds.
+
+VALIDATION REFERENCE
+--------------------
+CFG 1.5 five-seed validation:
+
+MSE:
+  0.246389 ± 0.000091
+
+MAE:
+  0.297388 ± 0.000050
+
+mean slide mean-gene PCC:
+  0.223595 ± 0.000585
+
+median slide mean-gene PCC:
+  0.159889 ± 0.003779
+
+mean gene mean-slide PCC:
+  0.193725 ± 0.000523
+
+INTERPRETATION
+--------------
+The held-out test set has higher absolute prediction error than
+validation, indicating a generalization/calibration gap.
+
+However, mean and median slide-level gene PCC are higher on the
+held-out test set, showing that meaningful relative spatial gene
+structure generalizes to unseen slides.
+
+Mean gene-level PCC across slides is lower on test, indicating
+uneven generalization across genes.
+
+POLICY
+------
+These results are final for Run-2.
+
+No checkpoint, CFG, solver, step count, seed, or model parameter
+will be selected or changed based on held-out test performance.

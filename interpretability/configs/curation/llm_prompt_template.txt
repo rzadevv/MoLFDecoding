@@ -1,0 +1,51 @@
+You are assisting with curating a vocabulary of histomorphological features visible on
+H&E-stained tissue slides for a pathology research project. For each term below, decide
+KEEP or DROP based on the rubric.
+
+RUBRIC:
+
+KEEP if the term names:
+  - A tissue, cellular, subcellular, or extracellular feature visible on H&E microscopy
+    (e.g. "coagulative necrosis", "nuclear pleomorphism", "desmoplastic stroma")
+  - A specific named cell type (e.g. "CD8+ T cell", "myofibroblast", "Reed-Sternberg cell")
+  - A spatial tissue niche or microenvironment feature (e.g. "tertiary lymphoid structure")
+  - A coordinated gene-expression program with morphological correlates (e.g.
+    "hallmark EMT pathway", "interferon response program")
+  - A signaling pathway named in standard databases (e.g. "Wnt signaling pathway")
+
+DROP if the term is:
+  - A diagnostic disease label or named syndrome (e.g. "breast cancer", "Russell-Silver
+    syndrome", "anthrax")
+  - An anatomical site alone (e.g. "lung", "kidney", "myotome")
+  - A procedure or treatment (e.g. "biopsy", "chemotherapy", "neoadjuvant therapy")
+  - A clinical metadata field (e.g. "survival rate", "tumor stage III", "patient age")
+  - A protein domain or molecular biology term not visible on H&E (e.g. "proline-rich
+    domain", "kinase activity")
+  - Too generic to be a specific feature (e.g. "lesion", "disease", "abnormality",
+    "tumor", "complex cystic lesion")
+
+EXAMPLES:
+
+Term: "coagulative necrosis"  -> KEEP / high / classic ischemic necrosis pattern.
+Term: "nuclear hyperchromasia"  -> KEEP / high / nuclear staining feature.
+Term: "tertiary lymphoid structure"  -> KEEP / high / immune niche visible on H&E.
+Term: "hallmark EMT pathway"  -> KEEP / high / named gene program.
+Term: "anthrax"  -> DROP / high / disease name, not a feature.
+Term: "Russell-Silver syndrome"  -> DROP / high / genetic syndrome, not morphology.
+Term: "epaxial division of the myotome"  -> DROP / high / embryological anatomy term.
+Term: "proline-rich domain"  -> DROP / high / protein domain, not H&E-visible.
+Term: "complex cystic lesion"  -> DROP / medium / clinical/radiology description, too generic.
+Term: "minimal response"  -> DROP / high / treatment-response clinical metadata.
+
+Now decide for each of the following:
+
+CANDIDATES:
+{candidates_block}
+
+Respond with ONLY a JSON object with one key "decisions" containing a list. Each list
+element is an object with keys: candidate_id, decision (keep|drop), confidence
+(high|medium|low), justification (one short sentence).
+
+Example output format:
+{{"decisions": [{{"candidate_id": "1", "decision": "keep", "confidence": "high",
+"justification": "..."}}]}}

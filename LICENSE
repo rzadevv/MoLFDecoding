@@ -1,0 +1,9 @@
+License: to be decided
+
+The license for the original code in this repository has not been chosen yet.
+Until it is, no permission is granted to use or redistribute that code beyond
+viewing it.
+
+The code builds on MoLF (CC BY-NC 4.0) and uses CONCH (CC BY-NC-ND 4.0), so the
+final license will be a non-commercial one. Third-party components keep their
+own licenses; see NOTICE.md.

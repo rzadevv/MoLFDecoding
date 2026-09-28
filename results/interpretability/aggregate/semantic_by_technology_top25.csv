@@ -1,0 +1,301 @@
+technology,expert_id,technology_rank,concept_id,concept_name,tier,embedding_set,species,n_slides,mean_contrastive_similarity,sd_contrastive_similarity
+Visium,0,1,MOR-10796,Folliculotropic lymphocytic infiltrate,H1_morphology,visual,Homo_sapiens,16,0.16620641003828496,0.194436738814272
+Visium,0,2,NIC-0059,thymic cortex niche,H2_niche,visual,Homo_sapiens,16,0.15385856619104743,0.14676028492183626
+Visium,0,3,MOR-11061,Intraductal cellular proliferation,H1_morphology,visual,Homo_sapiens,16,0.15279995743185282,0.1920018694406274
+Visium,0,4,NIC-0060,thymic medulla niche,H2_niche,visual,Homo_sapiens,16,0.1493693774100393,0.14102223131498084
+Visium,0,5,CTY-0055,marginal zone B cell,H2_cell_type,visual,Homo_sapiens,16,0.14770195784512907,0.10497525133348633
+Visium,0,6,NIC-10022,Cortical thymic epithelial cell,H2_niche,visual,Homo_sapiens,16,0.14559312700293958,0.17218684908497153
+Visium,0,7,CTY-10764,Gamma-delta thymocyte,H2_cell_type,visual,Homo_sapiens,16,0.1424982158932835,0.12092864243336571
+Visium,0,8,CTY-10237,"Nkp46-positive innate lymphoid cell, human",H2_cell_type,visual,Homo_sapiens,16,0.13997607119381428,0.13320305565258217
+Visium,0,9,CTY-10290,T follicular regulatory cell,H2_cell_type,visual,Homo_sapiens,16,0.13981212652288377,0.08813086184182607
+Visium,0,10,MOR-10363,Chronic lymphoid follicular inflammation,H1_morphology,visual,Homo_sapiens,16,0.13976380860549398,0.28209966985992246
+Visium,0,11,CTY-11068,Memory regulatory T cell,H2_cell_type,visual,Homo_sapiens,16,0.13670044392347336,0.10272615562422718
+Visium,0,12,MOR-11062,Intraductal hyperplasia,H1_morphology,visual,Homo_sapiens,16,0.13378051575273275,0.2020290500831197
+Visium,0,13,MOR-0117,lobular carcinoma in situ,H1_morphology,visual,Homo_sapiens,16,0.13158928509801626,0.11171598692256594
+Visium,0,14,MOR-10242,Breast papillary ductal carcinoma in situ,H1_morphology,visual,Homo_sapiens,16,0.13121452368795872,0.1359580267266439
+Visium,0,15,MOR-10446,Cribriform comedo-type adenocarcinoma,H1_morphology,visual,Homo_sapiens,16,0.1303264636080712,0.28206576018433077
+Visium,0,16,MOR-0190,intraductal carcinoma of prostate,H1_morphology,visual,Homo_sapiens,16,0.12885446194559336,0.25416134324203205
+Visium,0,17,MOR-11870,Reactive plasmacytic hyperplasia,H1_morphology,visual,Homo_sapiens,16,0.12795794539852068,0.22101598155051586
+Visium,0,18,NIC-0004,tertiary lymphoid structure niche,H2_niche,visual,Homo_sapiens,16,0.12775908038020134,0.18046917292098566
+Visium,0,19,CTY-10183,"Kit-positive, sca1-positive common lymphoid progenitor",H2_cell_type,visual,Homo_sapiens,16,0.12740867107640952,0.11751285074099285
+Visium,0,20,MOR-0379,germinal center within tertiary lymphoid structure,H1_morphology,visual,Homo_sapiens,16,0.12712532287696376,0.20770609479330152
+Visium,0,21,CTY-0048,naive B cell,H2_cell_type,visual,Homo_sapiens,16,0.12426488380879164,0.10539222915873768
+Visium,0,22,CTY-10236,NK-cell,H2_cell_type,visual,Homo_sapiens,16,0.12387302215211093,0.1322871512890655
+Visium,0,23,CTY-10866,Immature B cell,H2_cell_type,visual,Homo_sapiens,16,0.12355889461468905,0.11454948110686212
+Visium,0,24,CTY-0057,class-switched memory B cell,H2_cell_type,visual,Homo_sapiens,16,0.1230751674156636,0.08967349085660806
+Visium,0,25,MOR-11379,Mixed medullary-follicular carcinoma,H1_morphology,visual,Homo_sapiens,16,0.12191361677832901,0.13196406800584426
+Visium,1,1,MOR-11427,Multifocal inflammation,H1_morphology,visual,Homo_sapiens,16,0.3164293437730521,0.21217119129298348
+Visium,1,2,MOR-0039,acute inflammation,H1_morphology,visual,Homo_sapiens,16,0.30741807888261974,0.1642107925313503
+Visium,1,3,MOR-10554,Diffuse inflammation,H1_morphology,visual,Homo_sapiens,16,0.2932624570094049,0.1601884757924023
+Visium,1,4,MOR-10630,Eosinophilic inflammation,H1_morphology,visual,Homo_sapiens,16,0.2845118429977447,0.14078259763698953
+Visium,1,5,MOR-11696,Persistent inflammation,H1_morphology,visual,Homo_sapiens,16,0.27496623317711055,0.16195748986112354
+Visium,1,6,MOR-10028,Acute exudative inflammation,H1_morphology,visual,Homo_sapiens,16,0.2602017230819911,0.1347347096368765
+Visium,1,7,MOR-11468,Necrotizing inflammation,H1_morphology,visual,Homo_sapiens,16,0.25945671717636287,0.18522588792827938
+Visium,1,8,MOR-0038,chronic inflammation,H1_morphology,visual,Homo_sapiens,16,0.2550034171435982,0.2010196893722836
+Visium,1,9,MOR-10368,Chronic ulcerative inflammation,H1_morphology,visual,Homo_sapiens,16,0.24976851476822048,0.14382926740280255
+Visium,1,10,MOR-10430,Confluent inflammation,H1_morphology,visual,Homo_sapiens,16,0.24938278878107667,0.13244925153143694
+Visium,1,11,MOR-0036,eosinophilic infiltrate,H1_morphology,visual,Homo_sapiens,16,0.24746825156034902,0.22048792719178012
+Visium,1,12,MOR-0377,normal serosal surface,H1_morphology,visual,Homo_sapiens,16,0.2443873779848218,0.15157267135370234
+Visium,1,13,MOR-10356,Chronic exudative inflammation,H1_morphology,visual,Homo_sapiens,16,0.23979106883052737,0.1310711621452333
+Visium,1,14,MOR-0024,vascular ectasia,H1_morphology,visual,Homo_sapiens,16,0.23905596914119087,0.21438160030481265
+Visium,1,15,MOR-0037,mixed inflammatory infiltrate,H1_morphology,visual,Homo_sapiens,16,0.23726546275429428,0.14915498314551448
+Visium,1,16,MOR-10955,Hyalitis,H1_morphology,visual,Homo_sapiens,16,0.2351797831361182,0.14100294121626047
+Visium,1,17,MOR-11791,Progressive inflammation,H1_morphology,visual,Homo_sapiens,16,0.23450589436106384,0.18617084633907674
+Visium,1,18,MOR-12015,Simple epithelium,H1_morphology,visual,Homo_sapiens,16,0.232304310426116,0.1356480844656372
+Visium,1,19,MOR-11019,Inflammatory morphology,H1_morphology,visual,Homo_sapiens,16,0.2322253034217283,0.1898386078827244
+Visium,1,20,MOR-11956,Sclerosing inflammation,H1_morphology,visual,Homo_sapiens,16,0.2322207372635603,0.17018746818607006
+Visium,1,21,MOR-11009,Inflammation with stasis,H1_morphology,visual,Homo_sapiens,16,0.23025729059008881,0.14155544848284268
+Visium,1,22,MOR-10389,Clue cell,H1_morphology,visual,Homo_sapiens,16,0.23008117359131575,0.17402671258595287
+Visium,1,23,MOR-0035,neutrophilic infiltrate,H1_morphology,visual,Homo_sapiens,16,0.22691282350569963,0.17981682494584034
+Visium,1,24,MOR-10353,Chronic destructive inflammation,H1_morphology,visual,Homo_sapiens,16,0.22214240487664938,0.17497496595363773
+Visium,1,25,MOR-10352,Chronic desquamative inflammation,H1_morphology,visual,Homo_sapiens,16,0.22139313747175038,0.11686729417116719
+Visium,2,1,MOR-10527,Desmoplastic fibroblastoma,H1_morphology,visual,Homo_sapiens,16,0.29331587231718004,0.2259413023349882
+Visium,2,2,MOR-0372,normal venous wall,H1_morphology,visual,Homo_sapiens,16,0.2895243064267561,0.15569242734062674
+Visium,2,3,MOR-10079,Angiectasia,H1_morphology,visual,Homo_sapiens,16,0.28691101586446166,0.23859965574241007
+Visium,2,4,MOR-12301,Desmoid,H1_morphology,visual,Homo_sapiens,16,0.28452553786337376,0.26803598074894436
+Visium,2,5,MOR-0024,vascular ectasia,H1_morphology,visual,Homo_sapiens,16,0.2768604999873787,0.18350346605526668
+Visium,2,6,MOR-10741,Fibrous body,H1_morphology,visual,Homo_sapiens,16,0.27415330917574465,0.23564516197869967
+Visium,2,7,MOR-10598,Elastoid degeneration,H1_morphology,visual,Homo_sapiens,16,0.2739346972666681,0.2300322447027853
+Visium,2,8,MOR-11696,Persistent inflammation,H1_morphology,visual,Homo_sapiens,16,0.26936563150957227,0.18823879353969972
+Visium,2,9,MOR-11673,Periarteriolar lymphoid sheath,H1_morphology,visual,Homo_sapiens,16,0.26716381899314,0.1928068112884122
+Visium,2,10,MOR-0377,normal serosal surface,H1_morphology,visual,Homo_sapiens,16,0.2653563410276547,0.15862398710718467
+Visium,2,11,MOR-11695,Persistent hyaloid vessels,H1_morphology,visual,Homo_sapiens,16,0.26495497999712825,0.15156347397096434
+Visium,2,12,MOR-10056,Adventitial degeneration,H1_morphology,visual,Homo_sapiens,16,0.2647281279787421,0.17092475376800934
+Visium,2,13,MOR-0371,normal arterial wall,H1_morphology,visual,Homo_sapiens,16,0.26112586725503206,0.1606747777327425
+Visium,2,14,MOR-11690,Perivascular degeneration,H1_morphology,visual,Homo_sapiens,16,0.25189239252358675,0.20150009950599376
+Visium,2,15,MOR-11127,Keloid,H1_morphology,visual,Homo_sapiens,16,0.24584108032286167,0.2233344881400704
+Visium,2,16,MOR-0088,hypocellular area,H1_morphology,visual,Homo_sapiens,16,0.24500632751733065,0.23440582759243417
+Visium,2,17,MOR-0365,normal smooth muscle,H1_morphology,visual,Homo_sapiens,16,0.23805481288582087,0.1889489778424301
+Visium,2,18,MOR-0036,eosinophilic infiltrate,H1_morphology,visual,Homo_sapiens,16,0.23668218520469964,0.17818016764599479
+Visium,2,19,MOR-10589,Edematous stroma formation,H1_morphology,visual,Homo_sapiens,16,0.23240326647646725,0.15736668336527207
+Visium,2,20,MOR-10554,Diffuse inflammation,H1_morphology,visual,Homo_sapiens,16,0.23203923739492893,0.17468472488935405
+Visium,2,21,MOR-11869,Reactive fibrosis,H1_morphology,visual,Homo_sapiens,16,0.23167538491543382,0.22116526429442818
+Visium,2,22,MOR-11667,Paucicellular stroma present,H1_morphology,visual,Homo_sapiens,16,0.231559035833925,0.20434753699317285
+Visium,2,23,MOR-11834,Pseudolipomatous hypertrophy,H1_morphology,visual,Homo_sapiens,16,0.23103750683367252,0.16555441911634383
+Visium,2,24,MOR-11522,Non-malignant cellular infiltrate,H1_morphology,visual,Homo_sapiens,16,0.2305240153800696,0.1908828735789726
+Visium,2,25,MOR-11427,Multifocal inflammation,H1_morphology,visual,Homo_sapiens,16,0.22960697580128908,0.18011447518372747
+Visium,3,1,MOR-0039,acute inflammation,H1_morphology,visual,Homo_sapiens,16,0.2627219748683274,0.1303400012046339
+Visium,3,2,MOR-11468,Necrotizing inflammation,H1_morphology,visual,Homo_sapiens,16,0.2369314293609932,0.1097547346673176
+Visium,3,3,MOR-11571,Organizing inflammation,H1_morphology,visual,Homo_sapiens,16,0.22752451105043292,0.1869625138779109
+Visium,3,4,MOR-0027,perivascular lymphocytic cuff,H1_morphology,visual,Homo_sapiens,16,0.20828036300372332,0.1643899341879
+Visium,3,5,MOR-0054,small round blue cell morphology,H1_morphology,visual,Homo_sapiens,16,0.20185849885456264,0.2002463264870154
+Visium,3,6,MOR-10389,Clue cell,H1_morphology,visual,Homo_sapiens,16,0.20078983111307025,0.16141709170488155
+Visium,3,7,MOR-0035,neutrophilic infiltrate,H1_morphology,visual,Homo_sapiens,16,0.19873223174363375,0.14720902889298962
+Visium,3,8,MOR-0038,chronic inflammation,H1_morphology,visual,Homo_sapiens,16,0.1971277265693061,0.2049392268972514
+Visium,3,9,MOR-11009,Inflammation with stasis,H1_morphology,visual,Homo_sapiens,16,0.19308276707306504,0.14948285022148103
+Visium,3,10,MOR-10704,Fibrinoid necrotizing inflammation,H1_morphology,visual,Homo_sapiens,16,0.19200347003061324,0.15413712688338455
+Visium,3,11,MOR-11013,Inflammatory leiomyosarcoma,H1_morphology,visual,Homo_sapiens,16,0.18794529559090734,0.19671155352990966
+Visium,3,12,MOR-10779,Focal inflammation,H1_morphology,visual,Homo_sapiens,16,0.1845857221633196,0.230263746633922
+Visium,3,13,MOR-11427,Multifocal inflammation,H1_morphology,visual,Homo_sapiens,16,0.18358124466612935,0.13757184868365555
+Visium,3,14,MOR-11673,Periarteriolar lymphoid sheath,H1_morphology,visual,Homo_sapiens,16,0.18232593504944816,0.18495285604680736
+Visium,3,15,MOR-10554,Diffuse inflammation,H1_morphology,visual,Homo_sapiens,16,0.1798917872365564,0.1344081446623799
+Visium,3,16,MOR-11956,Sclerosing inflammation,H1_morphology,visual,Homo_sapiens,16,0.17914739646948874,0.17571636863949708
+Visium,3,17,MOR-0006,fibrinoid necrosis,H1_morphology,visual,Homo_sapiens,16,0.17837458156282082,0.16165318682558033
+Visium,3,18,MOR-11791,Progressive inflammation,H1_morphology,visual,Homo_sapiens,16,0.1724350959993899,0.19528380157017533
+Visium,3,19,MOR-10352,Chronic desquamative inflammation,H1_morphology,visual,Homo_sapiens,16,0.16715703695081174,0.11051181125671383
+Visium,3,20,MOR-0098,serosal invasion,H1_morphology,visual,Homo_sapiens,16,0.1640970951411873,0.1338202304888736
+Visium,3,21,MOR-10706,Fibrinous inflammation,H1_morphology,visual,Homo_sapiens,16,0.16333651321474463,0.18093783553154894
+Visium,3,22,MOR-0014,thrombosed vessel,H1_morphology,visual,Homo_sapiens,16,0.16092209611088037,0.16206936789831827
+Visium,3,23,MOR-0304,melanoma ulceration,H1_morphology,visual,Homo_sapiens,16,0.15994133171625435,0.13718073264392974
+Visium,3,24,MOR-0087,hypercellularity,H1_morphology,visual,Homo_sapiens,16,0.15839108182990458,0.25519014622911945
+Visium,3,25,MOR-11877,Regenerative inflammation,H1_morphology,visual,Homo_sapiens,16,0.15751566796097904,0.14364121655798465
+Visium,4,1,MOR-10551,Diffuse hyperplastic oncocytosis,H1_morphology,visual,Homo_sapiens,16,0.2503036048146896,0.1554456893897315
+Visium,4,2,CTY-10448,Carbohydrate secreting cell,H2_cell_type,visual,Homo_sapiens,16,0.22475480439607054,0.1855278273289821
+Visium,4,3,MOR-10480,"Cystic, mucinous and/or serous neoplasm",H1_morphology,visual,Homo_sapiens,16,0.21784313034731895,0.23879819638958202
+Visium,4,4,CTY-10607,Eggshell secreting cell,H2_cell_type,visual,Homo_sapiens,16,0.217587826307863,0.08235744415749635
+Visium,4,5,MOR-11375,Mixed cell adenoma,H1_morphology,visual,Homo_sapiens,16,0.21677587437443435,0.1613070794086302
+Visium,4,6,CTY-10864,Ileal goblet cell,H2_cell_type,visual,Homo_sapiens,16,0.21436300268396735,0.10769022008676184
+Visium,4,7,MOR-10383,Clear cell mesonephroid neoplasm,H1_morphology,visual,Homo_sapiens,16,0.20386286202119663,0.12618586387867017
+Visium,4,8,CTY-11358,Pronephric podocyte,H2_cell_type,visual,Homo_sapiens,16,0.20068210584577173,0.09915108368868683
+Visium,4,9,CTY-0141,podocyte,H2_cell_type,visual,Homo_sapiens,16,0.19843284250237048,0.0697577280599571
+Visium,4,10,CTY-10663,Epidermal mucus secreting cell,H2_cell_type,visual,Homo_sapiens,16,0.1975247484515421,0.13689042492611725
+Visium,4,11,MOR-11275,"Malignant tumor, clear cell type",H1_morphology,visual,Homo_sapiens,16,0.19526424183277413,0.16023631640040248
+Visium,4,12,CTY-10349,Alkali secreting cell,H2_cell_type,visual,Homo_sapiens,16,0.1889101128326729,0.10070907923109312
+Visium,4,13,CTY-11422,Senescent cells,H2_cell_type,visual,Homo_sapiens,16,0.18735512671992183,0.12691554098884614
+Visium,4,14,CTY-10809,Gut absorptive cell,H2_cell_type,visual,Homo_sapiens,16,0.1836564508266747,0.10848288307037002
+Visium,4,15,CTY-11588,Unipolar brush cell,H2_cell_type,visual,Homo_sapiens,16,0.18002411696943454,0.1517838005577615
+Visium,4,16,MOR-12351,Oncocytoid renal cell carcinomas,H1_morphology,visual,Homo_sapiens,16,0.17864785436540842,0.11715149943135074
+Visium,4,17,MOR-11403,Mucinous cystic neoplasm with high-grade intraepithelial neoplasia,H1_morphology,visual,Homo_sapiens,16,0.1786331559997052,0.17165243430533225
+Visium,4,18,MOR-11407,Mucinous tubular,H1_morphology,visual,Homo_sapiens,16,0.17790398164652288,0.12742780614470292
+Visium,4,19,CTY-11385,Renal cortical epithelial cell,H2_cell_type,visual,Homo_sapiens,16,0.17581101669929922,0.10116064723503138
+Visium,4,20,CTY-11134,Multiciliated epithelial cell,H2_cell_type,visual,Homo_sapiens,16,0.174952911445871,0.15682132899783416
+Visium,4,21,CTY-10496,Chromophobe cell,H2_cell_type,visual,Homo_sapiens,16,0.1748993675573729,0.18549774863621776
+Visium,4,22,CTY-11512,Tear secreting cell,H2_cell_type,visual,Homo_sapiens,16,0.1717294926638715,0.18183178894158844
+Visium,4,23,MOR-12274,Xgc RCC,H1_morphology,visual,Homo_sapiens,16,0.1700819309335202,0.08873973988734886
+Visium,4,24,CTY-10962,Kidney proximal straight tubule epithelial cell,H2_cell_type,visual,Homo_sapiens,16,0.16912814462557435,0.09385405266926494
+Visium,4,25,CTY-0008,hepatocyte,H2_cell_type,visual,Homo_sapiens,16,0.16858519287779927,0.07391244116736882
+Visium,5,1,MOR-11013,Inflammatory leiomyosarcoma,H1_morphology,visual,Homo_sapiens,16,0.2611987548880279,0.14371964212136804
+Visium,5,2,MOR-0291,basaloid squamous cell carcinoma of head and neck,H1_morphology,visual,Homo_sapiens,16,0.23395345080643892,0.14426629971717989
+Visium,5,3,MOR-0096,lymphovascular invasion,H1_morphology,visual,Homo_sapiens,16,0.21528582987957634,0.11260721197694348
+Visium,5,4,MOR-10525,Desmoplastic stroma formation,H1_morphology,visual,Homo_sapiens,16,0.21525150397792459,0.1474527452509364
+Visium,5,5,MOR-0035,neutrophilic infiltrate,H1_morphology,visual,Homo_sapiens,16,0.2128219159785658,0.20064821236461694
+Visium,5,6,MOR-0038,chronic inflammation,H1_morphology,visual,Homo_sapiens,16,0.20236702100373805,0.25686356537706867
+Visium,5,7,MOR-0060,desmoplastic stroma,H1_morphology,visual,Homo_sapiens,16,0.1992559190839529,0.13402935227534155
+Visium,5,8,MOR-0143,anthracotic pigment deposition,H1_morphology,visual,Homo_sapiens,16,0.19924936938332394,0.14390740012675585
+Visium,5,9,MOR-0057,atypical mitotic figures,H1_morphology,visual,Homo_sapiens,16,0.19851441960781813,0.16855490715930047
+Visium,5,10,MOR-10779,Focal inflammation,H1_morphology,visual,Homo_sapiens,16,0.19837727583944798,0.2499809436544662
+Visium,5,11,MOR-0098,serosal invasion,H1_morphology,visual,Homo_sapiens,16,0.19819496292620897,0.12641210896199645
+Visium,5,12,MOR-0054,small round blue cell morphology,H1_morphology,visual,Homo_sapiens,16,0.197909502312541,0.1611696349616805
+Visium,5,13,MOR-11571,Organizing inflammation,H1_morphology,visual,Homo_sapiens,16,0.19360315520316362,0.2432629846664055
+Visium,5,14,MOR-11686,Perivascular lymphocytic infiltrate,H1_morphology,visual,Homo_sapiens,16,0.19221962807932869,0.22673493028643005
+Visium,5,15,MOR-11347,Micropapillary carcinoma,H1_morphology,visual,Homo_sapiens,16,0.1876962839742191,0.13863688634145338
+Visium,5,16,MOR-10531,Desmoplastic small round cell tumor,H1_morphology,visual,Homo_sapiens,16,0.18733334599528462,0.1295272739611099
+Visium,5,17,MOR-12365,Slow muscle cell,H1_morphology,visual,Homo_sapiens,16,0.18642701976932585,0.1696445422808353
+Visium,5,18,MOR-11749,Polymorphonuclear cell infiltrate,H1_morphology,visual,Homo_sapiens,16,0.185552429407835,0.19823860870208618
+Visium,5,19,MOR-0308,desmoplastic melanoma,H1_morphology,visual,Homo_sapiens,16,0.18540892470628023,0.177304107122865
+Visium,5,20,MOR-11599,Palisading granuloma,H1_morphology,visual,Homo_sapiens,16,0.18534894264303148,0.1788647515169334
+Visium,5,21,MOR-10516,Dense connective tissue,H1_morphology,visual,Homo_sapiens,16,0.1850364168640226,0.22066751351042402
+Visium,5,22,MOR-0304,melanoma ulceration,H1_morphology,visual,Homo_sapiens,16,0.18274880934040993,0.18313058937644455
+Visium,5,23,MOR-11085,Intravascular myofibroblastic proliferation,H1_morphology,visual,Homo_sapiens,16,0.18164961959701031,0.1905414406136915
+Visium,5,24,MOR-10769,Focal chronic inflammation,H1_morphology,visual,Homo_sapiens,16,0.18066178665321786,0.2279478231013798
+Visium,5,25,MOR-11167,Leiomyosarcoma,H1_morphology,visual,Homo_sapiens,16,0.1804088712669909,0.12288371755178679
+Xenium,0,1,MOR-0080,nested growth pattern,H1_morphology,visual,Homo_sapiens,7,0.2625515141657421,0.20948132063832636
+Xenium,0,2,MOR-11379,Mixed medullary-follicular carcinoma,H1_morphology,visual,Homo_sapiens,7,0.20815533718892507,0.13367423504899772
+Xenium,0,3,MOR-12182,Transitional cell carcinoma,H1_morphology,visual,Homo_sapiens,7,0.198961113180433,0.11585131563793422
+Xenium,0,4,MOR-11842,Pseudorosette formation,H1_morphology,visual,Homo_sapiens,7,0.19001795085413115,0.14885740586759236
+Xenium,0,5,MOR-11025,Insular pattern,H1_morphology,visual,Homo_sapiens,7,0.1847585482256753,0.17021985213628255
+Xenium,0,6,MOR-12338,Melanocyte stimulating hormone secreting cell,H1_morphology,visual,Homo_sapiens,7,0.18360524943896703,0.1667766092343331
+Xenium,0,7,MOR-11646,Papillary transitional cell carcinoma,H1_morphology,visual,Homo_sapiens,7,0.18028072640299797,0.20056034426332237
+Xenium,0,8,MOR-11688,Perivascular pseudorosette formation,H1_morphology,visual,Homo_sapiens,7,0.17698424469147409,0.15624625407527756
+Xenium,0,9,MOR-11812,Prostate undifferentiated carcinoma,H1_morphology,visual,Homo_sapiens,7,0.16766256306852614,0.20364349491124567
+Xenium,0,10,CTY-10751,Foreskin fibroblast,H2_cell_type,visual,Homo_sapiens,7,0.16717017175895826,0.11849118909187459
+Xenium,0,11,NIC-0004,tertiary lymphoid structure niche,H2_niche,visual,Homo_sapiens,7,0.16608114833278315,0.18481736167926302
+Xenium,0,12,NIC-0020,tumor-stroma boundary niche,H2_niche,visual,Homo_sapiens,7,0.1648902307663645,0.15889311934603015
+Xenium,0,13,MOR-11485,Neuroendocrine carcinoma,H1_morphology,visual,Homo_sapiens,7,0.1643078007868358,0.18495975097828535
+Xenium,0,14,CTY-10331,"Activated CD4-positive, alpha-beta T cell, human",H2_cell_type,visual,Homo_sapiens,7,0.16300547229392187,0.06445310350019198
+Xenium,0,15,MOR-0058,high mitotic index,H1_morphology,visual,Homo_sapiens,7,0.1623798326722213,0.22883599581738845
+Xenium,0,16,MOR-10334,Chief cell adenocarcinoma,H1_morphology,visual,Homo_sapiens,7,0.1610384647335325,0.27493786861788094
+Xenium,0,17,MOR-12183,Transitional cell carcinoma in situ,H1_morphology,visual,Homo_sapiens,7,0.16078023466148547,0.11399253304831677
+Xenium,0,18,MOR-11991,Serous intraepithelial carcinoma,H1_morphology,visual,Homo_sapiens,7,0.1591715118182557,0.19379486069823665
+Xenium,0,19,MOR-12073,Spitz malignant melanoma,H1_morphology,visual,Homo_sapiens,7,0.15909040506396974,0.10800386516671637
+Xenium,0,20,MOR-11647,"Papillary transitional cell carcinoma, non-invasive",H1_morphology,visual,Homo_sapiens,7,0.15705370051520212,0.23423444732340457
+Xenium,0,21,MOR-10796,Folliculotropic lymphocytic infiltrate,H1_morphology,visual,Homo_sapiens,7,0.15662021722112382,0.13776965960320936
+Xenium,0,22,MOR-12079,Sporadic thyroid gland medullary carcinoma,H1_morphology,visual,Homo_sapiens,7,0.15612181382519857,0.14237693443678445
+Xenium,0,23,MOR-0071,solid growth pattern,H1_morphology,visual,Homo_sapiens,7,0.1543399840593338,0.16980698625041632
+Xenium,0,24,MOR-12184,"Transitional cell carcinoma, spindle cell",H1_morphology,visual,Homo_sapiens,7,0.1543292584163802,0.11100136747318336
+Xenium,0,25,MOR-11481,Nested pattern,H1_morphology,visual,Homo_sapiens,7,0.1525630455996309,0.13335144388378814
+Xenium,1,1,CTY-10797,Granulocyte,H2_cell_type,visual,Homo_sapiens,7,0.2686555428164346,0.08989691570941234
+Xenium,1,2,CTY-11229,Olfactory ensheathing cell,H2_cell_type,visual,Homo_sapiens,7,0.2303782251796552,0.17884831388008837
+Xenium,1,3,CTY-10036,Bergmann glial cell,H2_cell_type,visual,Homo_sapiens,7,0.22206426305430277,0.1599037084387847
+Xenium,1,4,CTY-10703,External limiting cell of vestibular epithelium,H2_cell_type,visual,Homo_sapiens,7,0.20802600043160574,0.16261485209660542
+Xenium,1,5,MOR-10029,Acute proliferative inflammation,H1_morphology,visual,Homo_sapiens,7,0.20692432352474757,0.1840359298713941
+Xenium,1,6,CTY-10650,Enterocyte of anorectum,H2_cell_type,visual,Homo_sapiens,7,0.2066649283681597,0.15528821143684887
+Xenium,1,7,CTY-10037,Bergmann glial cell (mmus),H2_cell_type,visual,Homo_sapiens,7,0.20216132966535433,0.10880662289490388
+Xenium,1,8,CTY-11527,Thyrotroph,H2_cell_type,visual,Homo_sapiens,7,0.20091596671513148,0.11638575111282304
+Xenium,1,9,MOR-0039,acute inflammation,H1_morphology,visual,Homo_sapiens,7,0.19961585530212947,0.2097832559630347
+Xenium,1,10,CTY-10129,Ec cells,H2_cell_type,visual,Homo_sapiens,7,0.1990192351596696,0.11311700119156683
+Xenium,1,11,MOR-10373,Classic lymphocytic colitis,H1_morphology,visual,Homo_sapiens,7,0.1976543784673725,0.26762419270889437
+Xenium,1,12,NIC-0012,neutrophil-enriched niche,H2_niche,visual,Homo_sapiens,7,0.19230116797345026,0.13410876126752996
+Xenium,1,13,CTY-11118,Monostratified cell,H2_cell_type,visual,Homo_sapiens,7,0.18707303862486566,0.19198988675800152
+Xenium,1,14,MOR-11468,Necrotizing inflammation,H1_morphology,visual,Homo_sapiens,7,0.18156766572168895,0.2093919397183247
+Xenium,1,15,CTY-11303,Pinealocyte,H2_cell_type,visual,Homo_sapiens,7,0.18002495169639587,0.1342402695553644
+Xenium,1,16,CTY-11188,Neuroendocrine cell of epithelium of crypt of lieberkuhn,H2_cell_type,visual,Homo_sapiens,7,0.17955086593117034,0.12317209388020577
+Xenium,1,17,MOR-0180,sessile serrated lesion,H1_morphology,visual,Homo_sapiens,7,0.17934086918830872,0.2974838278035879
+Xenium,1,18,CTY-10669,Epithelial cell of alimentary canal,H2_cell_type,visual,Homo_sapiens,7,0.17924474046698638,0.1554546963145627
+Xenium,1,19,CTY-10030,Bmmscs,H2_cell_type,visual,Homo_sapiens,7,0.17441015876829624,0.11251721761705094
+Xenium,1,20,CTY-10550,Cycling glial cell,H2_cell_type,visual,Homo_sapiens,7,0.1734014150819608,0.1676670858160558
+Xenium,1,21,CTY-11530,Tonsillar macrophage,H2_cell_type,visual,Homo_sapiens,7,0.17258872304643905,0.16605173957338654
+Xenium,1,22,CTY-11228,Olfactory bulb tufted cell,H2_cell_type,visual,Homo_sapiens,7,0.1721883394888469,0.0780807507562609
+Xenium,1,23,CTY-10697,Eurydendroid cell,H2_cell_type,visual,Homo_sapiens,7,0.17151764620627677,0.21438623119988262
+Xenium,1,24,MOR-11996,Serrated polyp,H1_morphology,visual,Homo_sapiens,7,0.17054187639483384,0.3191480160481953
+Xenium,1,25,MOR-10142,Atypical inflammation,H1_morphology,visual,Homo_sapiens,7,0.17038939467498235,0.1456513351661892
+Xenium,2,1,CTY-11558,Tuft cell of parotid gland,H2_cell_type,visual,Homo_sapiens,7,0.20836090190070017,0.18228306799058186
+Xenium,2,2,MOR-0323,pancreatic intraepithelial neoplasia,H1_morphology,visual,Homo_sapiens,7,0.20818186085671186,0.14850560214756228
+Xenium,2,3,MOR-11427,Multifocal inflammation,H1_morphology,visual,Homo_sapiens,7,0.20424946503979818,0.3219132393824296
+Xenium,2,4,MOR-0238,EBV-associated lymphoepithelioma-like gastric carcinoma,H1_morphology,visual,Homo_sapiens,7,0.19645519448178156,0.11361835368378093
+Xenium,2,5,MOR-0295,salivary gland serous acini,H1_morphology,visual,Homo_sapiens,7,0.1962648970740182,0.25758775747156953
+Xenium,2,6,NIC-0057,germinal center niche,H2_niche,visual,Homo_sapiens,7,0.19300134320344245,0.20167789265431477
+Xenium,2,7,MOR-0249,gastric lymphoma MALT pattern,H1_morphology,visual,Homo_sapiens,7,0.19151817475046432,0.16061948680421695
+Xenium,2,8,MOR-0379,germinal center within tertiary lymphoid structure,H1_morphology,visual,Homo_sapiens,7,0.18752662997160638,0.19367232724919634
+Xenium,2,9,MOR-0370,lymph node sinus histiocytosis,H1_morphology,visual,Homo_sapiens,7,0.1757792436650821,0.2104677100382636
+Xenium,2,10,MOR-10554,Diffuse inflammation,H1_morphology,visual,Homo_sapiens,7,0.1744918269770486,0.26341692065479944
+Xenium,2,11,MOR-0296,salivary gland mucinous acini,H1_morphology,visual,Homo_sapiens,7,0.16838644444942474,0.22314332013417623
+Xenium,2,12,MOR-0273,endometrial polyp,H1_morphology,visual,Homo_sapiens,7,0.16773902092661178,0.1872247619518374
+Xenium,2,13,MOR-10613,Endometrial metaplasia,H1_morphology,visual,Homo_sapiens,7,0.1649243405887059,0.20586796525196868
+Xenium,2,14,MOR-0172,Crohn-like lymphoid reaction,H1_morphology,visual,Homo_sapiens,7,0.16351534213338578,0.17373072928244707
+Xenium,2,15,MOR-11239,Lymphocytic-plasmacytic inflammation,H1_morphology,visual,Homo_sapiens,7,0.1633537028517042,0.27405398630526273
+Xenium,2,16,CTY-11171,Nasal and broncial associated lymphoid tissue macrophage,H2_cell_type,visual,Homo_sapiens,7,0.1631675043276378,0.32786453821927297
+Xenium,2,17,MOR-10630,Eosinophilic inflammation,H1_morphology,visual,Homo_sapiens,7,0.15980598436934607,0.22165295187251616
+Xenium,2,18,MOR-10815,Gastric mixed adenoneuroendocrine carcinoma,H1_morphology,visual,Homo_sapiens,7,0.1597843292568411,0.12366275484687901
+Xenium,2,19,CTY-11188,Neuroendocrine cell of epithelium of crypt of lieberkuhn,H2_cell_type,visual,Homo_sapiens,7,0.15977591382605688,0.15319550611496072
+Xenium,2,20,MOR-0368,lymph node germinal center,H1_morphology,visual,Homo_sapiens,7,0.15895601202334678,0.16922501700336395
+Xenium,2,21,MOR-10069,Amelanotic melanoma,H1_morphology,visual,Homo_sapiens,7,0.1582668460905552,0.0918488943459586
+Xenium,2,22,CTY-10020,B cell of medullary sinus of lymph node,H2_cell_type,visual,Homo_sapiens,7,0.15717857969658716,0.16553472862633478
+Xenium,2,23,NIC-0059,thymic cortex niche,H2_niche,visual,Homo_sapiens,7,0.15594015749437468,0.14270231485196908
+Xenium,2,24,NIC-0060,thymic medulla niche,H2_niche,visual,Homo_sapiens,7,0.15403675181525095,0.20302623390607136
+Xenium,2,25,MOR-0244,chronic active gastritis,H1_morphology,visual,Homo_sapiens,7,0.15383655790771758,0.16069972871215393
+Xenium,3,1,MOR-10705,Fibrinous material present,H1_morphology,visual,Homo_sapiens,7,0.47225456152643475,0.07501297521109858
+Xenium,3,2,MOR-0398,fibrin deposition,H1_morphology,visual,Homo_sapiens,7,0.43262714999062674,0.06786536998411888
+Xenium,3,3,MOR-10398,Colloid degeneration,H1_morphology,visual,Homo_sapiens,7,0.41035079104559763,0.08142546264363432
+Xenium,3,4,MOR-10269,Calcific sclerosis,H1_morphology,visual,Homo_sapiens,7,0.39175585763795034,0.11434810174287509
+Xenium,3,5,MOR-10952,Hyalinized polyp,H1_morphology,visual,Homo_sapiens,7,0.3893005975655147,0.07078649794996385
+Xenium,3,6,MOR-11453,Myxoma,H1_morphology,visual,Homo_sapiens,7,0.38813744698251995,0.05640977020756283
+Xenium,3,7,MOR-10397,Colloid cyst,H1_morphology,visual,Homo_sapiens,7,0.3816091886588505,0.04102060346488048
+Xenium,3,8,MOR-11151,Laminated calcium deposition,H1_morphology,visual,Homo_sapiens,7,0.37385579517909456,0.13529934257222592
+Xenium,3,9,MOR-10389,Clue cell,H1_morphology,visual,Homo_sapiens,7,0.3707487817321505,0.09603075375547547
+Xenium,3,10,MOR-0401,amyloid deposition,H1_morphology,visual,Homo_sapiens,7,0.37074642521994455,0.05928836943633946
+Xenium,3,11,MOR-10701,Fibrin strand,H1_morphology,visual,Homo_sapiens,7,0.3702719679900578,0.08294900047461344
+Xenium,3,12,MOR-10527,Desmoplastic fibroblastoma,H1_morphology,visual,Homo_sapiens,7,0.36555194428988863,0.10059140825963014
+Xenium,3,13,MOR-12296,Choroidal melanocyte,H1_morphology,visual,Homo_sapiens,7,0.36071714758872986,0.05576524663961984
+Xenium,3,14,MOR-10079,Angiectasia,H1_morphology,visual,Homo_sapiens,7,0.3596515421356474,0.10701652765367645
+Xenium,3,15,MOR-12290,Beige adipocyte,H1_morphology,visual,Homo_sapiens,7,0.35850729261125835,0.08512223793588874
+Xenium,3,16,MOR-0393,mature dense collagenous stroma,H1_morphology,visual,Homo_sapiens,7,0.35522916061537607,0.0737336628460562
+Xenium,3,17,MOR-0070,mucinous degeneration,H1_morphology,visual,Homo_sapiens,7,0.3515274077653885,0.16673224053963429
+Xenium,3,18,MOR-12164,Thin-walled branching vascular pattern,H1_morphology,visual,Homo_sapiens,7,0.3496771327086857,0.055571898668537255
+Xenium,3,19,MOR-0024,vascular ectasia,H1_morphology,visual,Homo_sapiens,7,0.3444759377411434,0.07307905533477904
+Xenium,3,20,MOR-10955,Hyalitis,H1_morphology,visual,Homo_sapiens,7,0.3436631453888757,0.14030082541356284
+Xenium,3,21,MOR-11285,Medial calcification,H1_morphology,visual,Homo_sapiens,7,0.34361401200294495,0.1424153258328562
+Xenium,3,22,MOR-0100,tissue folding artifact,H1_morphology,visual,Homo_sapiens,7,0.34219634532928467,0.10136973208749221
+Xenium,3,23,MOR-10274,Calcified nodule,H1_morphology,visual,Homo_sapiens,7,0.3414739561932428,0.1258449665630649
+Xenium,3,24,MOR-11451,Myxoid degeneration,H1_morphology,visual,Homo_sapiens,7,0.3400908665997641,0.11581774914335924
+Xenium,3,25,MOR-0066,dystrophic calcification,H1_morphology,visual,Homo_sapiens,7,0.3398789869887488,0.15542953007214053
+Xenium,4,1,MOR-0178,villous adenoma architecture,H1_morphology,visual,Homo_sapiens,7,0.234132104154144,0.19541454575287928
+Xenium,4,2,MOR-11398,Mucinous adenocarcinoma in situ,H1_morphology,visual,Homo_sapiens,7,0.2168442585638591,0.11182863401086085
+Xenium,4,3,CTY-10975,Larval midgut cell,H2_cell_type,visual,Homo_sapiens,7,0.21070909473512853,0.1421647898531503
+Xenium,4,4,MOR-11151,Laminated calcium deposition,H1_morphology,visual,Homo_sapiens,7,0.20992315028394973,0.28775744367429834
+Xenium,4,5,MOR-11396,Mucinous lesion,H1_morphology,visual,Homo_sapiens,7,0.2071790641971997,0.10061546909199084
+Xenium,4,6,MOR-11406,Mucinous metaplasia,H1_morphology,visual,Homo_sapiens,7,0.20339673970426833,0.13546007660556617
+Xenium,4,7,MOR-11401,Mucinous adenoma,H1_morphology,visual,Homo_sapiens,7,0.2020636328629085,0.12673288751169026
+Xenium,4,8,MOR-11066,Intraductal papillary-mucinous adenoma,H1_morphology,visual,Homo_sapiens,7,0.18669174052774906,0.17645430809977036
+Xenium,4,9,CTY-10650,Enterocyte of anorectum,H2_cell_type,visual,Homo_sapiens,7,0.18544939320002282,0.1330050053773053
+Xenium,4,10,MOR-0003,comedo necrosis,H1_morphology,visual,Homo_sapiens,7,0.18484672904014587,0.17617740065314277
+Xenium,4,11,CTY-10260,Pp cell of intestine,H2_cell_type,visual,Homo_sapiens,7,0.18445720324026688,0.14987438595418226
+Xenium,4,12,MOR-11397,Mucinous adenocarcinoma,H1_morphology,visual,Homo_sapiens,7,0.18132434785366058,0.08593363003334793
+Xenium,4,13,MOR-11994,Serrated adenocarcinoma,H1_morphology,visual,Homo_sapiens,7,0.18079337211591856,0.18660062611846243
+Xenium,4,14,MOR-0070,mucinous degeneration,H1_morphology,visual,Homo_sapiens,7,0.1782610576067652,0.2239298655397441
+Xenium,4,15,MOR-0004,dirty necrosis,H1_morphology,visual,Homo_sapiens,7,0.17783276976219245,0.1891270141953847
+Xenium,4,16,MOR-0166,serrated morphology,H1_morphology,visual,Homo_sapiens,7,0.17644327373376914,0.13851599877117804
+Xenium,4,17,MOR-12249,Villous adenocarcinoma,H1_morphology,visual,Homo_sapiens,7,0.17208936278309142,0.23023450452290642
+Xenium,4,18,MOR-0364,normal skeletal muscle,H1_morphology,visual,Homo_sapiens,7,0.16916490452630178,0.2445081500046044
+Xenium,4,19,MOR-0066,dystrophic calcification,H1_morphology,visual,Homo_sapiens,7,0.16888968047818967,0.2666324437315677
+Xenium,4,20,MOR-11993,Serrated glandular architecture,H1_morphology,visual,Homo_sapiens,7,0.16581823251077107,0.18542022271848355
+Xenium,4,21,MOR-0297,adenoid cystic carcinoma cribriform pattern,H1_morphology,visual,Homo_sapiens,7,0.16538700461387634,0.0967933560234573
+Xenium,4,22,MOR-12002,Severe koilocytotic atypia,H1_morphology,visual,Homo_sapiens,7,0.16094059497117996,0.23134596325962004
+Xenium,4,23,MOR-11136,Koilocytotic atypia,H1_morphology,visual,Homo_sapiens,7,0.16029640500034606,0.18463614062621306
+Xenium,4,24,MOR-11403,Mucinous cystic neoplasm with high-grade intraepithelial neoplasia,H1_morphology,visual,Homo_sapiens,7,0.15959866344928741,0.1902511026595429
+Xenium,4,25,MOR-10233,"Breast ductal carcinoma in situ, cribriform pattern",H1_morphology,visual,Homo_sapiens,7,0.15664793125220708,0.06669398449460809
+Xenium,5,1,MOR-10527,Desmoplastic fibroblastoma,H1_morphology,visual,Homo_sapiens,7,0.32231550344399046,0.1669869664488367
+Xenium,5,2,MOR-12290,Beige adipocyte,H1_morphology,visual,Homo_sapiens,7,0.3083732623074736,0.1391482786025484
+Xenium,5,3,MOR-10079,Angiectasia,H1_morphology,visual,Homo_sapiens,7,0.29625659223113743,0.13299010810630607
+Xenium,5,4,MOR-0027,perivascular lymphocytic cuff,H1_morphology,visual,Homo_sapiens,7,0.2876304015517235,0.12343337444836427
+Xenium,5,5,MOR-11127,Keloid,H1_morphology,visual,Homo_sapiens,7,0.2810330390930176,0.16335955217822726
+Xenium,5,6,MOR-11673,Periarteriolar lymphoid sheath,H1_morphology,visual,Homo_sapiens,7,0.2766915112733841,0.14142073362920696
+Xenium,5,7,MOR-11194,Lipogranulomatous finding,H1_morphology,visual,Homo_sapiens,7,0.2726321103317397,0.1358999246483406
+Xenium,5,8,MOR-10056,Adventitial degeneration,H1_morphology,visual,Homo_sapiens,7,0.2719760686159134,0.061041357982914345
+Xenium,5,9,MOR-12310,Fat body cell,H1_morphology,visual,Homo_sapiens,7,0.27186618213142666,0.11476039663216321
+Xenium,5,10,MOR-12164,Thin-walled branching vascular pattern,H1_morphology,visual,Homo_sapiens,7,0.27115520941359655,0.14585165787542131
+Xenium,5,11,MOR-11451,Myxoid degeneration,H1_morphology,visual,Homo_sapiens,7,0.2632514110633305,0.07937499090412173
+Xenium,5,12,MOR-10955,Hyalitis,H1_morphology,visual,Homo_sapiens,7,0.2606210985354015,0.11793888579142335
+Xenium,5,13,MOR-0088,hypocellular area,H1_morphology,visual,Homo_sapiens,7,0.2553070230143411,0.11762390204120758
+Xenium,5,14,MOR-10598,Elastoid degeneration,H1_morphology,visual,Homo_sapiens,7,0.2549959665962628,0.09446969323817532
+Xenium,5,15,MOR-0393,mature dense collagenous stroma,H1_morphology,visual,Homo_sapiens,7,0.2521363039101873,0.11273491625375694
+Xenium,5,16,MOR-10705,Fibrinous material present,H1_morphology,visual,Homo_sapiens,7,0.2503451034426689,0.15345024512101815
+Xenium,5,17,MOR-10398,Colloid degeneration,H1_morphology,visual,Homo_sapiens,7,0.2500049046107701,0.1521520386624774
+Xenium,5,18,MOR-11696,Persistent inflammation,H1_morphology,visual,Homo_sapiens,7,0.24909674269812448,0.11449793523065066
+Xenium,5,19,MOR-10178,Basophilic degeneration,H1_morphology,visual,Homo_sapiens,7,0.2486208262188094,0.09136195996535913
+Xenium,5,20,MOR-11690,Perivascular degeneration,H1_morphology,visual,Homo_sapiens,7,0.2482748031616211,0.06548714503337726
+Xenium,5,21,MOR-11834,Pseudolipomatous hypertrophy,H1_morphology,visual,Homo_sapiens,7,0.24624120816588402,0.1280517920846031
+Xenium,5,22,MOR-0024,vascular ectasia,H1_morphology,visual,Homo_sapiens,7,0.2461905681661197,0.11600593270071233
+Xenium,5,23,MOR-11730,Pleomorphic lipoma,H1_morphology,visual,Homo_sapiens,7,0.2460244015923568,0.10055364885985758
+Xenium,5,24,MOR-10389,Clue cell,H1_morphology,visual,Homo_sapiens,7,0.24549237532275064,0.09219913724076197
+Xenium,5,25,MOR-10937,Histiocytosis,H1_morphology,visual,Homo_sapiens,7,0.2448306339127677,0.0842794086964524
