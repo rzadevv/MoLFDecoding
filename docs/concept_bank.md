@@ -10,8 +10,9 @@ H1 morphology, and H2 cell type, niche, gene program and pathway
 (`interpretability/data/concept_bank/`).
 
 **Harvested bank.** Candidate concepts pulled from NCIt, SNOMED CT, Cell
-Ontology, GO and UBERON (via BioPortal), MSigDB gene sets and PubMed abstracts,
-then filtered by the seven-stage curation pipeline to 4,372 concepts.
+Ontology and GO (via BioPortal), MSigDB gene sets and PubMed abstracts, then
+filtered by the seven-stage curation pipeline to 4,372 concepts. UBERON
+(also via BioPortal) supplies the organ names used during curation.
 
 ## View A
 
