@@ -1,6 +1,6 @@
 # Decoding the MoLF Experts
 
-[MoLF](https://github.com/susuhu/MoLF) (Mixture of Latent Flows) predicts
+[MoLF](https://github.com/susuhu/MoLF) (Mixture-of-Latent-Flow) predicts
 spatially resolved gene expression from H&E histology with a Mixture-of-Experts
 velocity field: a router sends each tissue patch to 2 of 6 experts. The experts
 specialise, but what each one responds to is not visible from the model. This
@@ -8,9 +8,9 @@ project tries to describe the experts in pathology terms. It
 
 1. retrains MoLF on image features from CONCH, a pathology vision-language
    model, so that the model's input lives in a joint image–text embedding space;
-2. builds a vocabulary of pathology concepts from ontologies (NCIt, SNOMED CT,
-   Cell Ontology, GO, UBERON, MSigDB) and PubMed, and embeds it with CONCH's
-   text encoder;
+2. builds a vocabulary of pathology concepts from a pathologist-curated
+   reference bank, ontologies (NCIt, SNOMED CT, Cell Ontology, GO), MSigDB gene
+   sets and PubMed, and embeds it with CONCH's text encoder;
 3. scores each expert's highest-affinity patches against that vocabulary on 23
    held-out slides, and measures how stable the resulting "expert lexicon" is
    across slides and across spatial transcriptomics platforms (Visium, Xenium).
@@ -44,7 +44,7 @@ Performance is strongly platform-dependent (Fig. 4). The 7 Xenium test slides
 reach a mean slide PCC of 0.46 against 0.15 for the 16 Visium slides, but
 Xenium also carries 38% of the total squared error from 6% of the measured
 entries, because its expression values are larger and denser. The frozen
-GeneVAE-v2 reconstructs both platforms well on its own (mean gene PCC 0.46
+GeneVAE-v2 reconstructs both platforms well on its own (slide PCC 0.46
 Visium, 0.85 Xenium), so most of the remaining error arises when the latent
 state is predicted from the image. One Visium slide, MEND159 (prostate), is a
 clear failure case with a slide PCC of 0.001 despite an ordinary MSE.
@@ -88,14 +88,14 @@ mucinous epithelium, and Expert 5 with inflamed and smooth-muscle stroma.
 Expert 3 is scored like the others, but since it is almost never routed to, its
 profile says little about the model.
 
-These alignments are weak and vary from slide to slide. The rank correlation
-between two slides' full concept profiles averages 0.08 for Expert 0 and at most
-0.24 (Experts 3 and 4); without the filtered concepts the values are 0.07 and
-0.24. For every expert the most similar slide pairs come from the same platform
-(Fig. 7), and no concept is in an expert's top 10 on more than 8 of the 23
-slides, with or without the filter. So an expert cannot be given a fixed
-pathology label from one slide, and the alignment shows what an expert's patches
-look like, not what the expert computes.
+These alignments are weak and vary from slide to slide (Fig. 7). The rank
+correlation between two slides' concept profiles averages 0.07 for Expert 0 and
+at most 0.24 (Expert 3), and changes by at most 0.014 without the filter. For
+every expert the ten most similar slide pairs all come from the same platform
+and data source, and no concept is in an expert's top 10 on more than 8 of the
+23 slides, with or without the filter. So an expert cannot be given a fixed
+pathology label from one slide, and the alignment shows what an expert's
+patches look like, not what the expert computes.
 
 ![Semantic stability](figures/fig7_semantic_stability.png)
 
@@ -162,15 +162,17 @@ The concept alignment is measured in CONCH's embedding space, so it depends on
 the concept vocabulary and on how the prompts are worded. The vocabulary has
 known flaws (entries from other species, marker-defined cell subsets,
 uncalibrated curation thresholds, one prompt per concept); the filtered
-analysis removes the invalid entries but does not fix the curation itself. It shows what an
-expert's patches resemble, not what the expert computes. Differences between
-Visium and Xenium slides are confounded with tissue type and study.
+analysis removes the invalid entries but does not fix the curation itself. The
+alignment shows what an expert's patches resemble, not what the expert
+computes. Differences between Visium and Xenium slides are confounded with
+tissue type and study.
 
 Some things are not in the repository: the GeneVAE-v2 training script (not
-preserved), the model checkpoints, the raw per-patch router dumps
+preserved), the model checkpoints and the raw per-patch router dumps
 (`router_contexts.csv`, listed in the per-slide manifests but too large to
-ship), and the direct-flow ablation from Phase IV of the proposal, which was
-not carried out.
+ship). Two parts of the proposal were not carried out: the comparison of the
+concepts with predicted Hallmark activity (Task 2.3) and the direct-flow
+ablation (Phase IV).
 
 The code that produced the results is kept byte-identical, including its
 cluster paths: `conch_molf/train.py`,

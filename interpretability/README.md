@@ -9,12 +9,13 @@ against it is in [`../experiments/interpretability/`](../experiments/interpretab
 ## Pipeline
 
 1. **Harvesting.** Candidate concepts from BioPortal (NCIt, SNOMED CT, Cell
-   Ontology, GO, UBERON), MSigDB gene sets, and PubMed abstracts (NCBI
-   E-utilities with scispaCy NER). Responses are cached; the first run takes
-   about 30 minutes.
+   Ontology, GO), MSigDB gene sets, and PubMed abstracts (NCBI E-utilities
+   with scispaCy NER); UBERON, also from BioPortal, supplies organ names for
+   curation. Responses are cached; the first run takes about 30 minutes.
 2. **Curation**, in seven stages: SapBERT embedding of the labels,
-   cross-source deduplication (HDBSCAN), a visual filter against non-visual
-   negative classes, adjudication of borderline concepts by a local LLM
+   cross-source deduplication (HDBSCAN), a filter that compares each label
+   with the reference vocabulary of its tier and with non-visual negative
+   classes, adjudication of borderline concepts by a local LLM
    (qwen2.5:3b-instruct via Ollama), tier assignment, label canonicalisation,
    and generation of human and mouse text prompts.
 3. **Comparison** of the harvested bank with the pathologist-curated reference

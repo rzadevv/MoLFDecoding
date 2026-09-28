@@ -5,7 +5,7 @@ them are licensed for non-commercial use only.
 
 ## Code
 
-**MoLF (Mixture of Latent Flows)**, © Su Hu et al., CC BY-NC 4.0,
+**MoLF (Mixture-of-Latent-Flow)**, © Susu Hu and Stefanie Speidel, CC BY-NC 4.0,
 https://github.com/susuhu/MoLF. The full license is in
 `docs/upstream_molf_license.txt`. `conch_molf/` is built on part of this
 codebase. Relative to upstream:

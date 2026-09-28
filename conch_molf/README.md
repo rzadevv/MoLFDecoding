@@ -15,8 +15,9 @@ listed in [`../NOTICE.md`](../NOTICE.md).
   posterior samples of the latent.
 - **Velocity field:** Mixture of Experts with 6 experts (dim 256, 4 heads,
   1 layer each) and a top-2 router.
-- **Conditioning:** image features and OncoTree cancer type, trained with 10%
-  condition dropout for classifier-free guidance.
+- **Conditioning:** image features and OncoTree cancer type. For
+  classifier-free guidance, the image features of a slide are replaced by a
+  learned null embedding with probability 0.1 during training.
 - **Training:** 385 slides, early stopping on a fixed Monte-Carlo validation
   loss (patience 80, min_delta 1e-4); best epoch 239 of 319.
 - **Inference:** Euler, 2 steps, guidance scale 1.5, chosen on validation data
