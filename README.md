@@ -185,7 +185,8 @@ script and job in `experiments/`. Their SHA-256 hashes are recorded in
 
 ## License and attribution
 
-This repository is licensed under CC BY-NC 4.0 ([`LICENSE`](LICENSE)), the same
-license as the MoLF code it builds on. It also uses CONCH (CC BY-NC-ND 4.0);
+© 2026 Rza Mirzayev. This repository is licensed under CC BY-NC 4.0
+([`LICENSE`](LICENSE)), the same license as the MoLF code it builds on (© Susu
+Hu and Stefanie Speidel). It also uses CONCH (CC BY-NC-ND 4.0);
 both are non-commercial. See [`NOTICE.md`](NOTICE.md) for all third-party
 attributions.

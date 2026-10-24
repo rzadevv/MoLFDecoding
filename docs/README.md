@@ -4,7 +4,6 @@
 |---|---|
 | `project_proposal.pdf` | the original project plan (phases 0–IV) |
 | `concept_bank.md` | how the concept vocabulary was built, audited and cleaned, and its known problems |
-| `upstream_molf_license.txt` | license of the upstream MoLF code (CC BY-NC 4.0) |
 | `audit/` | the independent audit run on the final model before the results were frozen |
 
 ## audit/
